@@ -1,0 +1,15 @@
+ERROR: Exception in head parsing. ValueName: '</a></div>'
+=====
+HTTP/1.1 200 OK
+Via: 1.1 TMTCTC2
+Connection: Keep-Alive
+Proxy-Connection: Keep-Alive
+Content-Length: 4394
+Date: Wed, 10 Nov 2010 06:49:13 GMT
+Content-Type: application/xml
+ETag: "2418017728090286550"
+Server: Eclipse mirror service provided by <a style='font-weight: bold; color: white; text-decoration: none;' href='http://www.ialto.com'>Ialto - Paris</a><br/><div style='float:left'><script type='text/javascript'>google_ad_client = 'pub-1576466039358713'; google_ad_slot = '9468379953'; google_ad_width = 728; google_ad_height = 90;</script><script type='text/javascript' src='http://pagead2.googlesyndication.com/pagead/show_ads.js'></script><script src='http://www.google-analytics.com/ga.js' type='text/javascript'></script><script type='text/javascript'>var pageTracker = _gat._getTracker('UA-2328178-4');pageTracker._trackPageview();</script></div><div style='float: left;margin-left: 20px;'><a href='http://www3.clustrmaps.com/user/e0790655'><img src='http://www3.clustrmaps.com/stats/maps-no_clusters/eclipse.ialto.org-thumb.jpg' alt='Locations of visitors to this page' />
+Accept-Ranges: bytes
+Last-Modified: Fri, 24 Sep 2010 17:36:32 GMT
+</a></div>
+

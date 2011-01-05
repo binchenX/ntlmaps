@@ -1,0 +1,566 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--[30,69,1] published at 2010-10-25 18:26:54 from #152 by 2679-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>新浪首页</title>
+<meta name="description" content="新浪网为全球用户24小时提供全面及时的中文资讯，内容覆盖国内外突发新闻事件、体坛赛事、娱乐时尚、产业资讯、实用信息等，设有新闻、体育、娱乐、财经、科技、房产、汽车等30多个内容频道，同时开设博客、视频、论坛等自由互动交流空间。" />
+<meta name="stencil" content="PGLS000022" />
+<meta name="publishid" content="30,69,1" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<meta name="verify-v1" content="6HtwmypggdgP1NLw7NOuQBI2TW8+CfkYCoyeB8IDbn8=" />
+
+<!-- optimization begin -->
+<script type="text/javascript" src="http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js"></script>
+<script type="text/javascript" src="http://i2.sinaimg.cn/dy/deco/2010/0527/headwww.js"></script>
+<script type="text/javascript" src="http://news.sina.com.cn/pfpnews/js/libweb.js"></script>
+<!-- 智投首屏数据，目前只包括1095打折 -->
+<script type="text/javascript" src="http://pfp.sina.com.cn/pfpnew/merge/res_PGLS000022_FP.js"></script>
+<!-- optimization end -->
+
+<style type="text/css">
+/* 全局样式 */
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div{margin:0;padding:0;border:0;}
+body{background:#fff;color:#333;font-size:12px; margin-top:5px;font-family:"宋体";}
+
+ul,ol{list-style-type:none;}
+select,input,img,select{vertical-align:middle;}
+
+a{text-decoration:underline;}
+a:link{color:#009;}
+a:visited{color:#800080;}
+a:hover,a:active,a:focus{color:#c00;}
+
+.clearit{clear:both;}
+
+/* page */
+#page{width:950px; overflow: visible; _display:inline-block; margin:0 auto;}
+
+/* 顶部 top */
+.top{height:27px; position:relative; z-index:99; padding:1px; border:1px #fdd26c solid; border-bottom:1px #e1a841 solid; color:#000; background:url(http://i1.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_001.gif) repeat-x 0 0 #fff;}
+.top a,.top a:visited{color:#000; text-decoration:none;}
+.top a:hover,.top a:active{color:#000; text-decoration:underline;}
+
+.topBlk{height:27px; overflow:hidden; _display:inline-block; background:url(http://i1.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_001.gif) repeat-x 0 -50px #fdc145;}
+
+.tB02,.tB03,.tB04{float:left; overflow:hidden;}
+.tB03 ul,.tB04 ul{line-height:29px;}
+.tB03 li,.tB04 li{float:left;}
+.tB03 li{padding:0 7px 0 6px;}
+.tB04 li{float:left;}
+.tB04 a{display:block; padding:0 0 0 12px; background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat 0 -142px;}
+.tB04 a#setHomePage{background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat 0 -92px; padding-right:12px;}
+.tB04 a#sinaMobile{background:url(http://i0.sinaimg.cn/dy/deco/2009/0317/sinahome_mobile_icon_01.gif) no-repeat 0 8px; padding-right:12px;}
+.tB02{width:445px;}
+.tB03{width:262px; background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat 260px -42px;}
+.tB04{padding:0 0 0 10px;}
+
+	/* 快速登录 */
+	.loginFld{padding:0 0 0 10px;}
+	.loginFld legend{display:none;}
+	.usernameFld,.passwordFld{float:left; width:141px; overflow:hidden;}
+	.usernameFldlabel,.passwordFldlabel{float:left; padding:0 8px 0 0; line-height:29px;}
+	.usernameFldinput,.passwordFldinput{float:left; width:86px; position:relative;}
+	.usernameFldinput input,.passwordFldinput input{width:84px; height:16px; padding:0; margin:0; position:absolute; top:5px; left:0; border:1px #e7d6a2 solid; color:#444; background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat 0 0 #fff; line-height:16px; font-size:12px; text-indent:3px;}
+	.bottonFld{float:left; width:60px; overflow:hidden; padding:0 0 0 93px;}
+	#bottonFldsubmit{width:49px; height:19px; overflow:hidden; padding:0; margin:5px 0 0 0; border:1px #ffac32 solid; background:url(http://i1.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_001.gif) repeat-x 0 -100px #ffeccc; font-size:12px; text-align:center; line-height:15px; cursor:pointer;}
+	.otherFld{float:left; width:64px;}
+	.otherFldlostpassword{line-height:29px;}
+/* select */
+.loginFldselect{width:110px; position:absolute; top:6px; left:278px; z-index:9999;}
+#loginFldselectdis{width:79px; height:17px; overflow:hidden; padding:0 18px 0 0; text-align:center; line-height:17px; background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat 0 -200px #fff; border:1px #ffa930 solid; display:block; cursor:pointer;}
+#loginFldselectop{width:97px; padding:5px 0; overflow:hidden; border:1px #fdad34 solid; position:absolute; top:18px; left:0; background:url(http://i1.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_001.gif) repeat-x 0 -150px #fffcf5;filter:progid:DXImageTransform.Microsoft.Alpha(opacity=90); -moz-opacity:.9; opacity:0.9;}
+#loginFldselectop li{line-height:22px; height:20px; overflow:hidden; text-align:left;}
+
+#loginFldselectop li a{display:block; height:20px; overflow:hidden; margin:0 5px; padding-left:12px;}
+#loginFldselectop li a:hover,#loginFldselectop li a:active{background:#fef0e2; text-decoration:none;}
+#loginFldselectop li#loginFldselectop_line{height:1px; overflow:hidden; background:#ffc88e; font-size:0; line-height:0; margin:2px 5px 3px;}
+#loginFldselectop li a.disabled{color:#999;cursor:default;}
+#loginFldselectop li a.disabled:hover,#loginFldselectop li a.disabled:active{background:none;}
+
+/* logo&nav */
+.logonav{height:85px; overflow:hidden; border:1px #e0e0e0 solid; border-top:none; margin-bottom:8px; position:relative; z-index:0; background:url(http://i1.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_001.gif) repeat-x 0 -400px #f9f9f9;}
+	/* logo */
+	.logo{width:145px; height:52px; position:absolute; top:0; left:10px;}
+	.logo h1{height:44px;position:absolute; top:10px; *top:8px; left:13px;}
+	/* weather */
+	.weather{height:20px; overflow:hidden; position:absolute; top:57px; left:6px; z-index:98;}
+	/* 导航 */
+	.nav{width:790px; height:85px; overflow:hidden; position:absolute; top:0; right:0;}
+	.nav_1,.nav_2,.nav_3{overflow:hidden; _display:inline-block; float:left; padding-top:13px;}
+	.nav_1{width:440px; background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat 439px -287px;}
+	.nav_2{width:107px; background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat 106px -287px;margin-left:3px;display:inline;}
+	.nav_3{width:107px;}
+	.nav_w{width:120px;background-position:119px -287px;}
+	.nav ul{height:23px;clear:both;}
+	.nav li{float:left; padding:0 6px 0 6px; margin-left:-1px; text-align:center; line-height:14px; background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat 0 -250px;}
+	.nav .nav_1 li{padding:0 6px 0 7px;}
+	.nav a,.nav a:visited{color:#000; text-decoration:none;}
+	.nav a:hover,.nav a:active{color:#c00; text-decoration:none;}
+
+/* Part */
+.Part{width:950px;zoom:1;padding-bottom:10px; clear:both;}
+.Part:after{content:".";display:block;clear:both;height:0;visibility:hidden;}
+.left{width:160px; overflow:hidden; float:left; _display:inline-block; background:url(http://i0.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_003_new.gif) repeat-y 0 0 #ffd77b; border-bottom:1px #e5b952 solid;}
+
+#PartA{height:879px; overflow:hidden;}
+#PartA .left{height:879px;}
+
+#PartB{padding-bottom:0;}
+#PartB .left{height:308px;}
+#PartC{padding:10px 0; *padding:10px 0 0 0; overflow:visible;}
+#PartC .left{height:581px;}
+#PartC .rightbox{overflow:visible;}
+#PartC .right{overflow:visible;}
+#PartD .left{height:403px;} 
+#PartE .left{height:433px;} 
+#PartF .left{height:310px;}
+#PartG .left{height:1148px;margin-bottom:-900px;position:relative;border-bottom:none;}
+#PartH .left{height:391px;}
+#PartI .left{height:507px;}
+
+.rightbox{width:790px; overflow:hidden; float:left; _display:inline-block;}
+.middle,.right{width:395px; overflow:hidden; _display:inline-block; float:left;}
+.colpadding{padding:0 0 0 10px;}
+
+.md{background:url(http://i0.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_003_new.gif) repeat-y -400px 0 #fff; border-bottom:1px #d1d1d1 solid; overflow:hidden; _display:inline-block;}
+.md_2{background:url(http://i0.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_003_new.gif) repeat-y -400px 0 #fff; border-bottom:1px #d1d1d1 solid; border-top:1px #d1d1d1 solid; overflow:hidden; _display:inline-block; margin-bottom:10px;}
+.md_3{}
+.md_3 h2{height:28px; overflow:hidden; font-size:14px; margin:0 1px;}
+.md_3 h2 .capname{float:left; padding:6px 0 0 14px; line-height:14px;}
+
+.md_purple{background:url(http://i0.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_003_new.gif) repeat-y -1200px 0 #fff; border-bottom:1px #cdbff1 solid;}
+.md_purple h2{background:url(http://i1.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_001.gif) repeat-x 0 -650px #cdbff1; color:#5d1c9f;}
+.md_purple h2 a,.md_purple h2 a:visited{color:#5d1c9f;text-decoration:none;}
+.md_purple h2 a:hover,.md_purple h2 a:active{color:#5d1c9f;text-decoration:underline;}
+
+.md_pink{background:url(http://i0.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_003_new.gif) repeat-y -1600px 0 #fff; border-bottom:1px #ffb5b5 solid;}
+
+.md_pink h2{background:url(http://i1.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_001.gif) repeat-x 0 -700px #ffb5b5; color:#e84d4d;}
+.md_pink h2 a,.md_pink h2 a:visited{color:#e84d4d;text-decoration:none;}
+.md_pink h2 a:hover,.md_pink h2 a:active{color:#e84d4d;text-decoration:underline;}
+
+.md_orange{background:url(http://i0.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_003_new.gif) repeat-y -2000px 0 #fff; border-bottom:1px #ffdeb4 solid;}
+.md_orange h2{background:url(http://i1.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_001.gif) repeat-x 0 -750px #ffdeb4; color:#ff6000;}
+.md_orange h2 a,.md_orange h2 a:visited{color:#ff6000;text-decoration:none;}
+.md_orange h2 a:hover,.md_orange h2 a:active{color:#ff6000;text-decoration:underline;}
+
+.md_green{background:url(http://i0.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_003_new.gif) repeat-y -2400px 0 #fff; border-bottom:1px #cfe8c4 solid;}
+.md_green h2{background:url(http://i1.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_001.gif) repeat-x 0 -800px #cfe8c4; color:#338e3a;}
+.md_green h2 a,.md_green h2 a:visited{color:#338e3a;text-decoration:none;}
+.md_green h2 a:hover,.md_green h2 a:active{color:#338e3a;text-decoration:underline;}
+
+.md_yellow{background:url(http://i0.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_003_new.gif) repeat-y -2800px 0 #fff; border-bottom:1px #f6d76d solid;}
+.md_yellow h2{background:url(http://i1.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_001.gif) repeat-x 0 -850px #f6d76d; color:#ee9802;}
+.md_yellow h2 a,.md_yellow h2 a:visited{color:#ee9802;text-decoration:none;}
+.md_yellow h2 a:hover,.md_yellow h2 a:active{color:#ee9802;text-decoration:underline;}
+
+.md_blue{background:url(http://i0.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_003_new.gif) repeat-y -3200px 0 #fff; border-bottom:1px #b7d0ef solid;}
+.md_blue h2{background:url(http://i1.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_001.gif) repeat-x 0 -900px #b7d0ef; color:#005ece;}
+.md_blue h2 a,.md_blue h2 a:visited{color:#005ece;text-decoration:none;}
+.md_blue h2 a:hover,.md_blue h2 a:active{color:#005ece;text-decoration:underline;}
+
+.hd{height:27px; overflow:hidden; background:url(http://i1.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_001.gif) repeat-x 0 -500px #858585;}
+
+.hd h2{height:27px; overflow:hidden; _display:inline-block; background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat right -550px #f6f6f6; float:left; padding:0 3px 0 0;}
+.hd h2 .capname{padding:8px 20px 0 23px; height:19px; line-height:14px; font-size:14px; color:#333; display:block; float:left; background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat left -600px;}
+.hd h2 .capsl{}
+.hd h2 .capsr{}
+.hd h2 a,.hd h2 a:visited{color:#333; text-decoration:none; cursor:pointer;}
+.hd h2 a:hover,.hd h2 a:active{color:#333; text-decoration:underline;}
+.hd .hdlink{float:right; padding:7px 6px 0 0; color:#fffae1; line-height:14px;}
+.hd .hdlink a,.hd .hdlink a:visited{color:#fffae1; text-decoration:underline;}
+.hd .hdlink a:hover,.hd .hdlink a:active{color:#ffd77b; text-decoration:underline;}
+
+.hd ul{height:27px; overflow:hidden; float:left;}
+.hd li{height:27px; overflow:hidden; _display:inline-block; background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat right -850px #797979; float:left; padding:0 3px 0 0; cursor:pointer;}
+.hd li .capname{padding:8px 13px 0 16px; height:19px; line-height:14px; font-size:14px; color:#333; display:block; float:left; background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat left -800px; font-weight:bold;}
+.hd li a,.hd li a:visited{color:#fff; text-decoration:none; cursor:pointer;}
+.hd li a:hover,.hd li a:active{color:#fff; text-decoration:underline;}
+.hd li .videoNewsLeft{padding:0 0 0 0; background:none;}
+.hd li.on{background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat right -550px #f6f6f6;}
+.hd li.on .capname{background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat left -600px;}
+.hd li.on a,.hd li.on a:visited{color:#333; text-decoration:none; cursor:pointer;}
+.hd li.on a:hover,.hd li.on a:active{color:#333; text-decoration:underline;}
+.hd li.on .videoNewsLeft{background:url(http://i1.sinaimg.cn/dy/deco/2007/1211/yocc/unfcn_mj_01.gif) no-repeat -19982px 50%;padding-left:20px;}
+.hd #videomenu li.on .capname{padding-left:4px; padding-right:4px;}
+
+.hd_2{height:24px; overflow:hidden; margin:0 1px; background:url(http://i1.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_001.gif) repeat-x 0 -601px #fff4cb;}
+.md_2_menu{width:311px; height:22px; overflow:hidden; padding:1px 1px 0 0; float:right;}
+.md_2_menu li{width:60px; height:22px; overflow:hidden; background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat 0 -950px; float:left; padding:0 2px 0 0;}
+.md_2_menu li a,.md_2_menu li a:visited,.md_2_menu li a:hover,.md_2_menu li a:active{display:block; padding:5px 0 0 0; height:17px; line-height:14px; text-align:center; text-decoration:none; color:#000;}
+.md_2_menu li.on{background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat 0 -972px;}
+.md_2_menu li.on a,.md_2_menu li.on a:visited,.md_2_menu li.on a:hover,.md_2_menu li.on a:active{color:#982e00; font-weight:bold;}
+.md2_list{float:left; padding:0 10px 0 0;}
+
+.mdbtmlinkblk1{height:28px; overflow:hidden; padding:2px 0 1px; margin:0 2px; background:url(http://i0.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_003_new.gif) no-repeat -802px 0 #fff7e3; text-align:center; line-height:30px; color:#ea3d00;}
+.mdbtmlinkblk1 a,.mdbtmlinkblk1 a:visited{color:#ea3d00; text-decoration:none;}
+.mdbtmlinkblk1 a:hover,.mdbtmlinkblk1 a:active{color:#c00; text-decoration:underline;}
+
+.h2_lf_s1{height:24px; overflow:hidden; background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat 0 -750px #ffe4a6;}
+.h2_lf_s1 .capname{line-height:14px; font-size:12px; color:#333; padding:6px 0 0 0; text-align:center; display:block;}
+.h2_lf_s1 a,.h2_lf_s1 a:visited{color:#333; text-decoration:none;}
+.h2_lf_s1 a:hover,.h2_lf_s1 a:active{color:#333; text-decoration:underline;}
+
+.h2_lf_s2{height:24px; overflow:hidden; clear:both; background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat 0 -1150px #c71b1b; color:#fff; font-size:12px;}
+.h2_lf_s2 a,.h2_lf_s2 a:visited{color:#fff; text-decoration:none;}
+.h2_lf_s2 a:hover,.h2_lf_s2 a:active{color:#fff; text-decoration:underline;}
+.h2_lf_s2 .capname{float:left; padding:7px 0 0 22px; line-height:14px;}
+
+.lBlk1{padding:6px 5px 0 2px;}
+.lBlk1 ul li{line-height:21px; color:#000; background-position:5px 1px;}
+
+/* 图文 */
+.imgtxt01{padding:8px 0 0 10px; height:97px; overflow:hidden; _display:inline-block;}
+.it01img{width:111px; float:left; overflow:hidden;background:url(http://i2.sinaimg.cn/dy/deco/2009/0910/sina_m_01.gif) no-repeat 0 0;padding:4px 0 0;height:93px;text-align:center;}
+.it01img a,.it01img a:visited{color:#009; text-decoration:underline; display:block;}
+.it01img a:hover,.it01img a:active{color:#c00; text-decoration:underlinen;}
+.it01img a img{border:1px #ccc solid;}
+.it01img a:hover img,.it01img a:active img{border:1px #ffc133 solid;}
+.it01ib{display:block;}
+.it01tb{display:block; height:18px; padding:4px 0 0 0; line-height:14px; overflow:hidden; cursor:pointer; text-align:center;}
+.it01txt{float:left; width:263px;padding-top:2px;}
+.it01txt ul li{font-size:14px; line-height:24px; padding-left:14px;}
+
+.imgtxt02{padding:10px 0 0 14px; height:116px; overflow:hidden; _display:inline-block;}
+.it02img{width:105px; float:left; overflow:hidden;}
+.it02img a,.it02img a:visited{color:#009; text-decoration:underline; display:block;}
+.it02img a:hover,.it02img a:active{color:#c00; text-decoration:underlinen;}
+.it02img a img{padding:7px 8px 23px; background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat 0 -650px; display:block;}
+.it02img a:hover img,.it02img a:active img{background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat 0 -1350px; display:block;}
+.it02ib{display:block; padding-bottom:3px;}
+
+.it02tb{display:block; height:18px; padding:4px 0 0 0; line-height:14px; overflow:hidden; background:url(http://i3.sinaimg.cn/dy/deco/2009/0910/sina_m_02.gif) no-repeat 0 0; cursor:pointer; text-align:center;}
+.it02txt{margin-top:-2px; float:left; padding-left:2px; width:263px;}
+.it02txt ul li{font-size:14px; line-height:24px; padding-left:14px;}
+
+.imgtxt03{padding:6px 0 0 9px; overflow:hidden; clear:both;}
+.it03img{padding:8px 0 10px 3px;}
+.it03img img{border:1px #000 solid;}
+.it03txt{_display:inline-block; overflow:hidden;}
+.it03txt li{float:left; padding:0 5px 0 0; line-height:14px; height:21px;}
+
+/* 列表 */
+.mdlist{padding:8px 0 0 9px;}
+.mdlist li{font-size:14px; line-height:23px;}
+
+/* 博客 */
+#blog{height:326px;}
+
+/* 播客 */
+#vlog{height:549px;}
+
+#vlog .mdlist{padding-bottom:8px;padding-top:2px;}
+#vlog .mdlist li{line-height:1.71em;}
+/* 新闻 */
+#news{height:549px; border-bottom:none;}
+
+#news li{line-height:23px;}
+#news #newsListTop{padding-top:12px;}
+/*#news #newsListTop li{line-height:24px;}*/
+#news #newsListBtm{}
+#news #newsListBtm li{line-height:23px;}
+/* 视频 */
+#video{height:241px;}
+#video .md_con{height:241px;}
+/* 体育 */
+#sports{height:308px;}
+#sportsmenu_2{font-family:Arial;}
+#sportsmenu_2 .capname{padding-top:7px;}
+#sports .md_con{height:241px;}
+/* 娱乐 */
+#ent{height:308px;}
+#ent .md_con{height:267px;}
+/* 财经 */
+#finance{height:326px; overflow:visible;}
+#finance .md_con{height:267px;}
+
+#finance .hd{overflow: visible}
+.financesearch{float:right; width:190px;}
+.financesearch select{width:50px; margin:0; padding:0; font-size:12px; margin:2px 0 0 0;}
+.financesearch .suggest_input_0{width:83px; border:1px #929292 solid; font-size:12px; margin:3px 0 0 0;}
+
+/* webkit ipad */
+@media screen and (-webkit-min-device-pixel-ratio:0){
+    .financesearch .suggest_input_0{width:70px;}
+	.line-01{ margin-bottom:5px 10px 0px;}
+}
+
+.financesearch .suggest_button_search_0{margin:2px 0 0 0; padding:0;}
+/* 社会 */
+#society{height:403px;}
+#society .md_con{height:263px;}
+.societybtmlist{background:url(http://i0.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_003_new.gif) no-repeat -802px 0; margin:0 1px; padding:5px 0 0 8px;}
+.societybtmlist li{line-height:24px; clear:both; font-size:14px;}
+/* 科技 */
+#tech{overflow:visible;height:403px;}
+#tech .md_con{height:263px;}
+
+#book_tech{height:326px;}
+#book_tech .md_con{height:267px;}
+/* 房产 */
+#house_auto{height:310px;}
+/* 手机... */
+#mobile_down{height:310px;}
+/* 读书 */
+#book{height:333px;}
+/* 女性 */
+#eladies{height:333px;}
+/* 育儿 */
+#baby{height:284px;}
+/* 游戏 */
+#game{height:284px;}
+/* 旅游 */
+#tavl{height:290px; margin-bottom:10px;}
+/* 教育 */
+#edu{height:290px; margin-bottom:10px;}
+/* 论坛 */
+#bbs{height:206px;}
+/* 圈子 */
+#quanzi{height:206px;}
+
+/* 搜索 */
+#Search{width:564px; height:70px; overflow:hidden; float:left;display:inline; margin:0 0 8px 10px; background:url(http://i3.sinaimg.cn/dy/deco/2009/0807/sinahome_0803_ws_004_search.gif) no-repeat 0 0 #f0f0f0; position:relative;zoom:1;}
+.SearchT{height:31px; overflow:hidden; clear:both; _display:inline-block; position:relative;}
+.SearchT h2{display:block; width:58px; height:15px; overflow:hidden; position:absolute; top:6px; left:12px;}
+.SearchT h2 a{display:block; width:58px; height:15px; overflow:hidden; line-height:300%; background:url(http://i3.sinaimg.cn/dy/deco/2009/0807/sinahome_0803_ws_004_search.gif) no-repeat 0 -100px;}
+.searchbox_menu{width:650px; height:27px; overflow:hidden; position:absolute; top:4px; left:82px;}
+.searchbox_menu ul{_display:inline-block; overflow:hidden;}
+.searchbox_menu li{float:left; padding:0 3px 0 0; width:33px; height:27px; text-align:center; cursor:pointer;}
+.searchbox_menu li a{display:block; height:22px; text-decoration:none; overflow:hidden; padding:5px 0 0 0; line-height:14px;}
+.searchbox_menu li.active{background:url(http://i3.sinaimg.cn/dy/deco/2009/0807/sinahome_0803_ws_004_search.gif) no-repeat 0 -150px; color:#982e00; font-weight:bold;width:33px;}
+.searchbox_menu li.active a{color:#982e00;}
+.searchbox_menu li.bigTaA{background:url(http://i3.sinaimg.cn/dy/deco/2009/0807/sinahome_0803_ws_004_search.gif) no-repeat -100px -150px;color:#982e00;font-weight:bold;width:47px;}
+.searchbox_menu li.bigTaA a{color:#982e00;}
+.searchbox_menu li.normal{background:url(http://i3.sinaimg.cn/dy/deco/2009/0807/sinahome_0803_ws_004_search.gif) no-repeat 0 -200px; color:#000;width:33px;}
+.searchbox_menu li.normal a{color:#000;}
+.searchbox_menu li.bigTaN{background:url(http://i3.sinaimg.cn/dy/deco/2009/0807/sinahome_0803_ws_004_search.gif) no-repeat 0 -270px; color:#000;width:47px;}
+.searchbox_menu li.bigTaN a{color:#000;}
+
+.SearchM{width:14px; height:14px; overflow:hidden; position:absolute; top:7px; right:14px;}
+.SearchM a{display:block; width:14px; height:14px; overflow:hidden; background:url(http://i3.sinaimg.cn/dy/deco/2009/0807/sinahome_0803_ws_004_search.gif) no-repeat 0 -250px; line-height:500px;}
+
+.searchbox_con{overflow:hidden; _display:inline-block; position:absolute; top:29px; left:0; width:780px;}
+.searchBtn{width:60px; overflow:hidden; padding:4px 0 0 0; *padding:5px 0 0 0; float:left;}
+.searchBtn input{width:54px; height:28px; *line-height:30px; overflow:hidden; background:url(http://i3.sinaimg.cn/dy/deco/2009/0807/sinahome_0803_ws_004_search.gif) no-repeat -150px -100px #ffb725; color:#000; font-size:12px; text-align:center; padding:0; margin:0; border:none; cursor:pointer;}
+.hotWordsBlk{float:left; _display:inline-block; overflow:hidden; position:absolute; padding:16px 0 0 14px; line-height:14px; width:345px; top:0; left:382px;}
+.hotWordsBlk h4{position:absolute; top:2px; left:14px; width:24px; height:13px; overflow:hidden;}
+.hotWordsBlk h4 a{display:block; width:24px; height:13px; overflow:hidden; line-height:500px; background:url(http://i3.sinaimg.cn/dy/deco/2009/0807/sinahome_0803_ws_004_search.gif) no-repeat -756px -100px;}
+.hotWordsBlk2{left:382px;}
+
+/* Google */
+.searchGoogleIpt{width:322px; overflow:hidden; float:left; padding:4px 0 0 9px;}
+.searchGoogleIpt input{border:1px #d0d0d0 solid; padding:6px 0 0 6px; width:305px; height:20px; line-height:14px; *line-height:16px; font-size:12px; margin:0 0 0 0;}
+.searchGoogleLogo{width:94px; height:25px; overflow:hidden; float:left; padding:7px 0 0 0;}
+/* iAsk */
+.searchIAskIpt{width:322px; overflow:hidden; float:left; padding:4px 0 0 9px;}
+.searchIAskIpt input{border:1px #d0d0d0 solid; padding:6px 0 0 6px; width:305px; height:20px; line-height:14px; *line-height:16px; font-size:12px; margin:0 0 0 0;}
+.searchIAskMapIpt1,.searchIAskMapIpt2{width:161px; overflow:hidden; float:left; padding:4px 0 0 9px;}
+
+.searchIAskMapIpt2{padding:4px 0 0 0;}
+.searchIAskMapIpt1 input,.searchIAskMapIpt2 input{border:1px #d0d0d0 solid; padding:6px 0 0 6px; width:144px; height:20px; line-height:14px; *line-height:16px; font-size:12px; margin:0 0 0 0;}
+
+.searchIAskIpt3{width:258px; overflow:hidden; float:left; padding:4px 0 0 9px;}
+.searchIAskIpt3 input{border:1px #d0d0d0 solid; padding:6px 0 0 6px; width:240px; height:20px; line-height:14px; *line-height:16px; font-size:12px; margin:0 0 0 0;}
+
+.searchIAskBtn1,.searchIAskBtn2{width:64px; overflow:hidden; padding:4px 0 0 0; *padding:5px 0 0 0; float:left;}
+.searchIAskBtn1 input,.searchIAskBtn2 input{width:54px; height:28px; *line-height:30px; overflow:hidden; background:url(http://i3.sinaimg.cn/dy/deco/2009/0807/sinahome_0803_ws_004_search.gif) no-repeat -150px -100px #ffb725; color:#000; font-size:12px; text-align:center; padding:0; margin:0; border:none; cursor:pointer;}
+/*分众热门品牌专区*/
+#FocusMediaZone{width:212px; height:70px; overflow:hidden; float:left;display:inline;margin:0 0 8px 4px; background:url(http://i3.sinaimg.cn/dy/deco/2009/0807/sinahome_0803_ws_004_search.gif) no-repeat -568px 0 #f0f0f0; position:relative;}
+#FocusMediaZone .fm_pA{clear:both;height:26px;overflow:hidden;}
+#FocusMediaZone .fm_pA .fm_c1{float:left;display:inline;width:140px;height:26px;cursor:pointer;overflow:hidden;}
+#FocusMediaZone .fm_pA .fm_c2{float:left;display:inline;width:5px;height:7px;overflow:hidden;background:url(http://i3.sinaimg.cn/dy/deco/2009/0807/sinahome_0803_ws_004_search.gif) no-repeat 0 -130px;margin:9px 5px 0 0;}
+#FocusMediaZone .fm_pA .fm_c3{float:left;display:inline;width:60px;height:19px;padding-top:7px;cursor:pointer;overflow:hidden;color:#696969;font-weight:bold;text-decoration:none;}
+#FocusMediaZone .fm_pA a:hover{color:#c00;text-decoration:none;}
+#FocusMediaZone .fm_pB{clear:both;width:190px;height:20px;line-height:20px;overflow:hidden;margin:0 auto;color:#696969;}
+#FocusMediaZone .fm_pB .fm_c1{width:32766px;zoom:1;overflow:hidden;}
+#FocusMediaZone .fm_pB .fm_c1 div{float:left;display:inline;}
+#FocusMediaZone .fm_pB .fm_c1 span{margin-right:7px;}
+#FocusMediaZone .fm_pB a:link,#FocusMediaZone .fm_pB a:visited{color:#009;text-decoration:underline;}
+#FocusMediaZone .fm_pB a:hover,#FocusMediaZone .fm_pB a:active{color:#c00;text-decoration:underline;}
+#FocusMediaZone .fm_pC{clear:both;height:24px;padding-left:7px;overflow:hidden;}
+#FocusMediaZone .fm_pC .fm_c1{float:left;display:inline;width:157px;height:24px;overflow:hidden;}
+#FocusMediaZone .fm_pC .fm_c1 input{width:144px;height:15px;border:1px solid #d0d0d0;color:#9b9b9b;padding-left:5px;line-height:15px;}
+#FocusMediaZone .fm_pC .fm_c2{float:left;display:inline;width:48px;height:24px;overflow:hidden;}
+#FocusMediaZone .fm_pC .fm_c2 input{width:40px;height:19px;line-height:19px;border:none;color:#000;background:url(http://i3.sinaimg.cn/dy/deco/2009/0807/sinahome_0803_ws_004_search.gif) no-repeat -100px -270px;cursor:pointer;font-size:12px;}
+
+/* 城市联盟 */
+.cityUnion{width:948px; height:76px; overflow:hidden; border:1px #f2dca8 solid; background:#fff8de; margin-bottom:15px;margin-top:6px;}
+.cityUnionName{float:left; width:76px; padding:8px 0 0 30px; text-align:center; line-height:20px;}
+.cityUnionList{float:left; padding:8px 0 0 0; line-height:20px; text-align:left;}
+.cityUnionList a{padding-left:1px;}
+
+/* footer begin */
+#footer{width:950px; overflow:hidden; text-align:center; color:#333;}
+#footer p{line-height:20px;}
+#footer .eng{font-family:Arial, Helvetica, sans-serif;}
+#footer p a:link,#footer p a:visited{color:#333; text-decoration:underline;}
+#footer p a:hover,#footer p a:active{color:#c30; text-decoration:underline;}
+#footer table{margin:13px 0;}
+#footer td img{border:1px #d2d2d2 solid;}
+#footer div a:link,#footer div a:visited{color:#009; text-decoration:underline;}
+#footer div a:hover,#footer div a:active{color:#c00; text-decoration:underline;}
+/* footer end */
+
+/* 广告 */
+.topads{height:192px; overflow:hidden; background:#fff; position:relative; border:1px #cbcbcb solid; margin-bottom:8px;}
+.topads a,.topads a:visited{color:#009;}
+.topads a:hover,.topads a:active{color:#c00;}
+.topadsbanner{width:640px; height:90px; overflow:hidden; position:absolute; top:51px; left:160px; background:#ccc;}
+.topadsblk01{width:160px; overflow:hidden; _display:inline-block; position:absolute; left:0; top:0;}
+#topadsblk01menu{float:left; width:23px; overflow:hidden; padding-top:1px; height:190px; border-bottom:1px #fff solid;}
+
+#topadsblk01menu li{width:19px; height:37px; overflow:hidden; border-bottom:1px #fff solid; line-height:14px; padding:10px 0 0 4px; cursor:pointer; background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat 0 -400px #e7edf9; color:#484d51;}
+#topadsblk01menu li.on{background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat 0 -451px #c5d4f1;}
+.topadsblk01_con{width:125px; overflow:hidden; float:right; padding:9px 0 0 0;}
+.topadsblk01_con li{height:20px; clear:both; line-height:14px;}
+
+.topadsblk02,.topadsblk03{width:650px; height:43px; overflow:hidden; position:absolute; top:0; left:160px; padding:8px 0 0 0;}
+.topadsblk02{padding-top:9px;}
+.topadsblk02 ul,.topadsblk03 ul{_display:inline-block; overflow:hidden;}
+.topadsblk02 li,.topadsblk03 li{line-height:14px; height:20px; float:left; width:20%; overflow:hidden;}
+
+.topadsblk03{top:141px;}
+
+.topadsblk04{width:128px; overflow:hidden; position:absolute; top:0; right:0; padding:9px 0 0 0;}
+.topadsblk04 li{line-height:14px; clear:both; height:20px;}
+
+.txtadsblk01{overflow:hidden; _display:inline-block;}
+#txtblk01menu{height:24px; overflow:hidden; _display:inline-block; overflow:hidden;}
+#txtblk01menu li{width:40px; height:24px; overflow:hidden; float:left; background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat 0 -500px #dfdfdf; cursor:pointer;}
+#txtblk01menu li.on{font-weight:bold; background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat -40px -500px #eee;}
+#txtblk01menu li a,#txtblk01menu li a:visited{color:#333; text-decoration:none; display:block; height:18px; overflow:hidden; text-align:center; line-height:14px; padding:6px 0 0 0;}
+#txtblk01menu li a:hover,#txtblk01menu li a:active{color:#333; text-decoration:none;}
+.txtblk01_con{width:overflow:hidden;padding:10px 0 5px 10px; margin:0; width:150px; background:url(http://i0.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_003_new.gif) no-repeat -190px bottom;}
+.txtblk01_con li{text-align:left; height:21px; line-height:14px; clear:both;}
+
+.txtadsblk02{padding:5px 0 5px 9px; color:#009;}
+.txtadsblk02 li{height:21px; line-height:14px; text-align:left;}
+
+.PartLBtnAds,.PartLBtnAds3,.PartLBtnAds4{width:140px; overflow:hidden; margin:0 auto; padding:0 0 10px 0;}
+
+.adsblk{background:url(http://i0.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_003_new.gif) repeat-y -400px 0 #fff; height:279px; border-bottom:1px #d1d1d1 solid;}
+
+.AD355125{width:370px; height:125px; padding:12px 0 2px 7px;}
+
+.adsblk{height:252px; overflow:hidden;}
+.adsblk ul{background:url(http://i0.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_003_new.gif) no-repeat -800px 0; padding:9px 0 8px 9px; height:147px;}
+
+.adsblk li{line-height:24px; font-size:14px;}
+.adsblk_37075{padding-bottom:6px; width:370px; overflow:hidden; margin:0 auto;}
+
+.txtadsblk03{padding:8px 0 0 10px;}
+.txtadsblk03 li{line-height:14px; height:21px; overflow:hidden; clear:both;}
+
+.ads120x180{width:140px; overflow:hidden; margin:0 auto;}
+
+.ads_780x97_01{height:90px; width:750px; overflow:hidden; padding:10px 0 0 10px; margin:0 auto; clear:both;}
+.ads_780x97_2{height:90px; width:750px; overflow:hidden; padding:0 0 10px 10px; margin:0 auto; clear:both;}
+
+.txtadsblk04{padding:0 0 0 4px;}
+.txtadsblk04 li{line-height:21px; clear:both;}
+
+.techbtmads{background:url(http://i0.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_003_new.gif) no-repeat -802px 0; margin:0 1px; padding:10px 0 0 0;text-align:center;}
+
+.ads_120x120_1{width:140px; overflow:hidden; margin:0 auto;}
+
+/* 我的2008 */
+.my2008{padding:2px 0 0 0;}
+.my2008 h3{padding:0 0 0 4px;}
+.my2008 ul{padding-top:1px;}
+
+/* 缤纷下载 */
+#bfxz{height:143px; position:relative;}
+#bfxz h2{width:66px; height:20px; overflow:hidden; position:absolute; top:1px; left:4px; background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat 0 -900px; line-height:500px;}
+#bfxz h2 a{display:block; width:58px; height:20px; overflow:hidden;}
+
+/* 乐库 */
+#yueku{height:143px; position:relative;}
+
+#yueku h2{width:65px; height:22px; overflow:hidden; background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat 0 -1478px; line-height:500px; float:left;}
+#yueku h2 a{display:block; width:65px; height:22px; overflow:hidden;}
+#PartC{background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat 567px -1467px;}
+ul.yueku_list_1 li{padding:0 0 0 26px; background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat -180px -946px;}
+.yueku_search{position:absolute; bottom:13px; right:0; width:247px; height:22px; overflow:hidden;}
+.yueku_search_input{width:103px; float:left;}
+.yueku_search_input input{width:95px; height:18px; line-height:18px; font-size:12px; border:1px #d6d6d6 solid; padding:0; margin:0; text-indent:3px; color:#616362;}
+.yueku_search_select{width:54px; height:18px; overflow:hidden; float:left; border:1px #d6d6d6 solid; *margin-top:1px;}
+.yueku_search_select_blk{border:1px #fff solid; display:block; overflow:hidden; height:16px;}
+.yueku_search_select_blk select{width:56px; margin:-3px 0 0 -2px; color:#616362; font-size:12px; height:20px;}
+.yueku_search_btn{height:18px; overflow:hidden; float:left; padding:1px 0 0 5px; *padding-top:2px;}
+.yueku_search_btn input{border:none; padding:0; margin:0; background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat 0 -1000px #e1dbd0; width:48px; height:18px; font-size:12px; *padding-top:2px; cursor:pointer;}
+#yueku .it01txt h3{float:left; padding:0 0 0 5px; color:#f00; font-size:12px; font-weight:normal; height:18px; line-height:20px;}
+#yueku .it01txt span.myalbumbtn{float:left; padding:0 0 0 10px;}
+#yueku .it01txt span.myalbumbtn a{display:block; text-decoration:none; color:#000; background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat -50px -1000px #e1dbd0; text-align:center; width:91px; height:18px; overflow:hidden; line-height:20px;}
+ul.yueku_list_2{clear:both; width:260px; padding:7px 0 0 0;}
+ul.yueku_list_2 li{background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat -181px -983px; padding-left:24px; overflow:hidden;}
+ul.yueku_list_2 li .yueku_list_2_t{float:left; width:100px;}
+ul.yueku_list_2 li .yueku_list_2_o{float:left; color:#ccc;}
+
+/* 新浪商城 */
+.sinamall{padding:3px 0 0 0;}
+.sinamall h3{float:left; padding:0 10px 0 14px; font-size:12px; color:#900;}
+.sinamall h3 a,.sinamall h3 a:visited{color:#900; text-decoration:none;}
+.sinamall h3 a:hover,.sinamall h3 a:active{color:#900; text-decoration:underline;}
+.sinamall .caplink{float:left; line-height:14px; padding:0 0 0 1em; background:url(http://i1.sinaimg.cn/dy/deco/2007/1211/yocc/unfcn_mj_01.gif) no-repeat 5px 50%;}
+
+/* 竞价 */
+#jj{height:248px; overflow:hidden;}
+#jj h2 .caplink{float:right; padding:9px 10px 0 0; font-size:12px; line-height:14px; font-weight:normal;}
+.CbsSrh{margin:0 1px; _display:inline-block; overflow:hidden; height:41px;}
+.CbsSrh_ipt{width:185px; float:left; padding:10px 0 0 12px; overflow:hidden;}
+.CbsSrh_ipt input{width:177px; height:18px; border:1px #d6d6d6 solid; padding:0; margin:0; font-size:12px; color:#848484; line-height:18px;}
+.CbsSrh_select{float:left; width:49px; height:18px; overflow:hidden; border:1px #d6d6d6 solid; margin:10px 0 0 0; *margin:11px 0 0 0;}
+.CbsSrh_select_b{overflow:hidden; border:1px #fff solid; width:47px; height:16px;}
+.CbsSrh_select select{margin:-3px 0 0 -2px; width:53px; *width:52px; font-size:12px; color:#848484; height:21px;}
+.CbsSrh_btn{float:left; padding:11px 0 0 5px; overflow:hidden; _display:inline-block;}
+.CbsSrh_btn input{width:44px; height:17px; border:none; padding:0; margin:0 5px 0 0; float:left; cursor:pointer;}
+.CbsSrhBtn{background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat 0 -1200px #333;}
+#zhitongBtn{background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat 0 -1250px #333;}
+.CbsList{_display:inline-block; overflow:hidden; padding:8px 0 0 10px; background:url(http://i0.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_003_new.gif) no-repeat -800px 0;}
+.CbsList li{font-size:14px; line-height:23px;}
+.CL1{float:left; padding:0 20px 0 0;}
+.CL2{float:left;}
+
+/* 企业 */
+#sinanet{height:248px; overflow:hidden;}
+.sinanetList{padding:8px 0 0 9px; _display:inline-block; overflow:hidden; height:145px;}
+.sinanetList li{font-size:14px; line-height:23px;}
+.sinanetP{padding:11px 0 0 16px; background:url(http://i0.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_003_new.gif) no-repeat -800px 0;}
+.sinanetP li{font-size:14px; line-height:23px;}
+
+/* Opera */
+@media all and (min-width:0px){
+	.searchGoogleIpt input{padding:2px 0 0 6px; height:24px;}
+}
+
+/* 常用链接 begin */
+a.linkRed:link,a.linkRed:visited{color:#f00!important;}/* 红色 */
+a.linkRed:hover{color:#c00!important;}
+a.linkBlack:link,a.linkBlack:visited{color:#000!important;}/* 黑色 */
+a.linkBlack:hover{color:#f00!important;}
+a.linkWhite:link,a.linkWhite:visited{color:#fff!important;}/* 白色 */
+a.linkWhite:hover{color:#f00!important;}
+a.linkGray:link,a.linkGray:visited{color:#5d5d5d!important;}/* 灰色 */
+a.linkGray:hover{color:#f00!important;}
+a.linkCyan:link,a.linkCyan:visited{color:#92e4fa!important;text-decoration:underline;}/* 青色 */
+a.linkCyan:hover{color:#f00!important;}
+a.videoNews{background:url(http://i1.sinaimg.cn/dy/deco/2007/1211/yocc/unfcn_mj_01.gif) no-repeat 100% 50%;padding-right:18px;}/* 视频图标链接 */
+a.videoNewsLeft{background:url(http://i1.sinaimg.cn/dy/deco/2007/1211/yocc/unfcn_mj_01.gif) no-repeat -19982px 50%;padding-left:20px;}/* 视频图标链接（左图标） */
+a.liveNewsLeft{background:url(http://i3.sinaimg.cn/video/deco/2010/0525/liveNewsLeft.gif) no-repeat 0px 50%; padding-left:22px;}
+a.videoNewsNew{background:url(http://i2.sinaimg.cn/video/deco/2010/0527/new.png) no-repeat 0px 50%; padding-left:28px;}
+/* 音频图标链接 */
+a.audioNewsLeft{background:url(http://i0.sinaimg.cn/dy/deco/2009/0617/LeftAudio.gif) no-repeat ;padding-left:20px}
+/* 音频图标链接（左图标） */
+a.mobileNews02{background:url(http://i2.sinaimg.cn/dy/home/081223/mobilenewsicon02.gif) no-repeat 100% 50%;padding-right:13px;}/* 视频图标链接(样式2) */
+a.mobileNews02Left{background:url(http://i2.sinaimg.cn/dy/home/081223/mobilenewsicon02.gif) no-repeat 0 50%;padding-left:15px;}/* 视频图标链接（样式2，左图标） */
+
+a.logo315News{background:url(http://i0.sinaimg.cn/home/08index/090311/logo315.gif) no-repeat 100% 50%;padding-right:15px;}/* 3.15图标链接(样式2) */
+a.logo315NewsLeft{background:url(http://i0.sinaimg.cn/home/08index/090311/logo315.gif) no-repeat 0 50%;padding-left:17px;}/* 3.15图标链接（样式2，左图标） */
+
+/* 常用链接 end */
+/* 共用列表 begin */
+.list_009 li{padding-left:1em;background:url(http://i1.sinaimg.cn/dy/deco/2007/1211/yocc/unfcn_mj_01.gif) no-repeat 5px 50%;}
+.list_00f li{padding-left:1em;background:url(http://i1.sinaimg.cn/dy/deco/2007/1211/yocc/unfcn_mj_01.gif) no-repeat -995px 50%;}
+.list_000 li{padding-left:1em;background:url(http://i1.sinaimg.cn/dy/deco/2007/1211/yocc/unfcn_mj_01.gif) no-repeat -1995px 50%;}
+.list_333 li{padding-left:1em;background:url(http://i1.sinaimg.cn/dy/deco/2007/1211/y

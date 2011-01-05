@@ -1,0 +1,1814 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--[30,69,1] published at 2010-11-08 17:11:05 from #150 by 2654-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>新浪首页</title>
+<meta name="description" content="新浪网为全球用户24小时提供全面及时的中文资讯，内容覆盖国内外突发新闻事件、体坛赛事、娱乐时尚、产业资讯、实用信息等，设有新闻、体育、娱乐、财经、科技、房产、汽车等30多个内容频道，同时开设博客、视频、论坛等自由互动交流空间。" />
+<meta name="stencil" content="PGLS000022" />
+<meta name="publishid" content="30,69,1" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<meta name="verify-v1" content="6HtwmypggdgP1NLw7NOuQBI2TW8+CfkYCoyeB8IDbn8=" />
+
+<!-- optimization begin -->
+<script type="text/javascript" src="http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js"></script>
+<script type="text/javascript" src="http://i2.sinaimg.cn/dy/deco/2010/0527/headwww.js"></script>
+<script type="text/javascript" src="http://news.sina.com.cn/pfpnews/js/libweb.js"></script>
+<!-- 智投首屏数据，目前只包括1095打折 -->
+<script type="text/javascript" src="http://pfp.sina.com.cn/pfpnew/merge/res_PGLS000022_FP.js"></script>
+<!-- optimization end -->
+
+<style type="text/css">
+/* 全局样式 */
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div{margin:0;padding:0;border:0;}
+body{background:#fff;color:#333;font-size:12px; margin-top:5px;font-family:"宋体";}
+
+ul,ol{list-style-type:none;}
+select,input,img,select{vertical-align:middle;}
+
+a{text-decoration:underline;}
+a:link{color:#009;}
+a:visited{color:#800080;}
+a:hover,a:active,a:focus{color:#c00;}
+
+.clearit{clear:both;}
+
+/* page */
+#page{width:950px; overflow: visible; _display:inline-block; margin:0 auto;}
+
+/* 顶部 top */
+.top{height:27px; position:relative; z-index:99; padding:1px; border:1px #fdd26c solid; border-bottom:1px #e1a841 solid; color:#000; background:url(http://i1.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_001.gif) repeat-x 0 0 #fff;}
+.top a,.top a:visited{color:#000; text-decoration:none;}
+.top a:hover,.top a:active{color:#000; text-decoration:underline;}
+
+.topBlk{height:27px; overflow:hidden; _display:inline-block; background:url(http://i1.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_001.gif) repeat-x 0 -50px #fdc145;}
+
+.tB02,.tB03,.tB04{float:left; overflow:hidden;}
+.tB03 ul,.tB04 ul{line-height:29px;}
+.tB03 li,.tB04 li{float:left;}
+.tB03 li{padding:0 7px 0 6px;}
+.tB04 li{float:left;}
+.tB04 a{display:block; padding:0 0 0 12px; background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat 0 -142px;}
+.tB04 a#setHomePage{background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat 0 -92px; padding-right:12px;}
+.tB04 a#sinaMobile{background:url(http://i0.sinaimg.cn/dy/deco/2009/0317/sinahome_mobile_icon_01.gif) no-repeat 0 8px; padding-right:12px;}
+.tB02{width:445px;}
+.tB03{width:262px; background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat 260px -42px;}
+.tB04{padding:0 0 0 10px;}
+
+	/* 快速登录 */
+	.loginFld{padding:0 0 0 10px;}
+	.loginFld legend{display:none;}
+	.usernameFld,.passwordFld{float:left; width:141px; overflow:hidden;}
+	.usernameFldlabel,.passwordFldlabel{float:left; padding:0 8px 0 0; line-height:29px;}
+	.usernameFldinput,.passwordFldinput{float:left; width:86px; position:relative;}
+	.usernameFldinput input,.passwordFldinput input{width:84px; height:16px; padding:0; margin:0; position:absolute; top:5px; left:0; border:1px #e7d6a2 solid; color:#444; background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat 0 0 #fff; line-height:16px; font-size:12px; text-indent:3px;}
+	.bottonFld{float:left; width:60px; overflow:hidden; padding:0 0 0 93px;}
+	#bottonFldsubmit{width:49px; height:19px; overflow:hidden; padding:0; margin:5px 0 0 0; border:1px #ffac32 solid; background:url(http://i1.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_001.gif) repeat-x 0 -100px #ffeccc; font-size:12px; text-align:center; line-height:15px; cursor:pointer;}
+	.otherFld{float:left; width:64px;}
+	.otherFldlostpassword{line-height:29px;}
+/* select */
+.loginFldselect{width:110px; position:absolute; top:6px; left:278px; z-index:9999;}
+#loginFldselectdis{width:79px; height:17px; overflow:hidden; padding:0 18px 0 0; text-align:center; line-height:17px; background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat 0 -200px #fff; border:1px #ffa930 solid; display:block; cursor:pointer;}
+#loginFldselectop{width:97px; padding:5px 0; overflow:hidden; border:1px #fdad34 solid; position:absolute; top:18px; left:0; background:url(http://i1.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_001.gif) repeat-x 0 -150px #fffcf5;filter:progid:DXImageTransform.Microsoft.Alpha(opacity=90); -moz-opacity:.9; opacity:0.9;}
+#loginFldselectop li{line-height:22px; height:20px; overflow:hidden; text-align:left;}
+
+#loginFldselectop li a{display:block; height:20px; overflow:hidden; margin:0 5px; padding-left:12px;}
+#loginFldselectop li a:hover,#loginFldselectop li a:active{background:#fef0e2; text-decoration:none;}
+#loginFldselectop li#loginFldselectop_line{height:1px; overflow:hidden; background:#ffc88e; font-size:0; line-height:0; margin:2px 5px 3px;}
+#loginFldselectop li a.disabled{color:#999;cursor:default;}
+#loginFldselectop li a.disabled:hover,#loginFldselectop li a.disabled:active{background:none;}
+
+/* logo&nav */
+.logonav{height:85px; overflow:hidden; border:1px #e0e0e0 solid; border-top:none; margin-bottom:8px; position:relative; z-index:0; background:url(http://i1.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_001.gif) repeat-x 0 -400px #f9f9f9;}
+	/* logo */
+	.logo{width:145px; height:52px; position:absolute; top:0; left:10px;}
+	.logo h1{height:44px;position:absolute; top:10px; *top:8px; left:13px;}
+	/* weather */
+	.weather{height:20px; overflow:hidden; position:absolute; top:57px; left:6px; z-index:98;}
+	/* 导航 */
+	.nav{width:790px; height:85px; overflow:hidden; position:absolute; top:0; right:0;}
+	.nav_1,.nav_2,.nav_3{overflow:hidden; _display:inline-block; float:left; padding-top:13px;}
+	.nav_1{width:440px; background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat 439px -287px;}
+	.nav_2{width:107px; background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat 106px -287px;margin-left:3px;display:inline;}
+	.nav_3{width:107px;}
+	.nav_w{width:120px;background-position:119px -287px;}
+	.nav ul{height:23px;clear:both;}
+	.nav li{float:left; padding:0 6px 0 6px; margin-left:-1px; text-align:center; line-height:14px; background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat 0 -250px;}
+	.nav .nav_1 li{padding:0 6px 0 7px;}
+	.nav a,.nav a:visited{color:#000; text-decoration:none;}
+	.nav a:hover,.nav a:active{color:#c00; text-decoration:none;}
+
+/* Part */
+.Part{width:950px;zoom:1;padding-bottom:10px; clear:both;}
+.Part:after{content:".";display:block;clear:both;height:0;visibility:hidden;}
+.left{width:160px; overflow:hidden; float:left; _display:inline-block; background:url(http://i0.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_003_new.gif) repeat-y 0 0 #ffd77b; border-bottom:1px #e5b952 solid;}
+
+#PartA{height:879px; overflow:hidden;}
+#PartA .left{height:879px;}
+
+#PartB{padding-bottom:0;}
+#PartB .left{height:308px;}
+#PartC{padding:10px 0; *padding:10px 0 0 0; overflow:visible;}
+#PartC .left{height:581px;}
+#PartC .rightbox{overflow:visible;}
+#PartC .right{overflow:visible;}
+#PartD .left{height:403px;} 
+#PartE .left{height:433px;} 
+#PartF .left{height:310px;}
+#PartG .left{height:1148px;margin-bottom:-900px;position:relative;border-bottom:none;}
+#PartH .left{height:391px;}
+#PartI .left{height:507px;}
+
+.rightbox{width:790px; overflow:hidden; float:left; _display:inline-block;}
+.middle,.right{width:395px; overflow:hidden; _display:inline-block; float:left;}
+.colpadding{padding:0 0 0 10px;}
+
+.md{background:url(http://i0.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_003_new.gif) repeat-y -400px 0 #fff; border-bottom:1px #d1d1d1 solid; overflow:hidden; _display:inline-block;}
+.md_2{background:url(http://i0.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_003_new.gif) repeat-y -400px 0 #fff; border-bottom:1px #d1d1d1 solid; border-top:1px #d1d1d1 solid; overflow:hidden; _display:inline-block; margin-bottom:10px;}
+.md_3{}
+.md_3 h2{height:28px; overflow:hidden; font-size:14px; margin:0 1px;}
+.md_3 h2 .capname{float:left; padding:6px 0 0 14px; line-height:14px;}
+
+.md_purple{background:url(http://i0.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_003_new.gif) repeat-y -1200px 0 #fff; border-bottom:1px #cdbff1 solid;}
+.md_purple h2{background:url(http://i1.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_001.gif) repeat-x 0 -650px #cdbff1; color:#5d1c9f;}
+.md_purple h2 a,.md_purple h2 a:visited{color:#5d1c9f;text-decoration:none;}
+.md_purple h2 a:hover,.md_purple h2 a:active{color:#5d1c9f;text-decoration:underline;}
+
+.md_pink{background:url(http://i0.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_003_new.gif) repeat-y -1600px 0 #fff; border-bottom:1px #ffb5b5 solid;}
+
+.md_pink h2{background:url(http://i1.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_001.gif) repeat-x 0 -700px #ffb5b5; color:#e84d4d;}
+.md_pink h2 a,.md_pink h2 a:visited{color:#e84d4d;text-decoration:none;}
+.md_pink h2 a:hover,.md_pink h2 a:active{color:#e84d4d;text-decoration:underline;}
+
+.md_orange{background:url(http://i0.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_003_new.gif) repeat-y -2000px 0 #fff; border-bottom:1px #ffdeb4 solid;}
+.md_orange h2{background:url(http://i1.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_001.gif) repeat-x 0 -750px #ffdeb4; color:#ff6000;}
+.md_orange h2 a,.md_orange h2 a:visited{color:#ff6000;text-decoration:none;}
+.md_orange h2 a:hover,.md_orange h2 a:active{color:#ff6000;text-decoration:underline;}
+
+.md_green{background:url(http://i0.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_003_new.gif) repeat-y -2400px 0 #fff; border-bottom:1px #cfe8c4 solid;}
+.md_green h2{background:url(http://i1.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_001.gif) repeat-x 0 -800px #cfe8c4; color:#338e3a;}
+.md_green h2 a,.md_green h2 a:visited{color:#338e3a;text-decoration:none;}
+.md_green h2 a:hover,.md_green h2 a:active{color:#338e3a;text-decoration:underline;}
+
+.md_yellow{background:url(http://i0.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_003_new.gif) repeat-y -2800px 0 #fff; border-bottom:1px #f6d76d solid;}
+.md_yellow h2{background:url(http://i1.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_001.gif) repeat-x 0 -850px #f6d76d; color:#ee9802;}
+.md_yellow h2 a,.md_yellow h2 a:visited{color:#ee9802;text-decoration:none;}
+.md_yellow h2 a:hover,.md_yellow h2 a:active{color:#ee9802;text-decoration:underline;}
+
+.md_blue{background:url(http://i0.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_003_new.gif) repeat-y -3200px 0 #fff; border-bottom:1px #b7d0ef solid;}
+.md_blue h2{background:url(http://i1.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_001.gif) repeat-x 0 -900px #b7d0ef; color:#005ece;}
+.md_blue h2 a,.md_blue h2 a:visited{color:#005ece;text-decoration:none;}
+.md_blue h2 a:hover,.md_blue h2 a:active{color:#005ece;text-decoration:underline;}
+
+.hd{height:27px; overflow:hidden; background:url(http://i1.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_001.gif) repeat-x 0 -500px #858585;}
+
+.hd h2{height:27px; overflow:hidden; _display:inline-block; background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat right -550px #f6f6f6; float:left; padding:0 3px 0 0;}
+.hd h2 .capname{padding:8px 20px 0 23px; height:19px; line-height:14px; font-size:14px; color:#333; display:block; float:left; background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat left -600px;}
+.hd h2 .capsl{}
+.hd h2 .capsr{}
+.hd h2 a,.hd h2 a:visited{color:#333; text-decoration:none; cursor:pointer;}
+.hd h2 a:hover,.hd h2 a:active{color:#333; text-decoration:underline;}
+.hd .hdlink{float:right; padding:7px 6px 0 0; color:#fffae1; line-height:14px;}
+.hd .hdlink a,.hd .hdlink a:visited{color:#fffae1; text-decoration:underline;}
+.hd .hdlink a:hover,.hd .hdlink a:active{color:#ffd77b; text-decoration:underline;}
+
+.hd ul{height:27px; overflow:hidden; float:left;}
+.hd li{height:27px; overflow:hidden; _display:inline-block; background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat right -850px #797979; float:left; padding:0 3px 0 0; cursor:pointer;}
+.hd li .capname{padding:8px 13px 0 16px; height:19px; line-height:14px; font-size:14px; color:#333; display:block; float:left; background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat left -800px; font-weight:bold;}
+.hd li a,.hd li a:visited{color:#fff; text-decoration:none; cursor:pointer;}
+.hd li a:hover,.hd li a:active{color:#fff; text-decoration:underline;}
+.hd li .videoNewsLeft{padding:0 0 0 0; background:none;}
+.hd li.on{background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat right -550px #f6f6f6;}
+.hd li.on .capname{background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat left -600px;}
+.hd li.on a,.hd li.on a:visited{color:#333; text-decoration:none; cursor:pointer;}
+.hd li.on a:hover,.hd li.on a:active{color:#333; text-decoration:underline;}
+.hd li.on .videoNewsLeft{background:url(http://i1.sinaimg.cn/dy/deco/2007/1211/yocc/unfcn_mj_01.gif) no-repeat -19982px 50%;padding-left:20px;}
+.hd #videomenu li.on .capname{padding-left:4px; padding-right:4px;}
+
+.hd_2{height:24px; overflow:hidden; margin:0 1px; background:url(http://i1.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_001.gif) repeat-x 0 -601px #fff4cb;}
+.md_2_menu{width:311px; height:22px; overflow:hidden; padding:1px 1px 0 0; float:right;}
+.md_2_menu li{width:60px; height:22px; overflow:hidden; background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat 0 -950px; float:left; padding:0 2px 0 0;}
+.md_2_menu li a,.md_2_menu li a:visited,.md_2_menu li a:hover,.md_2_menu li a:active{display:block; padding:5px 0 0 0; height:17px; line-height:14px; text-align:center; text-decoration:none; color:#000;}
+.md_2_menu li.on{background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat 0 -972px;}
+.md_2_menu li.on a,.md_2_menu li.on a:visited,.md_2_menu li.on a:hover,.md_2_menu li.on a:active{color:#982e00; font-weight:bold;}
+.md2_list{float:left; padding:0 10px 0 0;}
+
+.mdbtmlinkblk1{height:28px; overflow:hidden; padding:2px 0 1px; margin:0 2px; background:url(http://i0.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_003_new.gif) no-repeat -802px 0 #fff7e3; text-align:center; line-height:30px; color:#ea3d00;}
+.mdbtmlinkblk1 a,.mdbtmlinkblk1 a:visited{color:#ea3d00; text-decoration:none;}
+.mdbtmlinkblk1 a:hover,.mdbtmlinkblk1 a:active{color:#c00; text-decoration:underline;}
+
+.h2_lf_s1{height:24px; overflow:hidden; background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat 0 -750px #ffe4a6;}
+.h2_lf_s1 .capname{line-height:14px; font-size:12px; color:#333; padding:6px 0 0 0; text-align:center; display:block;}
+.h2_lf_s1 a,.h2_lf_s1 a:visited{color:#333; text-decoration:none;}
+.h2_lf_s1 a:hover,.h2_lf_s1 a:active{color:#333; text-decoration:underline;}
+
+.h2_lf_s2{height:24px; overflow:hidden; clear:both; background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat 0 -1150px #c71b1b; color:#fff; font-size:12px;}
+.h2_lf_s2 a,.h2_lf_s2 a:visited{color:#fff; text-decoration:none;}
+.h2_lf_s2 a:hover,.h2_lf_s2 a:active{color:#fff; text-decoration:underline;}
+.h2_lf_s2 .capname{float:left; padding:7px 0 0 22px; line-height:14px;}
+
+.lBlk1{padding:6px 5px 0 2px;}
+.lBlk1 ul li{line-height:21px; color:#000; background-position:5px 1px;}
+
+/* 图文 */
+.imgtxt01{padding:8px 0 0 10px; height:97px; overflow:hidden; _display:inline-block;}
+.it01img{width:111px; float:left; overflow:hidden;background:url(http://i2.sinaimg.cn/dy/deco/2009/0910/sina_m_01.gif) no-repeat 0 0;padding:4px 0 0;height:93px;text-align:center;}
+.it01img a,.it01img a:visited{color:#009; text-decoration:underline; display:block;}
+.it01img a:hover,.it01img a:active{color:#c00; text-decoration:underlinen;}
+.it01img a img{border:1px #ccc solid;}
+.it01img a:hover img,.it01img a:active img{border:1px #ffc133 solid;}
+.it01ib{display:block;}
+.it01tb{display:block; height:18px; padding:4px 0 0 0; line-height:14px; overflow:hidden; cursor:pointer; text-align:center;}
+.it01txt{float:left; width:263px;padding-top:2px;}
+.it01txt ul li{font-size:14px; line-height:24px; padding-left:14px;}
+
+.imgtxt02{padding:10px 0 0 14px; height:116px; overflow:hidden; _display:inline-block;}
+.it02img{width:105px; float:left; overflow:hidden;}
+.it02img a,.it02img a:visited{color:#009; text-decoration:underline; display:block;}
+.it02img a:hover,.it02img a:active{color:#c00; text-decoration:underlinen;}
+.it02img a img{padding:7px 8px 23px; background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat 0 -650px; display:block;}
+.it02img a:hover img,.it02img a:active img{background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat 0 -1350px; display:block;}
+.it02ib{display:block; padding-bottom:3px;}
+
+.it02tb{display:block; height:18px; padding:4px 0 0 0; line-height:14px; overflow:hidden; background:url(http://i3.sinaimg.cn/dy/deco/2009/0910/sina_m_02.gif) no-repeat 0 0; cursor:pointer; text-align:center;}
+.it02txt{margin-top:-2px; float:left; padding-left:2px; width:263px;}
+.it02txt ul li{font-size:14px; line-height:24px; padding-left:14px;}
+
+.imgtxt03{padding:6px 0 0 9px; overflow:hidden; clear:both;}
+.it03img{padding:8px 0 10px 3px;}
+.it03img img{border:1px #000 solid;}
+.it03txt{_display:inline-block; overflow:hidden;}
+.it03txt li{float:left; padding:0 5px 0 0; line-height:14px; height:21px;}
+
+/* 列表 */
+.mdlist{padding:8px 0 0 9px;}
+.mdlist li{font-size:14px; line-height:23px;}
+
+/* 博客 */
+#blog{height:326px;}
+
+/* 播客 */
+#vlog{height:549px;}
+
+#vlog .mdlist{padding-bottom:8px;padding-top:2px;}
+#vlog .mdlist li{line-height:1.71em;}
+/* 新闻 */
+#news{height:549px; border-bottom:none;}
+
+#news li{line-height:23px;}
+#news #newsListTop{padding-top:12px;}
+/*#news #newsListTop li{line-height:24px;}*/
+#news #newsListBtm{}
+#news #newsListBtm li{line-height:23px;}
+/* 视频 */
+#video{height:241px;}
+#video .md_con{height:241px;}
+/* 体育 */
+#sports{height:308px;}
+#sportsmenu_2{font-family:Arial;}
+#sportsmenu_2 .capname{padding-top:7px;}
+#sports .md_con{height:241px;}
+/* 娱乐 */
+#ent{height:308px;}
+#ent .md_con{height:267px;}
+/* 财经 */
+#finance{height:326px; overflow:visible;}
+#finance .md_con{height:267px;}
+
+#finance .hd{overflow: visible}
+.financesearch{float:right; width:190px;}
+.financesearch select{width:50px; margin:0; padding:0; font-size:12px; margin:2px 0 0 0;}
+.financesearch .suggest_input_0{width:83px; border:1px #929292 solid; font-size:12px; margin:3px 0 0 0;}
+
+/* webkit ipad */
+@media screen and (-webkit-min-device-pixel-ratio:0){
+    .financesearch .suggest_input_0{width:70px;}
+	.line-01{ margin-bottom:5px 10px 0px;}
+}
+
+.financesearch .suggest_button_search_0{margin:2px 0 0 0; padding:0;}
+/* 社会 */
+#society{height:403px;}
+#society .md_con{height:263px;}
+.societybtmlist{background:url(http://i0.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_003_new.gif) no-repeat -802px 0; margin:0 1px; padding:5px 0 0 8px;}
+.societybtmlist li{line-height:24px; clear:both; font-size:14px;}
+/* 科技 */
+#tech{overflow:visible;height:403px;}
+#tech .md_con{height:263px;}
+
+#book_tech{height:326px;}
+#book_tech .md_con{height:267px;}
+/* 房产 */
+#house_auto{height:310px;}
+/* 手机... */
+#mobile_down{height:310px;}
+/* 读书 */
+#book{height:333px;}
+/* 女性 */
+#eladies{height:333px;}
+/* 育儿 */
+#baby{height:284px;}
+/* 游戏 */
+#game{height:284px;}
+/* 旅游 */
+#tavl{height:290px; margin-bottom:10px;}
+/* 教育 */
+#edu{height:290px; margin-bottom:10px;}
+/* 论坛 */
+#bbs{height:206px;}
+/* 圈子 */
+#quanzi{height:206px;}
+
+/* 搜索 */
+#Search{width:564px; height:70px; overflow:hidden; float:left;display:inline; margin:0 0 8px 10px; background:url(http://i3.sinaimg.cn/dy/deco/2009/0807/sinahome_0803_ws_004_search.gif) no-repeat 0 0 #f0f0f0; position:relative;zoom:1;}
+.SearchT{height:31px; overflow:hidden; clear:both; _display:inline-block; position:relative;}
+.SearchT h2{display:block; width:58px; height:15px; overflow:hidden; position:absolute; top:6px; left:12px;}
+.SearchT h2 a{display:block; width:58px; height:15px; overflow:hidden; line-height:300%; background:url(http://i3.sinaimg.cn/dy/deco/2009/0807/sinahome_0803_ws_004_search.gif) no-repeat 0 -100px;}
+.searchbox_menu{width:650px; height:27px; overflow:hidden; position:absolute; top:4px; left:82px;}
+.searchbox_menu ul{_display:inline-block; overflow:hidden;}
+.searchbox_menu li{float:left; padding:0 3px 0 0; width:33px; height:27px; text-align:center; cursor:pointer;}
+.searchbox_menu li a{display:block; height:22px; text-decoration:none; overflow:hidden; padding:5px 0 0 0; line-height:14px;}
+.searchbox_menu li.active{background:url(http://i3.sinaimg.cn/dy/deco/2009/0807/sinahome_0803_ws_004_search.gif) no-repeat 0 -150px; color:#982e00; font-weight:bold;width:33px;}
+.searchbox_menu li.active a{color:#982e00;}
+.searchbox_menu li.bigTaA{background:url(http://i3.sinaimg.cn/dy/deco/2009/0807/sinahome_0803_ws_004_search.gif) no-repeat -100px -150px;color:#982e00;font-weight:bold;width:47px;}
+.searchbox_menu li.bigTaA a{color:#982e00;}
+.searchbox_menu li.normal{background:url(http://i3.sinaimg.cn/dy/deco/2009/0807/sinahome_0803_ws_004_search.gif) no-repeat 0 -200px; color:#000;width:33px;}
+.searchbox_menu li.normal a{color:#000;}
+.searchbox_menu li.bigTaN{background:url(http://i3.sinaimg.cn/dy/deco/2009/0807/sinahome_0803_ws_004_search.gif) no-repeat 0 -270px; color:#000;width:47px;}
+.searchbox_menu li.bigTaN a{color:#000;}
+
+.SearchM{width:14px; height:14px; overflow:hidden; position:absolute; top:7px; right:14px;}
+.SearchM a{display:block; width:14px; height:14px; overflow:hidden; background:url(http://i3.sinaimg.cn/dy/deco/2009/0807/sinahome_0803_ws_004_search.gif) no-repeat 0 -250px; line-height:500px;}
+
+.searchbox_con{overflow:hidden; _display:inline-block; position:absolute; top:29px; left:0; width:780px;}
+.searchBtn{width:60px; overflow:hidden; padding:4px 0 0 0; *padding:5px 0 0 0; float:left;}
+.searchBtn input{width:54px; height:28px; *line-height:30px; overflow:hidden; background:url(http://i3.sinaimg.cn/dy/deco/2009/0807/sinahome_0803_ws_004_search.gif) no-repeat -150px -100px #ffb725; color:#000; font-size:12px; text-align:center; padding:0; margin:0; border:none; cursor:pointer;}
+.hotWordsBlk{float:left; _display:inline-block; overflow:hidden; position:absolute; padding:16px 0 0 14px; line-height:14px; width:345px; top:0; left:382px;}
+.hotWordsBlk h4{position:absolute; top:2px; left:14px; width:24px; height:13px; overflow:hidden;}
+.hotWordsBlk h4 a{display:block; width:24px; height:13px; overflow:hidden; line-height:500px; background:url(http://i3.sinaimg.cn/dy/deco/2009/0807/sinahome_0803_ws_004_search.gif) no-repeat -756px -100px;}
+.hotWordsBlk2{left:382px;}
+
+/* Google */
+.searchGoogleIpt{width:322px; overflow:hidden; float:left; padding:4px 0 0 9px;}
+.searchGoogleIpt input{border:1px #d0d0d0 solid; padding:6px 0 0 6px; width:305px; height:20px; line-height:14px; *line-height:16px; font-size:12px; margin:0 0 0 0;}
+.searchGoogleLogo{width:94px; height:25px; overflow:hidden; float:left; padding:7px 0 0 0;}
+/* iAsk */
+.searchIAskIpt{width:322px; overflow:hidden; float:left; padding:4px 0 0 9px;}
+.searchIAskIpt input{border:1px #d0d0d0 solid; padding:6px 0 0 6px; width:305px; height:20px; line-height:14px; *line-height:16px; font-size:12px; margin:0 0 0 0;}
+.searchIAskMapIpt1,.searchIAskMapIpt2{width:161px; overflow:hidden; float:left; padding:4px 0 0 9px;}
+
+.searchIAskMapIpt2{padding:4px 0 0 0;}
+.searchIAskMapIpt1 input,.searchIAskMapIpt2 input{border:1px #d0d0d0 solid; padding:6px 0 0 6px; width:144px; height:20px; line-height:14px; *line-height:16px; font-size:12px; margin:0 0 0 0;}
+
+.searchIAskIpt3{width:258px; overflow:hidden; float:left; padding:4px 0 0 9px;}
+.searchIAskIpt3 input{border:1px #d0d0d0 solid; padding:6px 0 0 6px; width:240px; height:20px; line-height:14px; *line-height:16px; font-size:12px; margin:0 0 0 0;}
+
+.searchIAskBtn1,.searchIAskBtn2{width:64px; overflow:hidden; padding:4px 0 0 0; *padding:5px 0 0 0; float:left;}
+.searchIAskBtn1 input,.searchIAskBtn2 input{width:54px; height:28px; *line-height:30px; overflow:hidden; background:url(http://i3.sinaimg.cn/dy/deco/2009/0807/sinahome_0803_ws_004_search.gif) no-repeat -150px -100px #ffb725; color:#000; font-size:12px; text-align:center; padding:0; margin:0; border:none; cursor:pointer;}
+/*分众热门品牌专区*/
+#FocusMediaZone{width:212px; height:70px; overflow:hidden; float:left;display:inline;margin:0 0 8px 4px; background:url(http://i3.sinaimg.cn/dy/deco/2009/0807/sinahome_0803_ws_004_search.gif) no-repeat -568px 0 #f0f0f0; position:relative;}
+#FocusMediaZone .fm_pA{clear:both;height:26px;overflow:hidden;}
+#FocusMediaZone .fm_pA .fm_c1{float:left;display:inline;width:140px;height:26px;cursor:pointer;overflow:hidden;}
+#FocusMediaZone .fm_pA .fm_c2{float:left;display:inline;width:5px;height:7px;overflow:hidden;background:url(http://i3.sinaimg.cn/dy/deco/2009/0807/sinahome_0803_ws_004_search.gif) no-repeat 0 -130px;margin:9px 5px 0 0;}
+#FocusMediaZone .fm_pA .fm_c3{float:left;display:inline;width:60px;height:19px;padding-top:7px;cursor:pointer;overflow:hidden;color:#696969;font-weight:bold;text-decoration:none;}
+#FocusMediaZone .fm_pA a:hover{color:#c00;text-decoration:none;}
+#FocusMediaZone .fm_pB{clear:both;width:190px;height:20px;line-height:20px;overflow:hidden;margin:0 auto;color:#696969;}
+#FocusMediaZone .fm_pB .fm_c1{width:32766px;zoom:1;overflow:hidden;}
+#FocusMediaZone .fm_pB .fm_c1 div{float:left;display:inline;}
+#FocusMediaZone .fm_pB .fm_c1 span{margin-right:7px;}
+#FocusMediaZone .fm_pB a:link,#FocusMediaZone .fm_pB a:visited{color:#009;text-decoration:underline;}
+#FocusMediaZone .fm_pB a:hover,#FocusMediaZone .fm_pB a:active{color:#c00;text-decoration:underline;}
+#FocusMediaZone .fm_pC{clear:both;height:24px;padding-left:7px;overflow:hidden;}
+#FocusMediaZone .fm_pC .fm_c1{float:left;display:inline;width:157px;height:24px;overflow:hidden;}
+#FocusMediaZone .fm_pC .fm_c1 input{width:144px;height:15px;border:1px solid #d0d0d0;color:#9b9b9b;padding-left:5px;line-height:15px;}
+#FocusMediaZone .fm_pC .fm_c2{float:left;display:inline;width:48px;height:24px;overflow:hidden;}
+#FocusMediaZone .fm_pC .fm_c2 input{width:40px;height:19px;line-height:19px;border:none;color:#000;background:url(http://i3.sinaimg.cn/dy/deco/2009/0807/sinahome_0803_ws_004_search.gif) no-repeat -100px -270px;cursor:pointer;font-size:12px;}
+
+/* 城市联盟 */
+.cityUnion{width:948px; height:76px; overflow:hidden; border:1px #f2dca8 solid; background:#fff8de; margin-bottom:15px;margin-top:6px;}
+.cityUnionName{float:left; width:76px; padding:8px 0 0 30px; text-align:center; line-height:20px;}
+.cityUnionList{float:left; padding:8px 0 0 0; line-height:20px; text-align:left;}
+.cityUnionList a{padding-left:1px;}
+
+/* footer begin */
+#footer{width:950px; overflow:hidden; text-align:center; color:#333;}
+#footer p{line-height:20px;}
+#footer .eng{font-family:Arial, Helvetica, sans-serif;}
+#footer p a:link,#footer p a:visited{color:#333; text-decoration:underline;}
+#footer p a:hover,#footer p a:active{color:#c30; text-decoration:underline;}
+#footer table{margin:13px 0;}
+#footer td img{border:1px #d2d2d2 solid;}
+#footer div a:link,#footer div a:visited{color:#009; text-decoration:underline;}
+#footer div a:hover,#footer div a:active{color:#c00; text-decoration:underline;}
+/* footer end */
+
+/* 广告 */
+.topads{height:192px; overflow:hidden; background:#fff; position:relative; border:1px #cbcbcb solid; margin-bottom:8px;}
+.topads a,.topads a:visited{color:#009;}
+.topads a:hover,.topads a:active{color:#c00;}
+.topadsbanner{width:640px; height:90px; overflow:hidden; position:absolute; top:51px; left:160px; background:#ccc;}
+.topadsblk01{width:160px; overflow:hidden; _display:inline-block; position:absolute; left:0; top:0;}
+#topadsblk01menu{float:left; width:23px; overflow:hidden; padding-top:1px; height:190px; border-bottom:1px #fff solid;}
+
+#topadsblk01menu li{width:19px; height:37px; overflow:hidden; border-bottom:1px #fff solid; line-height:14px; padding:10px 0 0 4px; cursor:pointer; background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat 0 -400px #e7edf9; color:#484d51;}
+#topadsblk01menu li.on{background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat 0 -451px #c5d4f1;}
+.topadsblk01_con{width:125px; overflow:hidden; float:right; padding:9px 0 0 0;}
+.topadsblk01_con li{height:20px; clear:both; line-height:14px;}
+
+.topadsblk02,.topadsblk03{width:650px; height:43px; overflow:hidden; position:absolute; top:0; left:160px; padding:8px 0 0 0;}
+.topadsblk02{padding-top:9px;}
+.topadsblk02 ul,.topadsblk03 ul{_display:inline-block; overflow:hidden;}
+.topadsblk02 li,.topadsblk03 li{line-height:14px; height:20px; float:left; width:20%; overflow:hidden;}
+
+.topadsblk03{top:141px;}
+
+.topadsblk04{width:128px; overflow:hidden; position:absolute; top:0; right:0; padding:9px 0 0 0;}
+.topadsblk04 li{line-height:14px; clear:both; height:20px;}
+
+.txtadsblk01{overflow:hidden; _display:inline-block;}
+#txtblk01menu{height:24px; overflow:hidden; _display:inline-block; overflow:hidden;}
+#txtblk01menu li{width:40px; height:24px; overflow:hidden; float:left; background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat 0 -500px #dfdfdf; cursor:pointer;}
+#txtblk01menu li.on{font-weight:bold; background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat -40px -500px #eee;}
+#txtblk01menu li a,#txtblk01menu li a:visited{color:#333; text-decoration:none; display:block; height:18px; overflow:hidden; text-align:center; line-height:14px; padding:6px 0 0 0;}
+#txtblk01menu li a:hover,#txtblk01menu li a:active{color:#333; text-decoration:none;}
+.txtblk01_con{width:overflow:hidden;padding:10px 0 5px 10px; margin:0; width:150px; background:url(http://i0.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_003_new.gif) no-repeat -190px bottom;}
+.txtblk01_con li{text-align:left; height:21px; line-height:14px; clear:both;}
+
+.txtadsblk02{padding:5px 0 5px 9px; color:#009;}
+.txtadsblk02 li{height:21px; line-height:14px; text-align:left;}
+
+.PartLBtnAds,.PartLBtnAds3,.PartLBtnAds4{width:140px; overflow:hidden; margin:0 auto; padding:0 0 10px 0;}
+
+.adsblk{background:url(http://i0.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_003_new.gif) repeat-y -400px 0 #fff; height:279px; border-bottom:1px #d1d1d1 solid;}
+
+.AD355125{width:370px; height:125px; padding:12px 0 2px 7px;}
+
+.adsblk{height:252px; overflow:hidden;}
+.adsblk ul{background:url(http://i0.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_003_new.gif) no-repeat -800px 0; padding:9px 0 8px 9px; height:147px;}
+
+.adsblk li{line-height:24px; font-size:14px;}
+.adsblk_37075{padding-bottom:6px; width:370px; overflow:hidden; margin:0 auto;}
+
+.txtadsblk03{padding:8px 0 0 10px;}
+.txtadsblk03 li{line-height:14px; height:21px; overflow:hidden; clear:both;}
+
+.ads120x180{width:140px; overflow:hidden; margin:0 auto;}
+
+.ads_780x97_01{height:90px; width:750px; overflow:hidden; padding:10px 0 0 10px; margin:0 auto; clear:both;}
+.ads_780x97_2{height:90px; width:750px; overflow:hidden; padding:0 0 10px 10px; margin:0 auto; clear:both;}
+
+.txtadsblk04{padding:0 0 0 4px;}
+.txtadsblk04 li{line-height:21px; clear:both;}
+
+.techbtmads{background:url(http://i0.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_003_new.gif) no-repeat -802px 0; margin:0 1px; padding:10px 0 0 0;text-align:center;}
+
+.ads_120x120_1{width:140px; overflow:hidden; margin:0 auto;}
+
+/* 我的2008 */
+.my2008{padding:2px 0 0 0;}
+.my2008 h3{padding:0 0 0 4px;}
+.my2008 ul{padding-top:1px;}
+
+/* 缤纷下载 */
+#bfxz{height:143px; position:relative;}
+#bfxz h2{width:66px; height:20px; overflow:hidden; position:absolute; top:1px; left:4px; background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat 0 -900px; line-height:500px;}
+#bfxz h2 a{display:block; width:58px; height:20px; overflow:hidden;}
+
+/* 乐库 */
+#yueku{height:143px; position:relative;}
+
+#yueku h2{width:65px; height:22px; overflow:hidden; background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat 0 -1478px; line-height:500px; float:left;}
+#yueku h2 a{display:block; width:65px; height:22px; overflow:hidden;}
+#PartC{background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat 567px -1467px;}
+ul.yueku_list_1 li{padding:0 0 0 26px; background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat -180px -946px;}
+.yueku_search{position:absolute; bottom:13px; right:0; width:247px; height:22px; overflow:hidden;}
+.yueku_search_input{width:103px; float:left;}
+.yueku_search_input input{width:95px; height:18px; line-height:18px; font-size:12px; border:1px #d6d6d6 solid; padding:0; margin:0; text-indent:3px; color:#616362;}
+.yueku_search_select{width:54px; height:18px; overflow:hidden; float:left; border:1px #d6d6d6 solid; *margin-top:1px;}
+.yueku_search_select_blk{border:1px #fff solid; display:block; overflow:hidden; height:16px;}
+.yueku_search_select_blk select{width:56px; margin:-3px 0 0 -2px; color:#616362; font-size:12px; height:20px;}
+.yueku_search_btn{height:18px; overflow:hidden; float:left; padding:1px 0 0 5px; *padding-top:2px;}
+.yueku_search_btn input{border:none; padding:0; margin:0; background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat 0 -1000px #e1dbd0; width:48px; height:18px; font-size:12px; *padding-top:2px; cursor:pointer;}
+#yueku .it01txt h3{float:left; padding:0 0 0 5px; color:#f00; font-size:12px; font-weight:normal; height:18px; line-height:20px;}
+#yueku .it01txt span.myalbumbtn{float:left; padding:0 0 0 10px;}
+#yueku .it01txt span.myalbumbtn a{display:block; text-decoration:none; color:#000; background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat -50px -1000px #e1dbd0; text-align:center; width:91px; height:18px; overflow:hidden; line-height:20px;}
+ul.yueku_list_2{clear:both; width:260px; padding:7px 0 0 0;}
+ul.yueku_list_2 li{background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat -181px -983px; padding-left:24px; overflow:hidden;}
+ul.yueku_list_2 li .yueku_list_2_t{float:left; width:100px;}
+ul.yueku_list_2 li .yueku_list_2_o{float:left; color:#ccc;}
+
+/* 乐库改 */
+.tb_diantai{width: 240px;margin: 0 auto;line-height: 20px;font-size: 14px;text-align: center;}
+#yueku .md_2_menu li{background: url(http://i0.sinaimg.cn/dy/deco/2010/1104/yueku_yc.png) 0 0 no-repeat;width: 75px}
+#yueku .md_2_menu li.on{background-position: 0 -22px;}
+.btn_tingting{display: inline;float: right;margin:4px 20px 0 0;width: 93px;height: 23px;text-indent: -9999em;background: url(http://i0.sinaimg.cn/dy/deco/2010/1104/yueku_yc.png) 0 -60px no-repeat;}
+
+/* 新浪商城 */
+.sinamall{padding:3px 0 0 0;}
+.sinamall h3{float:left; padding:0 10px 0 14px; font-size:12px; color:#900;}
+.sinamall h3 a,.sinamall h3 a:visited{color:#900; text-decoration:none;}
+.sinamall h3 a:hover,.sinamall h3 a:active{color:#900; text-decoration:underline;}
+.sinamall .caplink{float:left; line-height:14px; padding:0 0 0 1em; background:url(http://i1.sinaimg.cn/dy/deco/2007/1211/yocc/unfcn_mj_01.gif) no-repeat 5px 50%;}
+
+/* 竞价 */
+#jj{height:248px; overflow:hidden;}
+#jj h2 .caplink{float:right; padding:9px 10px 0 0; font-size:12px; line-height:14px; font-weight:normal;}
+.CbsSrh{margin:0 1px; _display:inline-block; overflow:hidden; height:41px;}
+.CbsSrh_ipt{width:185px; float:left; padding:10px 0 0 12px; overflow:hidden;}
+.CbsSrh_ipt input{width:177px; height:18px; border:1px #d6d6d6 solid; padding:0; margin:0; font-size:12px; color:#848484; line-height:18px;}
+.CbsSrh_select{float:left; width:49px; height:18px; overflow:hidden; border:1px #d6d6d6 solid; margin:10px 0 0 0; *margin:11px 0 0 0;}
+.CbsSrh_select_b{overflow:hidden; border:1px #fff solid; width:47px; height:16px;}
+.CbsSrh_select select{margin:-3px 0 0 -2px; width:53px; *width:52px; font-size:12px; color:#848484; height:21px;}
+.CbsSrh_btn{float:left; padding:11px 0 0 5px; overflow:hidden; _display:inline-block;}
+.CbsSrh_btn input{width:44px; height:17px; border:none; padding:0; margin:0 5px 0 0; float:left; cursor:pointer;}
+.CbsSrhBtn{background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat 0 -1200px #333;}
+#zhitongBtn{background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat 0 -1250px #333;}
+.CbsList{_display:inline-block; overflow:hidden; padding:8px 0 0 10px; background:url(http://i0.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_003_new.gif) no-repeat -800px 0;}
+.CbsList li{font-size:14px; line-height:23px;}
+.CL1{float:left; padding:0 20px 0 0;}
+.CL2{float:left;}
+
+/* 企业 */
+#sinanet{height:248px; overflow:hidden;}
+.sinanetList{padding:8px 0 0 9px; _display:inline-block; overflow:hidden; height:145px;}
+.sinanetList li{font-size:14px; line-height:23px;}
+.sinanetP{padding:11px 0 0 16px; background:url(http://i0.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_003_new.gif) no-repeat -800px 0;}
+.sinanetP li{font-size:14px; line-height:23px;}
+
+/* Opera */
+@media all and (min-width:0px){
+	.searchGoogleIpt input{padding:2px 0 0 6px; height:24px;}
+}
+
+/* 常用链接 begin */
+a.linkRed:link,a.linkRed:visited{color:#f00!important;}/* 红色 */
+a.linkRed:hover{color:#c00!important;}
+a.linkBlack:link,a.linkBlack:visited{color:#000!important;}/* 黑色 */
+a.linkBlack:hover{color:#f00!important;}
+a.linkWhite:link,a.linkWhite:visited{color:#fff!important;}/* 白色 */
+a.linkWhite:hover{color:#f00!important;}
+a.linkGray:link,a.linkGray:visited{color:#5d5d5d!important;}/* 灰色 */
+a.linkGray:hover{color:#f00!important;}
+a.linkCyan:link,a.linkCyan:visited{color:#92e4fa!important;text-decoration:underline;}/* 青色 */
+a.linkCyan:hover{color:#f00!important;}
+a.videoNews{background:url(http://i1.sinaimg.cn/dy/deco/2007/1211/yocc/unfcn_mj_01.gif) no-repeat 100% 50%;padding-right:18px;}/* 视频图标链接 */
+a.videoNewsLeft{background:url(http://i1.sinaimg.cn/dy/deco/2007/1211/yocc/unfcn_mj_01.gif) no-repeat -19982px 50%;padding-left:20px;}/* 视频图标链接（左图标） */
+a.liveNewsLeft{background:url(http://i3.sinaimg.cn/video/deco/2010/0525/liveNewsLeft.gif) no-repeat 0px 50%; padding-left:22px;}
+a.videoNewsNew{background:url(http://i2.sinaimg.cn/video/deco/2010/0527/new.png) no-repeat 0px 50%; padding-left:28px;}
+/* 音频图标链接 */
+a.audioNewsLeft{background:url(http://i0.sinaimg.cn/dy/deco/2009/0617/LeftAudio.gif) no-repeat ;padding-left:20px}
+/* 音频图标链接（左图标） */
+a.mobileNews02{background:url(http://i2.sinaimg.cn/dy/home/081223/mobilenewsicon02.gif) no-repeat 100% 50%;padding-right:13px;}/* 视频图标链接(样式2) */
+a.mobileNews02Left{background:url(http://i2.sinaimg.cn/dy/home/081223/mobilenewsicon02.gif) no-repeat 0 50%;padding-left:15px;}/* 视频图标链接（样式2，左图标） */
+
+a.logo315News{background:url(http://i0.sinaimg.cn/home/08index/090311/logo315.gif) no-repeat 100% 50%;padding-right:15px;}/* 3.15图标链接(样式2) */
+a.logo315NewsLeft{background:url(http://i0.sinaimg.cn/home/08index/090311/logo315.gif) no-repeat 0 50%;padding-left:17px;}/* 3.15图标链接（样式2，左图标） */
+
+/* 常用链接 end */
+/* 共用列表 begin */
+.list_009 li{padding-left:1em;background:url(http://i1.sinaimg.cn/dy/deco/2007/1211/yocc/unfcn_mj_01.gif) no-repeat 5px 50%;}
+.list_00f li{padding-left:1em;background:url(http://i1.sinaimg.cn/dy/deco/2007/1211/yocc/unfcn_mj_01.gif) no-repeat -995px 50%;}
+.list_000 li{padding-left:1em;background:url(http://i1.sinaimg.cn/dy/deco/2007/1211/yocc/unfcn_mj_01.gif) no-repeat -1995px 50%;}
+.list_333 li{padding-left:1em;background:url(http://i1.sinaimg.cn/dy/deco/2007/1211/yocc/unfcn_mj_01.gif) no-repeat -2995px 50%;}
+.list_666 li{padding-left:1em;background:url(http://i1.sinaimg.cn/dy/deco/2007/1211/yocc/unfcn_mj_01.gif) no-repeat -3995px 50%;}
+.list_999 li{padding-left:1em;background:url(http://i1.sinaimg.cn/dy/deco/2007/1211/yocc/unfcn_mj_01.gif) no-repeat -4995px 50%;}
+li.list_nostyle{background:none;}
+/* 共用列表 end */
+
+/*地产*/
+#capname_dichan{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) -100px 0 no-repeat;display:inline-block; width:30px;height:15px;overflow:hidden;line-height:200px;float:left;display:inline;}
+#capname_dichan:hover{background-position:-100px -100px;}
+
+/* 080328 ws begin */
+.hd h2 .capname{padding-top:6px; height:21px;}
+.hd li .capname{padding-top:6px; height:21px;}
+.md_3 h2 .capname a{float:left; height:15px; display:block; overflow:hidden; width:31px; line-height:500px;}
+.hd .cappt{float:left; width:3px; height:3px; margin:12px 0px 0; overflow:hidden; background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) no-repeat -250px -350px; line-height:500px;}
+
+.md_3 h2 .cappt{float:left; width:3px; height:3px; margin:6px 6px 0; overflow:hidden; background-image:url(http://i2.sinaimg.cn/dy/deco/2010/0819/titPic4.png); background-repeat:no-repeat; line-height:500px; }
+.md_pink h2 .cappt{background-position:-250px 0;}
+.md_purple h2 .cappt{background-position:-250px -50px;}
+.md_blue h2 .cappt{background-position:-250px -100px;}
+.md_orange h2 .cappt{background-position:-250px -150px;}
+.md_green h2 .cappt{background-position:-250px -200px;}
+.md_yellow h2 .cappt{background-position:-250px -250px;}
+
+/* 080330 ws begin */
+a.linkRed01:link,a.linkRed01:visited{color:#f00!important;}
+a.linkRed01:hover{color:#c00!important;}
+li.iNewsListNli{background:none;}
+/* 080330 ws end */
+
+a.videoHuoju{background:url(http://i1.sinaimg.cn/dy/deco/2008/0411/huoju.gif) no-repeat 100% bottom; padding:4px 12px 0 0;}
+
+#blk_video_1 .imgtxt01{height:auto;}
+#blk_video_1 .it01txt{margin-top:-4px;}
+#sports .mdlist li{line-height:23px;}
+
+#blk_video_2 .imgtxt01{height:auto;}
+#blk_video_2 .it01txt{margin-top:-4px;}
+
+/* 地域上海 上海	*/
+/*	上海	*/
+#ShBlk{clear:both;margin:9px auto 0;height:auto;height:213px;min-height:143px;}
+#ShBlk .ShBlkAd{float:left;display:inline;margin:1px 0 0 11px;width:159px;height:142px;}
+#ShBlk .ShBlkAd img{width:138px;height:141px;border:none;}
+#ShBlk .ShBlkCont{float:left;display:inline;width:383px;height:210px;border:1px solid #ffb5b5;overflow:hidden;}
+#ShBlk .ShBlkCont .ShTit{
+	clear:both;
+	padding:5px 0 0 14px;
+	height:21px;
+	background:url(http://i2.sinaimg.cn/dy/deco/2009/0213/yocc090213img/sh_zty_002.gif) repeat-x;
+	border-bottom:1px solid #ffb5b5;
+}
+#ShBlk .ShBlkCont .ShCon1{float:left;display:inline;margin:10px 2px 0 13px;width:105px;height:104px;overflow:hidden;text-align:center;}
+#ShBlk .ShBlkCont .ShCon1 a:link img,#ShBlk .ShBlkCont .ShCon1 a:visited img{width:103px;height:68px;border:1px solid #ccc;}
+#ShBlk .ShBlkCont .ShCon1 a:hover img,#ShBlk .ShBlkCont .ShCon1 a:active img{width:103px;height:68px;border:1px solid #ffc133;}
+#ShBlk .ShBlkCont .ShCon1 span{clear:both;width:105px;height:22px;display:block;line-height:22px;background:#c00;text-align:center;margin:3px auto 0;}
+#ShBlk .ShBlkCont .ShCon1 span a:link,#ShBlk .ShBlkCont .ShCon1 span a:visited{color:#fff;text-decoration:underline;}
+#ShBlk .ShBlkCont .ShCon1 span a:hover,#ShBlk .ShBlkCont .ShCon1 span a:active{color:#ffa;text-decoration:underline;}
+#ShBlk .ShBlkCont .ShCon2{float:left;display:inline;margin-top:10px;width:263px;height:104px;line-height:24px;color:#009;font-size:14px;}
+#ShBlk .ShBlkCont .ShCon2 a:link{color:#009;text-decoration:underline;}
+#ShBlk .ShBlkCont .ShCon2 a:visited{color:#800080;text-decoration:underline;}
+#ShBlk .ShBlkCont .ShCon2 a:hover,#ShBlk .ShBlkCont .ShCon2 a:active{color:#f00;text-decoration:underline;}
+#ShBlk .ShBlkCont .ShCon2 span{color:#000;}
+#ShBlk .ShBlkCont .ShCon2 span.ShRed{color:#f00;}
+#ShBlk .ShBlkCont .ShCon2 .ShRed a:link,#ShBlk .ShBlkCont .ShCon2 .ShRed a:visited{color:#f00;text-decoration:underline;}
+#ShBlk .ShBlkCont .ShCon2 .ShRed a:hover,#ShBlk .ShBlkCont .ShCon2 .ShRed a:active{color:#c00;text-decoration:underline;}
+#ShBlk .ShSpac{margin-right:10px;}
+#ShBlk .jzBlk02{height:16px;}
+#ShBlk .txtadsblk03{padding:10px 0 0 10px;line-height: 20px;}
+#ShBlk .ads_140x120_1{width:140px; overflow:hidden; margin:0 auto;}
+#ShBlk .split{clear:both;line-height:0;font-size:0;overflow:hidden;height:0;display:block;visibility:hidden;}
+ /* */
+#capname_shnews a{background:url(http://i3.sinaimg.cn/dy/deco/2009/0213/yocc090213img/shnews_out.gif) no-repeat; overflow:hidden; display:block; line-height:500px; width:59px; height:15px;}
+ul#newsmenu li.on #capname_shnews a{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) 0 -1600px no-repeat;}
+/* ul#newsmenu li.on #capname_shnews a:hover{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) 0 -1650px no-repeat;} */
+#newsmenu_1{width:73px;text-align:center;}
+#newsmenu_1 #capname_news{padding:6px 20px 0 23px;}
+ /* */
+
+#capname_shanghai1{background:url(http://i1.sinaimg.cn/dy/deco/2009/0213/yocc090213img/shanghai1.gif)}
+#capname_shanghai2{background:url(http://i2.sinaimg.cn/dy/deco/2009/0213/yocc090213img/shanghai2.gif)}
+#capname_shanghai3{background:url(http://i3.sinaimg.cn/dy/deco/2009/0213/yocc090213img/shanghai3.gif)}
+#capname_shanghai4{background:url(http://i0.sinaimg.cn/dy/deco/2009/0213/yocc090213img/shanghai4.gif)}
+#capname_shanghai5{background:url(http://i1.sinaimg.cn/dy/deco/2009/0213/yocc090213img/shanghai5.gif)}
+/* 覆盖上面的css */
+#capname_UC{background:url(http://i3.sinaimg.cn/dy/deco/2009/0430/sinahome_1113_ws_006_tex.gif) no-repeat -400px -400px;width:21px;}
+
+/* 见证中国力量上海共用 */
+.jzBlk02{float:left;display:inline;height:15px;overflow:hidden;margin:5px 9px 0 0;font-size:14px;color:#cb0101;font-weight:bold;}
+a.jzBlk02:link,a.jzBlk02:visited{text-decoration:none;color:#cb0101;}
+a.jzBlk02:hover,a.jzBlk02:active{text-decoration:none;color:#f00;}
+
+.txtadsblk02{padding:3px 0 3px 9px;*padding:3px 0 3px 9px;_padding:3px 0 3px 9px;color:#009;}
+.txtadsblk02 li{height:20px;line-height:20px;overflow:hidden;}
+.txtadsblk02 li.tit{text-align:center;}
+.txtadsblk02 li.tit a{color:#433417;font-weight:bold;text-decoration:none;}
+.txtadsblk02 a:link,.txtadsblk02 a:visited{color:#009;}
+.txtadsblk02 a:hover,.txtadsblk02 a:active{color:#c00;}
+.PartLBtnAds{padding:0 0 3px 0;*padding:0 0 3px 0;_padding:0 0 3px 0;}
+
+/* 图片字样式 */
+
+/*博客*/
+#capname_blog a{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) 0 0px no-repeat;display: block; width:30px;height:20px;float:left;display:inline;line-height:500px;}
+#capname_blog a:hover{background-position:0 -1000px;}
+
+/*新闻*/
+#capname_news a{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) 0 -100px no-repeat;overflow:hidden; display:block;  line-height:500px; width:30px; height:15px;}
+#capname_news a:hover{background-position:0 -1050px;}
+li.on #capname_news a:hover{background-position:0 -1050px;}
+li.on #capname_news a{background-position:0 -50px;}
+/*基金*/
+li.on #capname_fund a{background-position:-100px -1050px;}
+#capname_fund a{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) -100px -50px no-repeat;display: block;overflow:hidden;line-height:500px; width:30px;height:20px;float:left;display:inline;}
+li.on #capname_fund a:hover{background-position:-100px -1000px;}
+/*社会*/
+li.on #capname_society a{background-position:0 -250px;}
+#capname_society a{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) 0 -300px no-repeat;display: block; width:30px;height:16px;overflow:hidden;line-height:200px;margin:0;float:left;display:inline;}
+li.on #capname_society a:hover{background-position:0 -350px;}
+/*大片*/
+li.on #capname_zhibo a{background-position:-100px -1150px;width:52px;margin-left:5px;}
+#capname_zhibo a{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) 0 -200px no-repeat;display: block; width:30px;height:20px;overflow:hidden;line-height:200px;float:left;display:inline;}
+li.on #capname_zhibo a:hover{background-position:0 -1150px; width:52px;}
+/*嘉宾聊天*/
+#capname_yanboshi a{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) -200px -950px no-repeat;display:inline-block;width:62px;height:15px;overflow:hidden;line-height:200px;float:left;display:inline;}
+li.on #capname_yanboshi a{background-position:-400px -1950px;width:80px;margin-left:4px;}
+li.on #capname_yanboshi a:hover{background-position:-300px -1950px;width:80px;}
+/*军事*/
+li.on #capname_mil a{background-position:0 -1250px;}
+#capname_mil a{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) -100px -250px no-repeat;display: block; width:30px;height:16px;overflow:hidden;line-height:200px;margin:0;float:left;display:inline;}
+li.on #capname_mil a:hover{background-position:-100px -1200px;}
+/*科技*/
+li.on #capname_tech a{background-position:-100px -1350px;}
+#capname_tech a{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) -100px -350px no-repeat;display: block; width:30px;height:16px;overflow:hidden;line-height:200px;margin:0;float:left;display:inline;}
+li.on #capname_tech a:hover{background-position:-100px -1300px;}
+/*体育*/
+li.on #capname_sports a{background-position:0 -1400px;}
+#capname_sports a{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) 0 -400px no-repeat;display: block; width:30px;height:16px;overflow:hidden;line-height:200px;margin:0;float:left;display:inline;}
+li.on #capname_sports a:hover{background-position:0 -1350px;}
+/*家电*/
+li.on #capname_jiadian a{background-position:-100px -1450px;}
+#capname_jiadian a{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) -100px -450px no-repeat;display: block; width:30px;height:16px;overflow:hidden;line-height:200px;margin:0;float:left;display:inline;}
+li.on #capname_jiadian a:hover{background-position:-100px -1400px;}
+/*NBA*/
+li.on #capname_nba a{background-position:0 -1500px;}
+#capname_nba a{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) 0 -500px no-repeat;display: block; width:30px;height:17px;overflow:hidden;line-height:200px;margin:0;float:left;display:inline;margin-top:1px}
+li.on #capname_nba a:hover{background-position:0 -1450px;}
+/*读书*/
+#capname_book{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) -100px -500px no-repeat;display: block; width:30px;height:17px;overflow:hidden;line-height:200px;margin:0;float:left;display:inline;}
+#capname_book:hover{background-position:-100px -1500px;}
+/*娱乐*/
+#capname_ent a{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) 0 -550px no-repeat;display: block; width:30px;height:17px;overflow:hidden;line-height:200px;}
+#capname_ent a:hover{background-position:0 -1550px;}
+/*公益*/
+#capname_gongyi{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) -100px -600px no-repeat;display: block; width:30px;height:17px;overflow:hidden;line-height:200px;float:left;display:inline;}
+#capname_gongyi:hover{background-position:-100px -1600px;}
+/*女性*/
+#capname_eladies{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) -100px -650px no-repeat;display: block; width:30px;height:17px;overflow:hidden;line-height:200px;float:left;display:inline;}
+#capname_eladies:hover{background-position:-100px -1650px;}
+/*美容*/
+#capname_meirong{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) -100px -750px no-repeat;display:inline-block; width:30px;height:17px;overflow:hidden;line-height:200px;float:left;display:inline;}
+#capname_meirong:hover{background-position:-100px -1750px;}
+/*财经*/
+li.on #capname_finance a{background-position: 0 -1700px;}
+#capname_finance a{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) 0 -800px no-repeat;display:inline-block; width:30px;height:17px;overflow:hidden;line-height:200px;float:left;display:inline;}
+li.on #capname_finance a:hover{background-position: 0 -1750px;}
+/*尚品*/
+#capname_style{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) -100px -800px no-repeat;display:inline-block; width:30px;height:17px;overflow:hidden;line-height:200px;float:left;display:inline;}
+#capname_style:hover{background-position:-100px -1800px;}
+/*股票*/
+li.on #capname_stock a{background-position:0px -1800px;}
+#capname_stock a{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) 0 -900px no-repeat;display:inline-block; width:30px;height:17px;overflow:hidden;line-height:200px;float:left;display:inline;}
+li.on #capname_stock a:hover{background-position:-1px -1850px;}
+/*视频*/
+li.on #capname_vlog{padding-left:8px;padding-right:5px;}
+li.on #capname_vlog a{background-position:0 -1200px;width:52px;}
+#capname_vlog a{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) -100px -900px no-repeat;display:inline-block; width:30px;height:15px;overflow:hidden;line-height:200px;float:left;display:inline;}
+li.on #capname_vlog a:hover{background-position:0 -1100px;}
+
+/*视频新闻*/
+li.on #capname_newsvideo{padding-left:8px;padding-right:5px;}
+li.on #capname_newsvideo a{background-position:0 -1900px;width:78px;}
+#capname_newsvideo a{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) -100px -950px no-repeat;display:inline-block; width:60px;height:20px;overflow:hidden;line-height:200px;float:left;display:inline;}
+li.on #capname_newsvideo a:hover{background-position:0 -1950px;width:78px;}
+/*房产，家居，汽车，f1，高尔夫，摄影大展*/
+
+#capname_dichan{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) -100px 0 no-repeat;display:inline-block; width:30px;height:15px;overflow:hidden;line-height:200px;float:left;display:inline;}
+#capname_dichan:hover{background-position:-100px -100px;}
+
+#capname_house{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) -300px 0 no-repeat;display:inline-block; width:30px;height:21px;overflow:hidden;line-height:200px;float:left;display:inline;}
+#capname_house:hover{background-position:-300px -1000px;}
+#capname_jiaju{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) -300px -50px no-repeat;display:inline-block; width:30px;height:15px;overflow:hidden;line-height:200px;float:left;display:inline;}
+#capname_jiaju:hover{background-position:-300px -1050px;}
+#capname_auto{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) -300px -100px no-repeat;display:inline-block; width:30px;height:15px;overflow:hidden;line-height:200px;float:left;display:inline;}
+#capname_auto:hover{background-position:-300px -1100px;}
+#capname_autocenter{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) -500px 0px no-repeat;display:inline-block; width:30px;height:15px;overflow:hidden;line-height:200px;float:left;display:inline;}
+#capname_autocenter:hover{background-position:-500px -1000px;}
+#capname_f1{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) -300px -150px no-repeat;display:inline-block; width:14px;height:15px;overflow:hidden;line-height:200px;float:left;display:inline;margin-top:1px;}
+#capname_f1:hover{background-position:-300px -1150px;}
+#capname_golf{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) -400px -700px no-repeat;display:inline-block; width:45px;height:15px;overflow:hidden;line-height:200px;float:left;display:inline;}
+#capname_golf:hover{background-position:-400px -1700px;}
+#capname_wsslc{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) -400px -750px no-repeat;display:inline-block; width:60px;height:15px;overflow:hidden;line-height:200px;float:left;display:inline;}
+#capname_wsslc:hover{background-position:-400px -1750px;}
+/*手机，数码，笔记本，硬件，台式机，下载*/
+#capname_mobile{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) -300px -200px no-repeat;display:inline-block; width:30px;height:15px;overflow:hidden;line-height:200px;float:left;display:inline;}
+#capname_mobile:hover{background-position:-300px -1200px;}
+#capname_shuma{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) -300px -400px no-repeat;display:inline-block; width:30px;height:15px;overflow:hidden;line-height:200px;float:left;display:inline;}
+#capname_shuma:hover{background-position:-300px -1400px;}
+#capname_nb{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) -300px -250px no-repeat;display:inline-block; width:45px;height:15px;overflow:hidden;line-height:200px;float:left;display:inline;}
+#capname_nb:hover{background-position:-300px -1250px;}
+#capname_yingjian{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) -400px -550px no-repeat;display:inline-block; width:30px;height:15px;overflow:hidden;line-height:200px;float:left;display:inline;}
+#capname_yingjian:hover{background-position:-400px -1550px;}
+#capname_pc{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) -400px -600px no-repeat;display:inline-block; width:60px;height:15px;overflow:hidden;line-height:200px;float:left;display:inline;}
+#capname_pc:hover{background-position:-400px -1600px;}
+#capname_download{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) -300px -350px no-repeat;display:inline-block; width:30px;height:15px;overflow:hidden;line-height:200px;float:left;display:inline;}
+#capname_download:hover{background-position:-300px -1350px;}
+/*智投*/
+.capname_jingjia{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) -300px -600px no-repeat;display:inline-block; width:28px;height:15px;overflow:hidden;line-height:200px;float:left;display:inline;}
+.a031:hover{background-position:-300px -1600px;}
+/*企业，各地专刊，服饰代购，保健品，婚礼*/
+.a033{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) -300px -650px no-repeat;display:inline-block; width:30px;height:15px;overflow:hidden;line-height:200px;float:left;display:inline;}
+.a033:hover{background-position:-300px -1650px;}
+.a034{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) -300px -700px no-repeat;display:inline-block; width:60px;height:15px;overflow:hidden;line-height:200px;float:left;display:inline;}
+.a034:hover{background-position:-300px -1700px;}
+.a035{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) -300px -750px no-repeat;display:inline-block; width:60px;height:15px;overflow:hidden;line-height:200px;float:left;display:inline;}
+.a035:hover{background-position:-300px -1750px;}
+.a036{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) -400px -850px no-repeat;display:inline-block; width:42px;height:15px;overflow:hidden;line-height:200px;float:left;display:inline;}
+.a036:hover{background-position:-400px -1850px;}
+.a037{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) -400px -900px no-repeat;display:inline-block; width:30px;height:15px;overflow:hidden;line-height:200px;float:left;display:inline;}
+.a037:hover{background-position:-400px -1900px;}
+/*育儿，少儿*/
+#capname_baby{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) -300px -800px no-repeat;display:inline-block; width:30px;height:15px;overflow:hidden;line-height:200px;float:left;display:inline;}
+#capname_baby:hover{background-position:-300px -1800px;}
+#capname_kid{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) -300px -850px no-repeat;display:inline-block; width:30px;height:15px;overflow:hidden;line-height:200px;float:left;display:inline;}
+#capname_kid:hover{background-position:-300px -1850px;}
+/*游戏，星座，电子杂志*/
+#capname_game{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) -400px 0 no-repeat;display:inline-block; width:30px;height:15px;overflow:hidden;line-height:200px;float:left;display:inline;}
+#capname_game:hover{background-position:-400px -1000px;}
+#capname_xingzuo{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) -400px -50px no-repeat;display:inline-block; width:30px;height:15px;overflow:hidden;line-height:200px;float:left;display:inline;}
+#capname_xingzuo:hover{background-position:-400px -1050px;}
+#capname_dzzz{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) -300px -900px no-repeat;display:inline-block; width:60px;height:15px;overflow:hidden;line-height:200px;float:left;display:inline;}
+#capname_dzzz:hover{background-position:-300px -1900px;}
+/*宠物，旅游，美食，地方资讯*/
+#capname_chongwu{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) -400px -100px no-repeat;display:inline-block; width:30px;height:15px;overflow:hidden;line-height:200px;float:left;display:inline;}
+#capname_chongwu:hover{background-position:-400px -1100px;}
+#capname_lvyou{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) -300px -550px no-repeat;display:inline-block; width:30px;height:15px;overflow:hidden;line-height:200px;float:left;display:inline;}
+#capname_lvyou:hover{background-position:-300px -1550px;}
+#capname_meishi{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) -400px -150px no-repeat;display:inline-block; width:30px;height:15px;overflow:hidden;line-height:200px;float:left;display:inline;}
+#capname_meishi:hover{background-position:-400px -1150px;}
+#capname_difang{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) -400px -250px no-repeat;display:inline-block; width:60px;height:15px;overflow:hidden;line-height:200px;float:left;display:inline;}
+/*#capname_difang:hover{background-position:-400px -1250px;}*/
+/*教育，高考，出国，uc*/
+#capname_kaoshi{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) -400px -300px no-repeat;display:inline-block; width:30px;height:15px;overflow:hidden;line-height:200px;float:left;display:inline;}
+#capname_kaoshi:hover{background-position:-400px -1300px;}
+#capname_tiku{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) -400px -350px no-repeat;display:inline-block; width:30px;height:15px;overflow:hidden;line-height:200px;float:left;display:inline;}
+#capname_tiku:hover{background-position:-400px -1350px;}
+#capname_chuguo{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) -400px -800px no-repeat;display:inline-block; width:30px;height:15px;overflow:hidden;line-height:200px;float:left;display:inline;}
+#capname_chuguo:hover{background-position:-400px -1800px;}
+#capname_UC{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) -400px -400px no-repeat;display:inline-block; width:30px;height:15px;overflow:hidden;line-height:200px;float:left;display:inline;margin-top:2px;}
+#capname_UC:hover{background-position:-400px -1400px;}
+#capname_gaokao{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) -400px -350px no-repeat;display:inline-block; width:30px;height:15px;overflow:hidden;line-height:200px;float:left;display:inline;}
+#capname_gaokao:hover{background-position:-400px -1350px;}
+#capname_zhongxiaoxue{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) -500px -50px no-repeat;display:inline-block; width:45px;height:15px;overflow:hidden;line-height:200px;float:left;display:inline;}
+#capname_zhongxiaoxue:hover{background-position:-500px -1050px;}
+#capname_shangxueyuan{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) -500px -100px no-repeat;display:inline-block; width:45px;height:15px;overflow:hidden;line-height:200px;float:left;display:inline;}
+#capname_shangxueyuan:hover{background-position:-500px -1100px;}
+/*论坛，博论坛，新浪吧*/
+#capname_bbs{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) -400px -450px no-repeat;display:inline-block; width:32px;height:15px;overflow:hidden;line-height:200px;float:left;display:inline;}
+#capname_bbs:hover{background-position:-400px -1450px;}
+#capname_blogbbs{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) -300px -450px no-repeat;display:inline-block; width:59px;height:15px;overflow:hidden;line-height:200px;float:left;display:inline;}
+#capname_blogbbs:hover{background-position:-300px -1450px;}
+#capname_sinabar{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) -300px -500px no-repeat;display:inline-block; width:45px;height:15px;overflow:hidden;line-height:200px;float:left;display:inline;}
+#capname_sinabar:hover{background-position:-300px -1500px;}
+/*空间*/
+#capname_quanzi{background:url(http://i3.sinaimg.cn/dy/deco/2010/0819/titPic4.png) -400px -500px no-repeat;display:inline-block; width:30px;height:15px;overflow:hidden;line-height:200px;float:left;display:inline;}
+#capname_quanzi:hover{background-position:-400px -1500px;}
+
+/* 红旗标志 */
+a.redFlag{padding-right:23px;background:url(http://i1.sinaimg.cn/dy/deco/2009/0902/redflag.gif) no-repeat 100% 0;}
+
+/* 2009-09-11 cl begin css */
+a.a-01,a.a-01:visited{ float:left; width:43px; height:23px; background:url(http://i1.sinaimg.cn/dy/deco/2009/0910/m_cl_001.png) no-repeat; line-height:23px; text-align:center;color:#333;text-decoration:none;margin-right:5px;_margin-right:2px;}
+.line-01{ border-top:1px dashed #ccc;height:0; overflow:hidden; clear:both;margin:5px 10px 5px;}
+.space{height:10px;overflow:hidden;clear:both;}
+
+.capMore{float:right;margin:8px 10px 0 0;font:12px/14px '宋体';}
+.capMore a{text-decoration:underline!important;}
+.capMore a:hover{color:#f00!important;}
+
+/* 上海ip */
+.ShTit{clear: both;padding:5px 0 0 5px;background:url(http://i2.sinaimg.cn/dy/deco/2009/0213/yocc090213img/sh_zty_002.gif) repeat-x;border-bottom:#ffb5b5 1px solid;height:21px;}
+
+.titName{height:15px;overflow:hidden;line-height:100px;float:left;background:url(http://i0.sinaimg.cn/home/2010/0625/tit_01.png) no-repeat;margin-left:8px;display:inline;}
+.tName_dot{width:15px;background-position:-275px -50px;margin:0 -8px 0 0;}
+.tName_01{width:30px;background-position:0 0;}
+a.tName_01:hover{background-position:0 -25px;}
+.tName_02{width:60px;background-position:-50px 0;}
+a.tName_02:hover{background-position:-50px -25px;}
+.tName_03{width:60px;background-position:-125px 0;}
+a.tName_03:hover{background-position:-125px -25px;}
+.tName_04{width:60px;background-position:-200px 0;}
+a.tName_04:hover{background-position:-200px -25px;}
+.tName_05{width:60px;background-position:0 -50px;}
+a.tName_05:hover{background-position:0 -75px;}
+.tName_06{width:60px;background-position:-75px -50px;}
+a.tName_06:hover{background-position:-75px -75px;}
+.tName_07{width:60px;background-position:-150px -50px;}
+a.tName_07:hover{background-position:-150px -75px;}
+.tName_08{width:30px;background-position:-225px -50px;}
+a.tName_08:hover{background-position:-225px -75px;}
+
+h2{ margin:0px; padding:0px;}
+.ShTit {	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 10px; BACKGROUND: url(http://i2.sinaimg.cn/dy/deco/2009/0213/yocc090213img/sh_zty_002.gif) repeat-x; PADDING-BOTTOM: 0px; PADDING-TOP: 5px; BORDER-BOTTOM: #ffb5b5 1px solid; HEIGHT: 21px; }
+.localsh{  }
+.ShTit a{ display:block;height:15px; float:left; margin:0 4px; line-height:500%;}
+.ShTit .sh{ width:33px; background:url(http://i2.sinaimg.cn/dy/deco/2010/0513/t1.jpg) no-repeat; overflow:hidden;}
+.ShTit .shdot{ width:6px; background:url(http://i2.sinaimg.cn/dy/deco/2010/0513/t1.jpg) no-repeat -40px 0; overflow:hidden;}
+.ShTit .chwl{ width:61px; background:url(http://i2.sinaimg.cn/dy/deco/2010/0513/t1.jpg) no-repeat -53px 0; overflow:hidden;}
+.ShTit .jkmr{ width:61px; background:url(http://i2.sinaimg.cn/dy/deco/2010/0513/t1.jpg) no-repeat -123px 0; overflow:hidden;}
+.ShTit .jyzc{ width:61px; background:url(http://i2.sinaimg.cn/dy/deco/2010/0513/t1.jpg) no-repeat -193px 0; overflow:hidden;}
+.ShTit .lt{ width:33px; background:url(http://i2.sinaimg.cn/dy/deco/2010/0513/t1.jpg) no-repeat -261px 0; overflow:hidden;}
+
+.ShTit .ssgw{ width:61px; background:url(http://i3.sinaimg.cn/dy/deco/2010/0513/t2.jpg) no-repeat -53px 0; overflow:hidden;}
+.ShTit .jjlc{ width:61px; background:url(http://i3.sinaimg.cn/dy/deco/2010/0513/t2.jpg) no-repeat -123px 0; overflow:hidden;}
+.ShTit .shcs{ width:61px; background:url(http://i3.sinaimg.cn/dy/deco/2010/0513/t2.jpg) no-repeat -192px 0; overflow:hidden;}
+
+.ShTit H2 {}
+.ShTit H2 .capname {	PADDING-RIGHT: 0px; PADDING-LEFT: 14px; FLOAT: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 14px; PADDING-TOP: 6px}
+
+/*	广东	*/
+#GdBlk{clear:both;margin:9px auto 0;height:auto;height:213px;min-height:143px;}
+#GdBlk .txtadsblk03{padding:8px 0 0 10px;line-height: 20px;}
+#GdBlk .ads_140x120_1{width:140px; overflow:hidden; margin:0 auto;}
+#GdBlk .GdBlkCont{float:left;display:inline;width:385px;height:211px;background:url(http://i0.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_003_new.gif) repeat-y -400px 0 #fff; border-bottom:1px #d1d1d1 solid; overflow:hidden; _display:inline-block;}
+#GdBlk .cf{color:#ffff00}
+#GdBlk .cf a,#GdBlk .cf a:visited{color:#ffff00; text-decoration:underline; cursor:pointer;}
+#GdBlk .cf a:hover,#GdBlk .cf a:active{color:#ffff00; text-decoration:underline;}
+#GdBlk .Gdhd{height:27px; overflow:hidden; background:url(http://i1.sinaimg.cn/home/deco/2008/0329/sinahome_0803_ws_001.gif) repeat-x 0 -500px #858585;}
+#GdBlk .Gdhd ul{height:27px; overflow:hidden; float:left;}
+#GdBlk .Gdhd li{height:27px; overflow:hidden; _display:inline-block; background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat right -850px #797979; float:left; padding:0 3px 0 0; cursor:pointer;}
+#GdBlk .Gdhd li.on{background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat right -550px #f6f6f6;}
+#GdBlk .Gdhd li .capname{padding:8px 13px 0 16px; height:19px; line-height:14px; font-size:14px; color:#333; display:block; float:left; background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat left -800px; font-weight:bold;}
+#GdBlk .Gdhd li a,.Gdhd li a:visited{color:#fff; text-decoration:none; cursor:pointer;}
+#GdBlk .Gdhd li a:hover,.Gdhd li a:active{color:#fff; text-decoration:underline;}
+#GdBlk .Gdhd li.on .capname{background:url(http://i1.sinaimg.cn/dy/deco/2009/0825/sinahome_0803_ws_002_new.gif) no-repeat left -600px;}
+#GdBlk .Gdhd li.on a,.Gdhd li.on a:visited{color:#333; text-decoration:none; cursor:pointer;}
+#GdBlk .Gdhd li.on a:hover,.Gdhd li.on a:active{color:#333; text-decoration:underline;}
+#GdBlk .Gdhd .Gdhdlink{float:right; padding:7px 6px 0 0; color:#fffae1; line-height:14px;}
+#GdBlk .Gdhd .Gdhdlink a,.Gdhd .Gdhdlink a:visited{color:#fffae1; text-decoration:underline;}
+#GdBlk .Gdhd .Gdhdlink a:hover,.Gdhd .Gdhdlink a:active{color:#ffd77b; text-decoration:underline;}
+#GdBlk .Md{border-right:1px #d1d1d1 solid; height:184px;}
+#GdBlk .Mdimgtxt{padding:8px 0 0 10px; height:97px; overflow:hidden; _display:inline-block;}
+#GdBlk .Mditimg{width:111px; float:left; overflow:hidden;background:url(http://i2.sinaimg.cn/dy/deco/2009/0910/sina_m_01.gif) no-repeat 0 0;padding:4px 0 0;height:93px;text-align:center;}
+#GdBlk .Mditimg a,.Mditimg a:visited{color:#009; text-decoration:underline; display:block;}
+#GdBlk .Mditimg a:hover,.Mditimg a:active{color:#c00; text-decoration:underlinen;}
+#GdBlk .Mditimg a img{border:1px #ccc solid;}
+#GdBlk .Mditimg a:hover img,.Mditimg a:active img{border:1px #ffc133 solid;}
+#GdBlk .Mditib{display:block;}
+#GdBlk .Mdittb{display:block; height:18px; padding:4px 0 0 0; line-height:14px; overflow:hidden; cursor:pointer; text-align:center;}
+#GdBlk .Mdittxt{float:left; width:263px;padding-top:2px;}
+#GdBlk .Mdittxt ul li{font-size:14px; line-height:24px; padding-left:14px;}
+#GdBlk .split{clear:both;line-height:0;font-size:0;overflow:hidden;height:0;display:block;visibility:hidden; height:8px}
+
+/*城市联盟*/
+.city-union{width:948px;border:1px solid #f2dca8;margin:6px auto 15px;line-height:21px;background:#fffcf1;color:#009;}
+.city-union .clearit{overflow:hidden;}
+.city-union .name{width:82px;float:left;text-align:center;padding:16px 0 0;position:relative}
+.city-union i{background:url(http://i3.sinaimg.cn/home/deco/2010/0921/bgcityh.gif) no-repeat;width:8px;height:12px;overflow:hidden;position:absolute;right:-1px;top:22px}
+.city-union .c-hot i{background-position:0 -15px;top:11px}
+.city-union .name a{color:#f00}
+.city-union .name a:hover{color:#c00}
+.city-union .clist{border-left:1px solid #f2dca8;background:#fff8de;float:left;padding:6px 0 6px 12px;width:853px;}
+.city-union .clist a,.city-union .clist span{margin:0 6px 0 0;}
+.city-union .c-hot .clist{background:#fff;border-top:1px solid #f2dca8}
+.city-union .c-hot .name{border-top:1px solid #f2dca8;padding:6px 0}
+</style>
+
+<!-- 统一注册登录 begin -->
+<script type="text/javascript">
+//<![CDATA[
+function chkLogin(){
+	var username = document.showLogin.username.value;
+	var password = document.showLogin.password.value;
+	var loginType = document.showLogin.entry.value;
+	if(username.length < 1 || username.length > 64){
+		alert("用户名非法，请检查!");
+		return false;
+	}
+	if(password.length < 1 || password.length > 30){
+		alert("密码非法，请检查!");
+		return false;
+	}
+	if(loginType == "null"){
+		alert("您还没有选择要登录到哪里，请您选择去向！");
+		sina.$("loginFldselectop").style.display = "block";
+		sina.addEvent(document.body,"mousedown",LoginSelectClickOther);
+		return false;
+	}
+	if(loginType == "263mail"){  //263.sina.com只接受帐号@之前的部分
+		var p = username.indexOf("@");
+		var u = p == -1 ? username : username.substr(0, p);
+		document.form_04.u.value = u;
+		document.form_04.psw.value = password;
+		document.form_04.submit();
+		//document.showLogin.password.value = "";
+		setTimeout('document.showLogin.password.value = ""',500);
+		return false;
+	}
+	if(username.indexOf("@") == -1 && loginType == "vipmail"){
+		document.showLogin.username.value += "@vip.sina.com";
+	}
+	document.showLogin.submit();
+	//document.showLogin.password.value = "";
+	setTimeout('document.showLogin.password.value = ""',500);
+	return false;
+}
+
+function chkLoginType(username){
+	username = username.toLowerCase();
+	if(username.indexOf("@") != -1){
+		sina.$("L_freemail").className = "disabled";
+		sina.$("L_freemail").onclick = null;
+		sina.$("L_vipmail").className = "disabled";
+		sina.$("L_vipmail").onclick = null;
+		sina.$("L_2008mail").className = "disabled";
+		sina.$("L_2008mail").onclick = null;
+		sina.$("L_263mail").className = "disabled";
+		sina.$("L_263mail").onclick = null;
+		sina.$("L_cnmail").className = "disabled";
+		sina.$("L_cnmail").onclick = null;
+	}else{
+		sina.$("L_freemail").className = "";
+		sina.$("L_freemail").onclick = function(){LoginSelect("freemail")};
+		sina.$("L_vipmail").className = "";
+		sina.$("L_vipmail").onclick = function(){LoginSelect("vipmail")};
+		sina.$("L_2008mail").className = "";
+		sina.$("L_2008mail").onclick = function(){LoginSelect("2008mail")};
+		sina.$("L_263mail").className = "";
+		sina.$("L_263mail").onclick = function(){LoginSelect("263mail")};
+		sina.$("L_cnmail").className = "";
+		sina.$("L_cnmail").onclick = function(){LoginSelect("cnmail")};
+		return;
+	};
+	if(username.indexOf("@sina.com") != -1){
+		sina.$("L_freemail").className = "";
+		sina.$("L_freemail").onclick = function(){LoginSelect("freemail")};
+		LoginSelect("freemail");
+	};
+	if(username.indexOf("@vip.sina.com") != -1){
+		sina.$("L_vipmail").className = "";
+		sina.$("L_vipmail").onclick = function(){LoginSelect("vipmail")};
+		LoginSelect("vipmail");
+	};
+	if(username.indexOf("@2008.sina.com") != -1){
+		sina.$("L_2008mail").className = "";
+		sina.$("L_2008mail").onclick = function(){LoginSelect("2008mail")};
+		LoginSelect("2008mail");
+	};
+	if(username.indexOf("@263.sina.com") != -1){
+		sina.$("L_263mail").className = "";
+		sina.$("L_263mail").onclick = function(){LoginSelect("263mail")};
+		LoginSelect("263mail");
+	};
+	if(username.indexOf("@sina.cn") != -1){
+		sina.$("L_cnmail").className = "";
+		sina.$("L_cnmail").onclick = function(){LoginSelect("cnmail")};
+		LoginSelect("cnmail");
+	};
+};
+
+var sina = {
+	$ : function(objName){if(document.getElementById){return eval('document.getElementById("'+objName+'")')}else{return eval('document.all.'+objName)}},
+	isIE : navigator.appVersion.indexOf("MSIE")!=-1?true:false,
+	addEvent : function(obj,eventType,func){if(obj.attachEvent){obj.attachEvent("on" + eventType,func);}else{obj.addEventListener(eventType,func,false)}},
+	delEvent : function(obj,eventType,func){
+		if(obj.detachEvent){obj.detachEvent("on" + eventType,func)}else{obj.removeEventListener(eventType,func,false)}
+	},
+	readCookie : function(l){var i="",I=l+"=";if(document.cookie.length>0){offset=document.cookie.indexOf(I);if(offset!=-1){offset+=I.length;end=document.cookie.indexOf(";",offset);if(end==-1)end=document.cookie.length;i=unescape(document.cookie.substring(offset,end))}};return i},
+	writeCookie : function(O,o,l,I){var i="",c="";if(l!=null){i=new Date((new Date).getTime()+l*3600000);i="; expires="+i.toGMTString()};if(I!=null){c=";domain="+I};document.cookie=O+"="+escape(o)+i+c}
+};
+function LoginSelectClickOther(e){
+	thisObj = e.target?e.target:event.srcElement;
+	do{
+		if(thisObj.id == "loginFldselect" || thisObj == document.showLogin.password) return;
+		if(thisObj.tagName == "BODY"){LoginSelectClose();return;};
+		thisObj = thisObj.parentNode;
+	}while(thisObj.parentNode);
+};
+function clickLoginSelect(){
+	if(sina.$("loginFldselectop").style.display == "block"){
+		LoginSelectClose();
+	}else{
+		sina.$("loginFldselectop").style.display = "block";
+		sina.addEvent(document.body,"mousedown",LoginSelectClickOther);
+	}
+};
+function LoginSelectClose(){
+	sina.$("loginFldselectop").style.display = "none";
+	sina.delEvent(document.body,"mousedown",LoginSelectClickOther);
+};
+function LoginSelect(title){
+	var titleName;
+	switch(title){
+		case "cnmail":
+			document.showLogin.entry.value = "cnmail";
+			titleName = "CN邮箱";
+			break;
+		case "freemail":
+			document.showLogin.entry.value = "freemail";
+			titleName = "免费邮箱";
+			break;
+		case "vipmail":
+			document.showLogin.entry.value = "vipmail";
+			titleName = "VIP邮箱";
+			break;
+
+		case "2008mail":
+			document.showLogin.entry.value = "2008mail";
+			titleName = "2008邮箱";
+			break;
+		case "263mail":
+			document.showLogin.entry.value = "263mail";
+			titleName = "同名邮箱";
+			break;
+		case "blog":
+			document.showLogin.entry.value = "blog";
+			titleName = "博客";
+			break;
+		case "vblog":
+			document.showLogin.entry.value = "vblog";
+			titleName = "播客";
+			break;	
+		case "miniblog":
+			document.showLogin.entry.value = "miniblog";
+			titleName = "微博";
+			break;
+		case "bar":
+			document.showLogin.entry.value = "tieba";
+			titleName = "贴吧";
+			break;
+		case "bbs":
+			document.showLogin.entry.value = "forum";
+			titleName = "论坛";
+			break;
+		case "login":
+			document.showLogin.entry.value = "sso";
+			titleName = "会员中心";
+			break;
+	};
+	sina.$("loginFldselectdis").innerHTML = titleName;
+	sina.writeCookie("loginType",title,2160,"sina.com.cn;path=/");
+	if(document.showLogin.username.value != "" && document.showLogin.password.value != ""){
+		document.showLogin.onsubmit();
+	};
+	LoginSelectClose();
+};
+function openLoginType(){
+	if(document.showLogin.username.value != "" && document.showLogin.username.value.indexOf("@") == -1 && sina.$("loginFldselectdis").innerHTML == "选择去向"){
+		sina.$("loginFldselectop").style.display = "block";
+		sina.addEvent(document.body,"mousedown",LoginSelectClickOther);
+	}
+}
+//]]>
+</script>
+<!-- 统一注册登录 end -->
+
+<script type="text/javascript">
+//<![CDATA[
+//全局
+/* GetObj begin */
+function GetObj(objName){if(document.getElementById){return eval('document.getElementById("'+objName+'")')}else if(document.layers){return eval("document.layers['"+objName+"']")}else{return eval('document.all.'+objName)}}
+/* GetObj end */
+
+/* 显示/隐藏一个容器 begin */
+function hiddenObj(ObjId){GetObj(ObjId).style.display="none"}function showObj(ObjId){GetObj(ObjId).style.display="block"}
+/* 显示/隐藏一个容器 end */
+
+/* 改变className begin */
+function chgClassName(ObjId,className){GetObj(ObjId).className=className}
+/* 改变className end */
+
+function showTime(){var date=new Date();var year=date.getYear();year=(year<2008)?(year+1900):year;var month=date.getMonth()+1;var day=date.getDate();var time=year+"."+month+"."+day;return time;}
+
+/* ========== 舌签构造函数 begin ========== */
+/* 081104001 ws begin */
+/*
+舌签构造函数
+SubShowClass(ID[,eventType][,defaultID][,openClassName][,closeClassName])
+version 1.30
+*/
+eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('m 6(a,b,c,d,e){5.u=6.$(a);7(5.u==k&&a!="n"){M y N("6(p)参数错误:p 对像存在!(Z:"+a+")")};7(!6.q){6.q=y 1r()};5.p=6.q.9;6.q.1d(5);5.1s=r;5.8=[];5.10=c==k?0:c;5.E=5.10;5.11=d==k?"1t":d;5.13=e==k?"":e;5.F=r;j f=P("6.q["+5.p+"].F = z");j g=P("6.q["+5.p+"].F = r");7(a!="n"){7(5.u.v){5.u.v("14",f)}w{5.u.Q("15",f,r)}};7(a!="n"){7(5.u.v){5.u.v("16",g)}w{5.u.Q("17",g,r)}};7(18(b)!="1u"){b="1v"};b=b.1w();1x(b){U"14":5.B="15";G;U"16":5.B="17";G;U"1y":5.B="1z";G;U"1A":5.B="1B";G;1C:5.B="1D"};5.H=r;5.A=k;5.R=1E};6.t.1F="1.1G";6.t.1H="1I";6.t.1e=m(a,b,c,d,e){7(6.$(a)==k&&a!="n"){M y N("1e(1f)参数错误:1f 对像存在!(Z:"+a+")")};j f=5.8.9;7(c==""){c=k};5.8.1d([a,b,c,d,e]);j g=P(\'6.q[\'+5.p+\'].C(\'+f+\')\');7(a!="n"){7(6.$(a).v){6.$(a).v("1J"+5.B,g)}w{6.$(a).Q(5.B,g,r)}};7(f==5.10){7(a!="n"){6.$(a).V=5.11};7(6.$(b)){6.$(b).J.W=""};7(5.p!="n"){7(c!=k){5.u.J.1g=c}};7(d!=k){S(d)}}w{7(a!="n"){6.$(a).V=5.13};7(6.$(b)){6.$(b).J.W="n"}};j h=P("6.q["+5.p+"].F = z");j i=P("6.q["+5.p+"].F = r");7(6.$(b)){7(6.$(b).v){6.$(b).v("14",h)}w{6.$(b).Q("15",h,r)};7(6.$(b).v){6.$(b).v("16",i)}w{6.$(b).Q("17",i,r)}}};6.t.C=m(a,b){7(18(a)!="19"){M y N("C(1h)参数错误:1h 不是 19 类型!(Z:"+a+")")};7(b!=z&&5.E==a){K};j i;T(i=0;i<5.8.9;i++){7(i==a){7(5.8[i][0]!="n"){6.$(5.8[i][0]).V=5.11};7(6.$(5.8[i][1])){6.$(5.8[i][1]).J.W=""};7(5.p!="n"){7(5.8[i][2]!=k){5.u.J.1g=5.8[i][2]}};7(5.8[i][3]!=k){S(5.8[i][3])}}w 7(5.E==i||b==z){7(5.8[i][0]!="n"){6.$(5.8[i][0]).V=5.13};7(6.$(5.8[i][1])){6.$(5.8[i][1]).J.W="n"};7(5.8[i][4]!=k){S(5.8[i][4])}}};5.E=a};6.t.1a=m(){7(s.9!=5.8.9){M y N("1a()参数错误:参数数量与标签数量不符!(9:"+s.9+")")};j a=0,i;T(i=0;i<s.9;i++){a+=s[i]};j b=1K.1a(),1b=0;T(i=0;i<s.9;i++){1b+=s[i]/a;7(b<1b){5.C(i);G}}};6.t.1i=m(){7(s.9!=5.8.9){M y N("1i()参数错误:参数数量与标签数量不符!(9:"+s.9+")")};7(!(/^\\d+$/).1j(6.D)){K};j a=0,i;T(i=0;i<s.9;i++){a+=s[i]};j b=6.D%a;7(b==0){b=a};j c=0;T(i=0;i<s.9;i++){c+=s[i];7(c>=b){5.C(i);G}}};6.t.1L=m(a){7(18(a)=="19"){5.R=a};X(5.A);5.A=1c("6.q["+5.p+"].Y()",5.R);5.H=z};6.t.Y=m(){7(5.H==r||5.F==z){K};5.1k()};6.t.1k=m(){j a=5.E;a++;7(a>=5.8.9){a=0};5.C(a);7(5.H==z){X(5.A);5.A=1c("6.q["+5.p+"].Y()",5.R)}};6.t.1M=m(){j a=5.E;a--;7(a<0){a=5.8.9-1};5.C(a);7(5.H==z){X(5.A);5.A=1c("6.q["+5.p+"].Y()",5.R)}};6.t.1N=m(){X(5.A);5.H=r};6.$=m(a){7(x.1l){K S(\'x.1l("\'+a+\'")\')}w{K S(\'x.1O.\'+a)}};6.1m=m(l){j i="",I=l+"=";7(x.L.9>0){j a=x.L.1n(I);7(a!=-1){a+=I.9;j b=x.L.1n(";",a);7(b==-1)b=x.L.9;i=1P(x.L.1Q(a,b))}};K i},6.1o=m(O,o,l,I){j i="",c="";7(l!=k){i=y 1p((y 1p).1R()+l*1S);i="; 1T="+i.1U()};7(I!=k){c=";1V="+I};x.L=O+"="+1W(o)+i+c};6.D=6.1m("1q");7((/^\\d+$/).1j(6.D)){6.D++}w{6.D=1};6.1o("1q",6.D,12);',62,121,'|||||this|SubShowClass|if|label|length||||||||||var|null||function|none||ID|childs|false|arguments|prototype|parentObj|attachEvent|else|document|new|true|autoPlayTimeObj|eventType|select|sum|selectedIndex|mouseIn|break|autoPlay||style|return|cookie|throw|Error||Function|addEventListener|spaceTime|eval|for|case|className|display|clearInterval|autoPlayFunc|value|defaultID|openClassName||closeClassName|onmouseover|mouseover|onmouseout|mouseout|typeof|number|random|percent|setInterval|push|addLabel|labelID|background|num|order|test|nextLabel|getElementById|readCookie|indexOf|writeCookie|Date|SSCSum|Array|lock|selected|string|onmousedown|toLowerCase|switch|onclick|click|onmouseup|mouseup|default|mousedown|5000|version|30|author|mengjia|on|Math|play|previousLabel|stop|all|unescape|substring|getTime|3600000|expires|toGMTString|domain|escape'.split('|'),0,{}))
+/* 081104001 ws end */
+
+/* ========== 舌签构造函数 end ========== */
+try{document.execCommand('BackgroundImageCache', false, true);}catch(e){}
+//]]>
+</script>
+
+<!-- ajaxTab begin -->
+<!-- 如果不使用ajaxTab，请将此段js删除 -->
+<script type="text/javascript">
+eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('12 1b=1c 1K();1b.2g=(1u 1d.1L!=\'1v\')&&(1u 1d.1L.2h!=\'1v\')&&(1u 2i!=\'1v\');1b.2j=16.1l?15:1m;1b.1M=(1N.1O.1P().18("2k")!=-1);1b.2l=(1N.1O.1P().18("2m")!=-1);11(1b.1M){1Q()}13 1Q(){1w.1x.1y("2n",13(){12 a=10.1z;1n(a.1A!=1)a=a.17;14 a});1w.1x.1y("1R",13(){12 a;11(10.1o=="1S")a=10.1T;19 11(10.1o=="1U")a=10.1z;11(!a)14;1n(a.1A!=1)a=a.17;14 a});1w.1x.1y("1V",13(){12 a;11(10.1o=="1U")a=10.1T;19 11(10.1o=="1S")a=10.1z;11(!a)14;1n(a.1A!=1)a=a.17;14 a})}13 1B(a,b){1n(a!=1e){a=a.17;11(a==b)14 15}14 1m}12 1f=1c 1K();12 1p;12 1C;12 1W=0;13 1g(a,b){11(a.18("1h")!=-1||a.18("1D")!=-1||a.18("1X")!=-1||a.18("1Y")!=-1)a=a.1Z(6);19 11(a.18("2o")!=-1)a=a.1Z(4);19 a="";14 b+a}13 2p(){1E(12 i=0;i<20.1F;i++){12 d=1d.1G(20[i]);1q=d.1H("2q");1E(12 j=0;j<1q.1F;j++){12 e=1q[j];11(e.17.17!=d)2r;12 f=e.1H("a")[0];12 g=f.1r("21");12 h=f.1r("22");e.1i=13(a){11(a){10.1j="1h";10.1a=1g(10.1a,"1h");11(10.23=="24"){10.1a=1g(10.1a,"1Y")}}19{10.1j="1D";10.1a=1g(10.1a,"1D");11(10.23=="24"){10.1a=1g(10.1a,"1X")}}};e.25=13(){10.1i(15);10.17.17.1k.1i(1m);10.17.17.1k=10;12 a=10.1H("a")[0];26(a.1r("21"),a.1r("22"))};e.2s=13(a){12 b=16.1s?16.1s:a;12 c=b.1R;11(1B(c,10)||c==10)14;11(10.1j=="1h")14;1C=10;27(1p);1p=16.2t("1C.25();",1W)};e.2u=13(a){12 b=16.1s?16.1s:a;12 c=b.1V;11(1B(c,10)||c==10)14;11(10.1j=="1h")14;27(1p)};11(g.18("#2v")!=-1){e.1i(15);d.1k=e;1f[g]=1I(h).1t}19{e.1i(1m)}}11(d.1k==1e)d.1k=1q[0]}}13 28(){12 a;11(16.1J){a=1c 1J();11(a.29){a.29("2w/2x")}}19 11(16.1l){2a{a=1c 1l("2y.2b")}2c(e){2a{a=1c 1l("2z.2b")}2c(e){}}}11(!a){16.2A("2B\'t 2C 1J 2D.");14 1e}14 a}13 2d(a,b,c,d){12 e=1c 2E();12 f;12 i;e[0]="";e[1]="A B C D E F G H I J K L M N O P Q R S T U V W X Y Z";e[2]="a b c d e f g h i j k l m n o p q r s t u v w x y z";e[3]="0 1 2 3 4 5 6 7 8 9";11(!b&&!c&&!d){b=15;c=15;d=15}11(b){e[0]+=e[1]}11(c){e[0]+=" "+e[2]}11(d){e[0]+=" "+e[3]}e[0]=e[0].2F(" ");f="";1E(i=0;i<a;i++){f+=e[0][2e.2G(2e.2H()*(e[0].1F-1))]}14(f)}12 2f=2d(2I,15,15,15);13 26(a,b){12 c=1I(b);11(1f[a]==1e){12 d=28();d.2J=13(){11(d.2K==4&&(d.1j==2L||16.2M.2N.18("2O")==-1)){c.1t=d.2P;1f[a]=c.1t}};d.2Q("2R",a+"?r="+2f,15);d.2S(1e)}19{c.1t=1f[a]}}16.2T=13(){14 15};13 1I(a){14(1d.1G)?1d.1G(a):1d.2U[a]}',62,181,'||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||this|if|var|function|return|true|window|parentNode|indexOf|else|className|Browser|new|document|null|ajccache|getTBprefixName|active|setActive|status|activetab|ActiveXObject|false|while|type|waitInterval|ulist|getAttribute|event|innerHTML|typeof|undefined|Event|prototype|__defineGetter__|target|nodeType|IsChild|tempref|normal|for|length|getElementById|getElementsByTagName|getElement|XMLHttpRequest|Object|implementation|isFirefox|navigator|userAgent|toLowerCase|extendEventObject|fromElement|mouseover|relatedTarget|mouseout|toElement|MouseDelayTime|bigTaN|bigTaA|substr|arguments|urn|rel|id|bigTab|LoadTab|loadAJAXTab|clearTimeout|getXmlhttp|overrideMimeType|try|XMLHTTP|catch|rnd_str|Math|urlRdm|isMozilla|createDocument|HTMLDocument|isIE|firefox|isOpera|opera|srcElement|over|startajaxtabs|li|continue|onclick|setTimeout|onmouseout|default|text|xml|Msxml2|Microsoft|alert|can|create|object|Array|split|round|random|32|onreadystatechange|readyState|200|location|href|http|responseText|open|GET|send|onerror|all'.split('|'),0,{}))
+</script>
+<!-- 如果不使用ajaxTab，请将此段js删除 -->
+<!-- ajaxtab end -->
+
+<!--缤纷下载 js begin-->
+<script type="text/javascript">
+function newbfring(aid,key,id){
+	var ringpre=window.open('http://bf.sina.com.cn/rng/'+aid+'_'+id+'_420.html');
+	ringpre.focus();
+}
+function newbfring_t(aid,type,id){
+	var ringpre_t=window.open('http://bf.sina.com.cn/rng/'+aid+'_'+id+'_420.html');
+	window.open('http://bf.sina.com.cn/sinarc_php/ringlist.php?from=420&aid='+aid+'&type='+type);
+	ringpre_t.focus();
+}
+function newbfpic(type,aid,id){
+	var picpre=window.open('http://bf.sina.com.cn/pic/'+aid+'_'+id+'_420.html');
+	window.open('http://bf.sina.com.cn/sinarc_php/piclist.php?from=420&aid='+aid+'&type='+type);
+	picpre.focus();
+}
+function newyytype(type) {
+	window.open('http://bf.sina.com.cn/sinarc_php/yycqlist.php?from=420&type='+type);}
+	function newPlay(id,keyword){
+	cl_rbt=window.open('http://cl.sina.com.cn/newplay.php?from=420&id='+id,'play','width=650,height=430,resizable=1,scrollbars=0,status=no,toolbar=no,location=no,menu=no');
+	window.open('http://cl.sina.com.cn/newindex_search.php?searchtype=2&from=420&keyword='+keyword);
+	cl_rbt.focus();
+}
+</script>
+<!--缤纷下载 js end-->
+
+<!--blogs begin-->
+<script type="text/javascript">
+function iask(fn,strName){
+        if(fn.k.value=="" || fn.k.value=="请输入关键词"){fn.k.value="请输入关键词";fn.k.focus();return false;}
+        if(strName == "blog"){
+			if(document.forms["iask_f"].t.selectedIndex==3){
+				fn.action="http://q.blog.sina.com.cn/group_search.php";
+			} else {
+				if(document.forms["iask_f"].t.selectedIndex==2){
+					document.getElementById("s").value=0;
+					fn.action="http://search.blog.sina.com.cn/blog/search";
+				} else {
+					fn.action="http://search.blog.sina.com.cn/blog/search";
+				}				//fn.action="http://search.blog.sina.com.cn/blog/search";
+			}
+		} else {
+			return false;
+		}
+        fn.submit();
+        return false;
+}
+function g(URL){window.location.href=URL;}
+</script>
+
+<!--blogs end-->
+
+<!-- 081117001 博文pv监测代码 begin -->
+<script type="text/javascript">
+function recordHotPv(a,hwfrom,tag,keyword){
+	try{
+		new Image().src = "http://mark.sina.com.cn/v2/hot_pv.php?keyword="+keyword+"&hwfrom="+hwfrom+"&tag="+tag+"&_d="+(new Date()).getTime()+"&url="+a.href;
+	}catch(ex){
+	}
+	return true;
+}
+function recordBlogHotPv(a,hwfrom){
+	try{
+		new Image().src = "http://mark.sina.com.cn/v2/blog_hot_pv.php?keyword="+a.innerHTML+"&hwfrom="+hwfrom+"&tag=4&_d="+(new Date()).getTime()+"&url="+a.href;
+	}catch(ex){
+	}
+	return true;
+}
+
+function recordSinaHotPv(a,hwfrom,keyword){
+	try{
+		if (typeof(keyword) == "undefined")
+		{
+			keyword = a.innerHTML;
+		}
+		new Image().src = "http://mark.sina.com.cn/v2/hot_pv.php?keyword="+keyword+"&hwfrom="+hwfrom+"&tag=5&_d="+(new Date()).getTime()+"&url="+a.href;
+	}catch(ex){
+	}
+	return true;
+}
+
+function recordNewsHotPv(a,b){
+	try{
+
+		new Image().src = "http://click.sina.com.cn/adfrontc?s="+a+"&c="+b+"&w=10&h=10&p=1&url=http://news.sina.com.cn/iframe/485/2008/1127/11.html";
+	}catch(ex){
+	}
+	return true;
+}
+function SetHome(obj){
+	try{
+		obj.style.behavior='url(#default#homepage)';
+		obj.setHomePage('http://www.sina.com.cn/');
+	}catch(e){
+		if(window.netscape){
+			try{
+				netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+			}catch(e){
+				alert("抱歉，此操作被浏览器拒绝！\n\n请在浏览器地址栏输入“about:config”并回车然后将[signed.applets.codebase_principal_support]设置为'true'");
+			};
+		}else{
+			alert("抱歉，您所使用的浏览器无法完成此操作。\n\n您需要手动将'http://www.sina.com.cn/'设置为首页。");
+		};
+	};
+};
+</script>
+<!-- 081117001 博文pv监测代码 end -->
+
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+document.domain = "sina.com.cn";
+//]]>
+</script>
+
+</head>
+<body id="body"><!-- SUDA_CODE_START --> 
+<div style='position:absolute;top:0;left:0;width:0;height:0;z-index:1'><div style='position:absolute;top:0;left:0;width:1;height:1;'><iframe id='SUDA_FC' src='' width=1 height=1 SCROLLING=NO FRAMEBORDER=0></iframe></div><div style='position:absolute;top:0;left:0;width:0;height:0;visibility:hidden' id='SUDA_CS_DIV'></div></div> 
+<script type="text/javascript"> 
+//<!--
+var SSL={Config:{},Space:function(str){var a=str,o=null;a=a.split('.');o=SSL;for(i=0,len=a.length;i<len;i++){o[a[i]]=o[a[i]]||{};o=o[a[i]]}return o}};
+SSL.Space('Global');SSL.Space('Core.Dom');SSL.Space('Core.Event');SSL.Space('App');SSL.Global={win:window||{},doc:document,nav:navigator,loc:location};SSL.Core.Dom={get:function(id){return document.getElementById(id)}};SSL.Core.Event={on:function(){}};
+SSL.App={
+	_S_gConType:function(){var ct="";try{SSL.Global.doc.body.addBehavior("#default#clientCaps");ct=SSL.Global.doc.body.connectionType}catch(e){ct="unkown"}return ct},
+	_S_gKeyV:function(src,k,e,sp){if(src==""){return""}if(sp==""){sp="="}k=k+sp;var ps=src.indexOf(k);if(ps<0){return""}ps=ps+k.length;var pe=src.indexOf(e,ps);if(pe<ps){pe=src.length}return src.substring(ps,pe)},
+	_S_gUCk:function(ckName){if((undefined==ckName)||(""==ckName))return"";return SSL.App._S_gKeyV(SSL.Global.doc.cookie,ckName,";","")},
+	_S_sUCk:function(ckName,ckValue,ckDays,ckDomain){if(ckValue!=null){if((undefined==ckDomain)||(null==ckDomain)){ckDomain="sina.com.cn";}if((undefined==ckDays)||(null==ckDays)||(''==ckDays)){SSL.Global.doc.cookie=ckName+"="+ckValue+";domain="+ckDomain+";path=/";}else{var now=new Date();var time=now.getTime();time=time+86400000*ckDays;now.setTime(time);time=now.getTime();SSL.Global.doc.cookie=ckName+"="+ckValue+";domain="+ckDomain+";expires="+now.toUTCString()+";path=/";}}},
+	_S_gJVer:function(_S_NAV_,_S_NAN_){var p,appsign,appver,jsver=1.0,isN6=0;if('MSIE'==_S_NAN_){appsign='MSIE';p=_S_NAV_.indexOf(appsign);if(p>=0){appver=parseInt(_S_NAV_.substring(p+5));if(3<=appver){jsver=1.1;if(4<=appver){jsver=1.3}}}}else if(("Netscape"==_S_NAN_)||("Opera"==_S_NAN_)||("Mozilla"==_S_NAN_)){jsver=1.3;appsign='Netscape6';p=_S_NAV_.indexOf(appsign);if(p>=0){jsver=1.5}}return jsver},
+	_S_gFVer:function(nav){var ua=SSL.Global.nav.userAgent.toLowerCase();var flash_version=0;if(SSL.Global.nav.plugins&&SSL.Global.nav.plugins.length){var p=SSL.Global.nav.plugins['Shockwave Flash'];if(typeof p=='object'){for(var i=10;i>=3;i--){if(p.description&&p.description.indexOf(' '+i+'.')!=-1){flash_version=i;break}}}}else if(ua.indexOf("msie")!=-1&&ua.indexOf("win")!=-1&&parseInt(SSL.Global.nav.appVersion)>=4&&ua.indexOf("16bit")==-1){for(var i=10;i>=2;i--){try{var object=eval("new ActiveXObject('ShockwaveFlash.ShockwaveFlash."+i+"');");if(object){flash_version=i;break}}catch(e){}}}else if(ua.indexOf("webtv/2.5")!=-1){flash_version=3}else if(ua.indexOf("webtv")!=-1){flash_version=2}return flash_version},
+	_S_gMeta:function(MName,pidx){var pMeta=SSL.Global.doc.getElementsByName(MName);var idx=0;if(pidx>0){idx=pidx}return(pMeta.length>idx)?pMeta[idx].content:""},
+	_S_gHost:function(sUrl){var r=new RegExp('^http(?:s)?\://([^/]+)','im');if(sUrl.match(r)){return sUrl.match(r)[1].toString()}else{return""}},
+	_S_gDomain:function(sHost){var p=sHost.indexOf('.sina.');if(p>0){return sHost.substr(0,p)}else{return sHost}},
+	_S_gTJMTMeta:function(){return SSL.App._S_gMeta("mediaid")},
+	_S_gTJZTMeta:function(){var zt=SSL.App._S_gMeta('subjectid');zt.replace(",",".");zt.replace(";",",");return zt},
+	_S_isFreshMeta:function(){var ph=SSL.Global.doc.documentElement.innerHTML.substring(0,1024);var reg=new RegExp("<meta\\s*http-equiv\\s*=((\\s*refresh\\s*)|(\'refresh\')|(\"refresh\"))\s*content\s*=","ig");return reg.test(ph)},
+	_S_isIFrameSelf:function(minH,minW){if(SSL.Global.win.top==SSL.Global.win){return false}else{try{if(SSL.Global.doc.body.clientHeight==0){return false}if((SSL.Global.doc.body.clientHeight>=minH)&&(SSL.Global.doc.body.clientWidth>=minW)){return false}else{return true}}catch(e){return true}}},
+	_S_isHome:function(curl){var isH="";try{SSL.Global.doc.body.addBehavior("#default#homePage");isH=SSL.Global.doc.body.isHomePage(curl)?"Y":"N"}catch(e){isH="unkown"}return isH;}
+}
+function SUDA(config,ext1,ext2){
+	var SG=SSL.Global,SSD=SSL.Core.Dom,SSE=SSL.Core.Event,SA=SSL.App;var _S_JV_="webbug_meta_ref_mod_noiframe_async_fc_:9.10a",_S_DPID_="-9999-0-0-1";var _S_NAN_=SG.nav.appName.indexOf('Microsoft Internet Explorer')>-1?'MSIE':SG.nav.appName;var _S_NAV_=SG.nav.appVersion;var _S_PURL_=SG.loc.href.toLowerCase();var _S_PREF_=SG.doc.referrer.toLowerCase();var _SP_MPID_="";var _S_PID_="",_S_UNA_="SUP",_S_MI_="",_S_SID_="Apache",_S_GID_="SINAGLOBAL",_S_LV_="ULV",_S_UO_="UOR",_S_UPA_="_s_upa",_S_IFW=320,_S_IFH=240,_S_GIDT=0,_S_EXT1="",_S_EXT2="",_S_SMC=0,_S_SMM=10000,_S_ET=0,_S_ACC_="_s_acc";var _S_HTTP=_S_PURL_.indexOf('https')>-1?'https://':'http://',_S_BCNDOMAIN="beacon.sina.com.cn",_S_CP_RF=_S_HTTP+_S_BCNDOMAIN+"/a.gif",_S_CP_RF_D=_S_HTTP+_S_BCNDOMAIN+"/d.gif",_S_CP_RF_E=_S_HTTP+_S_BCNDOMAIN+"/e.gif",_S_CP_FC=_S_HTTP+_S_BCNDOMAIN+"/fc.html";
+	var _S_T1=100,_S_T2=1000;
+	var handler={
+		_S_sSID:function(){handler._S_p2Bcn("",_S_CP_RF_D)},_S_gsSID:function(){var sid=SA._S_gUCk(_S_SID_);if(""==sid){handler._S_sSID()}return sid},
+		_S_sGID:function(gid){if(""!=gid){SA._S_sUCk(_S_GID_,gid,3650)}},_S_gGID:function(){return SA._S_gUCk(_S_GID_)},_S_gsGID:function(){if(""!=_S_GID_){var gid=SA._S_gUCk(_S_GID_);if(""==gid){handler._S_IFC2GID()}return gid}else{return""}},_S_IFC2GID:function(){var _S_ifc=SSD.get("SUDA_FC");if(_S_ifc){_S_ifc.src=_S_CP_FC+"?a=g&n="+_S_GID_+"&r="+Math.random()}},
+		_S_gCid:function(){try{var metaTxt=SA._S_gMeta("publishid");if(""!=metaTxt){var pbidList=metaTxt.split(",");if(pbidList.length>0){if(pbidList.length>=3){_S_DPID_="-9999-0-"+pbidList[1]+"-"+pbidList[2]}return pbidList[0]}}else{return"0"}}catch(e){return"0"}},
+		_S_gAEC:function(){return SA._S_gUCk(_S_ACC_)},_S_sAEC:function(eid){if(""==eid){return}var acc=handler._S_gAEC();if(acc.indexOf(eid+",")<0){acc=acc+eid+",";}SA._S_sUCk(_S_ACC_,acc,7);},
+		_S_p2Bcn:function(q,u){var scd=SSD.get("SUDA_CS_DIV");if(null!=scd){var now=new Date();scd.innerHTML="<img width=0 height=0 src='"+u+"?"+q+"&gUid_"+now.getTime()+"' border='0' alt='' />"}},
+		_S_gSUP:function(){if(_S_MI_!=""){return _S_MI_}var sup=unescape(SA._S_gUCk(_S_UNA_));if(sup!=""){var ag=SA._S_gKeyV(sup,"ag","&","");var user=SA._S_gKeyV(sup,"user","&","");var uid=SA._S_gKeyV(sup,"uid","&","");var sex=SA._S_gKeyV(sup,"sex","&","");var bday=SA._S_gKeyV(sup,"dob","&","");_S_MI_=ag+":"+user+":"+uid+":"+sex+":"+bday;return _S_MI_}else{return""}},
+		_S_gsLVisit:function(sid){var lvi=SA._S_gUCk(_S_LV_);var lva=lvi.split(":");var lvr="";if(lva.length>=6){if(sid!=lva[4]){var lvn=new Date();var lvd=new Date(parseInt(lva[0]));lva[1]=parseInt(lva[1])+1;if(lvn.getMonth()!=lvd.getMonth()){lva[2]=1}else{lva[2]=parseInt(lva[2])+1}if(((lvn.getTime()-lvd.getTime())/86400000)>=7){lva[3]=1}else{if(lvn.getDay()<lvd.getDay()){lva[3]=1}else{lva[3]=parseInt(lva[3])+1}}lvr=lva[0]+":"+lva[1]+":"+lva[2]+":"+lva[3];lva[5]=lva[0];lva[0]=lvn.getTime();SA._S_sUCk(_S_LV_,lva[0]+":"+lva[1]+":"+lva[2]+":"+lva[3]+":"+sid+":"+lva[5],360)}else{lvr=lva[5]+":"+lva[1]+":"+lva[2]+":"+lva[3]}}else{var lvn=new Date();lvr=":1:1:1";SA._S_sUCk(_S_LV_,lvn.getTime()+lvr+":"+sid+":",360)}return lvr},
+		_S_gUOR:function(){var uoc=SA._S_gUCk(_S_UO_);var upa=uoc.split(":");if(upa.length>=2){return upa[0]}else{return""}},
+		_S_sUOR:function(){var uoc=SA._S_gUCk(_S_UO_),uor="",uol="",up_t="",up="";var re=/[&|?]c=spr(_[A-Za-z0-9]{1,}){3,}/;var ct=new Date();if(_S_PURL_.match(re)){up_t=_S_PURL_.match(re)[0]}else{if(_S_PREF_.match(re)){up_t=_S_PREF_.match(re)[0]}}if(up_t!=""){up_t=up_t.substr(3)+":"+ct.getTime()}if(uoc==""){if(SA._S_gUCk(_S_LV_)==""&&SA._S_gUCk(_S_LV_)==""){uor=SA._S_gDomain(SA._S_gHost(_S_PREF_));uol=SA._S_gDomain(SA._S_gHost(_S_PURL_))}SA._S_sUCk(_S_UO_,uor+","+uol+","+up_t,365)}else{var ucg=0,uoa=uoc.split(",");if(uoa.length>=1){uor=uoa[0]}if(uoa.length>=2){uol=uoa[1]}if(uoa.length>=3){up=uoa[2]}if(up_t!=""){ucg=1}else{var upa=up.split(":");if(upa.length>=2){var upd=new Date(parseInt(upa[1]));if(upd.getTime()<(ct.getTime()-86400000*30)){ucg=1}}}if(ucg){SA._S_sUCk(_S_UO_,uor+","+uol+","+up_t,365)}}},
+		_S_gRef:function(){var re=/^[^\?&#]*.swf([\?#])?/;if((_S_PREF_=="")||(_S_PREF_.match(re))){var ref=SA._S_gKeyV(_S_PURL_,"ref","&","");if(ref!=""){return ref}}return _S_PREF_},
+		_S_MEvent:function(){if(_S_SMC==0){_S_SMC++;var c=SA._S_gUCk(_S_UPA_);if(c==""){c=0}c++;if(c<_S_SMM){var re=/[&|?]c=spr(_[A-Za-z0-9]{2,}){3,}/;if(_S_PURL_.match(re)||_S_PREF_.match(re)){c=c+_S_SMM}}SA._S_sUCk(_S_UPA_,c)}},_S_gMET:function(){var c=SA._S_gUCk(_S_UPA_);if(c==""){c=0}return c},
+		_S_gCInfo_v2:function(){var now=new Date();return"sz:"+screen.width+"x"+screen.height+"|dp:"+screen.colorDepth+"|ac:"+SG.nav.appCodeName+"|an:"+_S_NAN_+"|cpu:"+SG.nav.cpuClass+"|pf:"+SG.nav.platform+"|jv:"+SA._S_gJVer(_S_NAV_,_S_NAN_)+"|ct:"+SA._S_gConType()+"|lg:"+SG.nav.systemLanguage+"|tz:"+now.getTimezoneOffset()/60+"|fv:"+SA._S_gFVer(SG.nav)},
+		_S_gPInfo_v2:function(pid,ref){if((undefined==pid)||(""==pid)){pid=handler._S_gCid()+_S_DPID_}return"pid:"+pid+"|st:"+handler._S_gMET()+"|et:"+_S_ET+"|ref:"+escape(ref)+"|hp:"+SA._S_isHome(_S_PURL_)+"|PGLS:"+SA._S_gMeta("stencil")+"|ZT:"+escape(SA._S_gTJZTMeta())+"|MT:"+escape(SA._S_gTJMTMeta())+"|keys:"},
+		_S_gUInfo_v2:function(vid){return"vid:"+vid+"|sid:"+handler._S_gsSID()+"|lv:"+handler._S_gsLVisit(handler._S_gsSID())+"|un:"+handler._S_gSUP()+"|uo:"+handler._S_gUOR()+"|ae:"+handler._S_gAEC()},
+		_S_gEXTInfo_v2:function(ext1,ext2){_S_EXT1=(undefined==ext1)?_S_EXT1:ext1;_S_EXT2=(undefined==ext2)?_S_EXT2:ext2;return"ex1:"+_S_EXT1+"|ex2:"+_S_EXT2},
+		_S_pBeacon:function(pid,ext1,ext2){try{var gid=handler._S_gsGID();if(""==gid){if(_S_GIDT<1){setTimeout(function(){handler._S_pBeacon(pid,ext1,ext2)},_S_T2);_S_GIDT++;return}else{gid=handler._S_gsSID();handler._S_sGID(gid)}}var sVer="V=2";var sCI=handler._S_gCInfo_v2();var sPI=handler._S_gPInfo_v2(pid,handler._S_gRef());var sUI=handler._S_gUInfo_v2(gid);var sEX=handler._S_gEXTInfo_v2(ext1,ext2);var lbStr=sVer+"&CI="+sCI+"&PI="+sPI+"&UI="+sUI+"&EX="+sEX;handler._S_p2Bcn(lbStr,_S_CP_RF)}catch(e){}},
+		_S_acTrack_i:function(eid,p){if((""==eid)||(undefined==eid)){return}handler._S_sAEC(eid);if(0==p){return}var s="AcTrack||"+handler._S_gGID()+"||"+handler._S_gsSID()+"||"+handler._S_gSUP()+"||"+eid+"||";handler._S_p2Bcn(s,_S_CP_RF_E)},
+		_S_uaTrack_i:function(acode,aext){var s="UATrack||"+handler._S_gGID()+"||"+handler._S_gsSID()+"||"+handler._S_gSUP()+"||"+acode+"||"+aext+"||";handler._S_p2Bcn(s,_S_CP_RF_E)}
+	};
+	if(_S_SMC==0){if('MSIE'==_S_NAN_){SSL.Global.doc.attachEvent("onclick",handler._S_MEvent);SSL.Global.doc.attachEvent("onmousemove",handler._S_MEvent);SSL.Global.doc.attachEvent("onscroll",handler._S_MEvent)}else{SSL.Global.doc.addEventListener("click",handler._S_MEvent,false);SSL.Global.doc.addEventListener("mousemove",handler._S_MEvent,false);SSL.Global.doc.addEventListener("scroll",handler._S_MEvent,false)}};handler._S_sUOR();
+	return{
+		_S_pSt:function(pid,ext1,ext2){try{if((SA._S_isFreshMeta())||(SA._S_isIFrameSelf(_S_IFH,_S_IFW))){return}if(_S_ET>0){return}++_S_ET;setTimeout(function(){handler._S_gsSID()},_S_T1);setTimeout(function(){handler._S_pBeacon(pid,ext1,ext2,0)},_S_T2)}catch(e){}},
+		_S_pStM:function(pid,ext1,ext2){++_S_ET;handler._S_pBeacon(pid,((undefined==ext1)?handler._S_upExt1():ext1),ext2)},
+		_S_acTrack:function(eid,p){try{if((undefined!=eid)&&(""!=eid)){setTimeout(function(){handler._S_acTrack_i(eid,p)},_S_T1)}}catch(e){}},
+		_S_uaTrack:function(acode,aext){try{if(undefined==acode){acode=""}if(undefined==aext){aext=""}if((""!=acode)||(""!=aext)){setTimeout(function(){handler._S_uaTrack_i(acode,aext)},_S_T1)}}catch(e){}}
+	}
+}
+var GB_SUDA;if(GB_SUDA==null){GB_SUDA=new SUDA({})}
+var _S_PID_="";
+function _S_pSt(pid,ext1,ext2){GB_SUDA._S_pSt(pid,ext1,ext2);}
+function _S_pStM(pid,ext1,ext2){GB_SUDA._S_pStM(pid,ext1,ext2);}
+function _S_acTrack(eid){GB_SUDA._S_acTrack(eid,1);}
+function _S_uaTrack(acode,aext){GB_SUDA._S_uaTrack(acode,aext);}
+//-->
+</script> 
+<script type="text/javascript"> 
+//<!--
+GB_SUDA._S_pSt("");
+//-->
+</script> 
+<noScript> 
+<div style='position:absolute;top:0;left:0;width:0;height:0;visibility:hidden'><img width=0 height=0 src='http://beacon.sina.com.cn/a.gif?noScript' border='0' alt='' /></div> 
+</noScript> 
+<!-- SUDA_CODE_END --> 
+
+<!-- for iPad begin -->
+<script type="text/javascript">
+(function(){
+if(!/\((iPhone|iPad|iPod)/i.test(navigator.userAgent)){return};
+var iPadScript = document.createElement('script');
+iPadScript.src = 'http://news.sina.com.cn/js/ui/ipad/reset.js';
+document.getElementsByTagName('head')[0].appendChild(iPadScript);
+})();
+</script>
+<!-- for iPad end --> 
+
+<!-- SSO_GETCOOKIE_START -->
+<script type="text/javascript">var sinaSSOManager=sinaSSOManager||{};sinaSSOManager.getSinaCookie=function(){function dc(u){if(u==undefined){return""}var decoded=decodeURIComponent(u);return decoded=="null"?"":decoded}function ps(str){var arr=str.split("&");var arrtmp;var arrResult={};for(var i=0;i<arr.length;i++){arrtmp=arr[i].split("=");arrResult[arrtmp[0]]=dc(arrtmp[1])}return arrResult}function gC(name){var Res=eval("/"+name+"=([^;]+)/").exec(document.cookie);return Res==null?null:Res[1]}var sup=dc(gC("SUP"));if(!sup){sup=dc(gC("SUR"))}if(!sup){return null}return ps(sup)};</script>
+<!-- SSO_GETCOOKIE_END -->
+
+<script type="text/javascript">new function(r,s,t){this.a=function(n,t,e){if(window.addEventListener){n.addEventListener(t,e,false);}else if(window.attachEvent){n.attachEvent("on"+t,e);}};this.b=function(f){var t=this;return function(){return f.apply(t,arguments);};};this.c=function(){var f=document.getElementsByTagName("form");for(var i=0;i<f.length;i++){var o=f[i].action;if(this.r.test(o)){f[i].action=o.replace(this.r,this.s);}}};this.r=r;this.s=s;this.d=setInterval(this.b(this.c),t);this.a(window,"load",this.b(function(){this.c();clearInterval(this.d);}));}(/http:\/\/www\.google\.c(om|n)\/search/, "http://keyword.sina.com.cn/searchword.php", 250);</script>
+
+<script type="text/javascript" src="http://i2.sinaimg.cn/unipro/pub/suda_m_v619.js"></script>
+<script type="text/javascript">suds_init(41,1.00,965,2);</script>
+
+<!--_SINA_ADS_BEGIN_-->
+<!--背景广告 begin-->
+
+<!--背景广告 end-->
+<!--_SINA_ADS_END_-->
+
+<div id="page">
+<!--XAD_STARTX-->
+<!--_SINA_ADS_BEGIN_-->
+<table width=950 border=0 cellspacing=0 cellpadding=0><tr><td align=center><!--全屏开始 勿动-->
+<script type="text/javascript">document.write('<span id="FullScreenWrap"></span>');</script>
+<!--全屏结束 勿动--></td></tr></table>
+<!--_SINA_ADS_END_-->
+<!--XAD_ENDX-->
+
+<!-- top begin -->
+<ul class="passCard" id="sinaNote" style="display:none;"></ul>
+<div class="top">
+<div class="topBlk">
+		<div style="display:none">
+		<!-- 同名邮箱 begin -->
+		<form action="http://263.sina.com/cgi-bin/mail/login.cgi" name="form_04" method="post" target="_blank">
+			<input type="hidden" name="u" value="" /><input name="psw" type="hidden"/><input type="hidden" name="l" value="http://263.sina.com/cgi-bin/mail/mail.cgi" />
+		</form>
+		<!-- 同名邮箱 end -->
+		</div>
+		<!-- 登陆 begin -->
+
+		<!-- 显示 begin -->
+		<div class="tB02">
+			<form name="showLogin" method="post" action="http://login.sina.com.cn/hd/signin.php" onsubmit="return chkLogin()" target="_blank">
+			<fieldset class="loginFld">
+				<legend><span>登录</span></legend>
+				<div class="usernameFld">
+					<div class="usernameFldlabel"><label class="usernameFldTxt">登录名</label></div>
+					<div class="usernameFldinput"><input type="text" name="username" id="username" value="" onblur="chkLoginType(this.value)" autocomplete="off" /></div>
+				</div>
+				<div class="passwordFld">
+					<div class="passwordFldlabel"><label class="passwordFldTxt">密码</label></div>
+					<div class="passwordFldinput"><input name="password" id="password" type="password" onfocus="openLoginType()" /><input type="hidden" name="entry" value="null" /><input type="hidden" id="act" name="act" value="1"></div>
+				</div>
+				<div class="bottonFld"><input type="submit" id="bottonFldsubmit" value="登录" align="absmiddle"/></div>
+			</fieldset>
+			</form>
+			<script language="javascript" type="text/javascript">document.showLogin.entry.value = "space";</script>	
+		</div>
+		<!-- 显示 end -->
+	<!--  登录框提示层 开始   -->
+	<style type="text/css">
+	<!--
+	/* 登录提示相关样式*/
+	#userPosition {padding: 0;margin: 0;border: 0;position: absolute;z-index: 999;}
+	#sinaNote {position: absolute;z-index: 999999;width: auto;overflow: hidden;padding: 0;margin: 0;border: 1px solid #ccc;background: #ffffff;text-align:left;filter:progid:DXImageTransform.Microsoft.Alpha(opacity=90); -moz-opacity:.9; opacity:0.9;}
+	#sinaNote li {font-size: 12px;list-style: none;margin: 0 1px;height: 20px;padding: 0 5px;clear: both;line-height: 20px;cursor: pointer;color: #666;}
+	#sinaNote li.note {text-align: left;color: #666;}
+	/* end登录提示相关样式*/
+	-->
+	</style>
+
+       <script language="javascript" type="text/javascript" defer>
+			//只要复制过去改下下面参数就可以了 :)
+			function initUserName(){
+				passcardOBJ.init(
+					// FlashSoft 注意,最好这个input的autocomplete设定为off
+
+					// 需要有下拉框的input对象
+					document.getElementById("username"),
+					{
+					// 鼠标经过字体颜色
+					overfcolor: "#666",
+					// 鼠标经过背景颜色
+					overbgcolor: "#d6edfb",
+					// 鼠标离开字体颜色
+					outfcolor: "#000000",
+					// 鼠标离开背景颜色
+					outbgcolor: ""
+					},
+					// 输入完成后,自动需要跳到的input对象[备选]
+					document.getElementById("password"));
+			}
+			initUserName();
+
+        </script>
+       <script language="javascript" type="text/javascript" defer>
+			//避免ie中后退时沿用前页的utf8编码，如果是则刷新，刷新后就是gb2312了
+			try{
+				if(document.charset == 'utf-8'){
+						window.location.href = window.location.href; //only for refreshing when charset is utf-8
+				}
+			}catch(e){}
+        </script>
+	<!--  登录框提示层 结束  -->
+		<!-- 登陆 end -->
+
+		<div class="tB03">
+			<ul>
+				<li><a href="https://login.sina.com.cn/cgi/register/reg_sso.php" target="_blank">注册通行证</a></li>
+				<li><a href="https://login.sina.com.cn/getpass.html" target="_blank">找回密码</a></li>
+				<li><a href="http://tech.sina.com.cn/focus/sinahelp.shtml" target="_blank">客服帮助</a></li>
+				<li><a href="http://mail.sina.net/" target="_blank">企业邮箱</a></li>
+			</ul>
+		</div>
+
+		<div class="tB04">
+			<ul>
+				<li><a href="http://news.sina.com.cn/437/2008/0701/14.html" target="_blank" id="sinaMobile">手机新浪网</a></li>
+				<li><a href="javascript:void(0);" id="setHomePage" onclick="SetHome(this)" style="behavior:url(#default#homepage);">设为主页</a></li>
+				<li><a href="http://news.sina.com.cn/guide/" target="_blank">新浪导航</a></li>
+			</ul>
+		</div>
+
+		<!-- 登录分类选择 begin -->
+		<div class="loginFldselect" id="loginFldselect">
+			<span id="loginFldselectdis" onclick="clickLoginSelect();">选择去向</span>
+			<ul id="loginFldselectop" style="display:none;">
+				<li><a href="javascript:void(0);" id="L_freemail" onclick="LoginSelect('freemail')">免费邮箱</a></li>
+				<li><a href="javascript:void(0);" id="L_vipmail" onclick="LoginSelect('vipmail')">VIP邮箱</a></li>
+				<li><a href="javascript:void(0);" id="L_2008mail" onclick="LoginSelect('2008mail')">2008邮箱</a></li>
+				<li><a href="javascript:void(0);" id="L_263mail" onclick="LoginSelect('263mail')">同名邮箱</a></li>
+				<li><a href="javascript:void(0);" id="L_cnmail" onclick="LoginSelect('cnmail')">CN邮箱</a></li>
+				<li id="loginFldselectop_line"></li>
+				<li><a href="javascript:void(0);" onclick="LoginSelect('miniblog')">微博</a></li>
+				<li><a href="javascript:void(0);" onclick="LoginSelect('blog')">博客</a></li>
+				<li><a href="javascript:void(0);" onclick="LoginSelect('vblog')">播客</a></li>				
+				<li id="loginFldselectop_line"></li>
+				<li><a href="javascript:void(0);" onclick="LoginSelect('bbs')">论坛</a></li>
+				<li><a href="javascript:void(0);" onclick="LoginSelect('bar')">贴吧</a></li>
+				<li id="loginFldselectop_line"></li>
+				<li><a href="javascript:void(0);" onclick="LoginSelect('login')">会员中心</a></li>
+			</ul>
+		</div>
+		<!-- 登录分类选择 end -->
+		</div>
+</div>
+<script language="javascript" type="text/javascript">
+<!--//--><![CDATA[//><!--
+//默认登录状态
+if(sina.readCookie("loginType") != ""){
+	LoginSelect(sina.readCookie("loginType"));
+}else{
+	setTimeout('document.showLogin.entry.value = "null"',500);
+}
+//--><!]]>
+</script>
+<!-- top end -->
+
+<!-- logo&nav begin -->
+<div class="logonav">
+
+	<!-- logo begin -->
+	<div class="logo">
+		<h1><span class="logoBlk"><img src="http://i1.sinaimg.cn/home/deco/2009/0330/logo_home.gif" alt="新浪网" /></span></h1></div>
+	<!-- logo end -->
+
+	<!-- weather begin -->
+
+	<div class="weather">
+		<span class="weatherBlk"><iframe width="150" height="20" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" src="http://news.sina.com.cn/iframe/2010/0820/564.html"></iframe></span>
+	</div>
+
+	<!-- weather end -->
+
+	<!--NAV_BEGIN-->
+	<div class="nav">
+		<div class="nav_2">
+			<ul>
+				<li><a href="http://news.sina.com.cn/"><b>新闻</b></a></li>
+				<li><a href="http://mil.news.sina.com.cn">军事</a></li>
+				<li><a href="http://news.sina.com.cn/society/">社会</a></li>
+			</ul>
+			<ul>
+				<li><a href="http://finance.sina.com.cn/"><b>财经</b></a></li>
+				<li><a href="http://finance.sina.com.cn/stock/">股票</a></li>
+				<li><a href="http://finance.sina.com.cn/fund/">基金</a></li>
+			</ul>
+			<ul>
+				<li><a href="http://tech.sina.com.cn/"><b>科技</b></a></li>
+				<li><a href="http://mobile.sina.com.cn/">手机</a></li>
+				<li><a href="http://digi.sina.com.cn/">数码</a></li>
+			</ul>
+		</div>
+		<div class="nav_2">
+			<ul>
+				<li><a href="http://sports.sina.com.cn/"><b>体育</b></a></li>
+				<li><a href="http://sports.sina.com.cn/csl/">中超</a></li>
+				<li style="width:24px"><a href="http://sports.sina.com.cn/nba/">NBA</a></li>
+
+			</ul>
+			<ul>
+				<li><a href="http://ent.sina.com.cn/"><b>娱乐</b></a></li>
+				<li><a href="http://ent.sina.com.cn/star/">明星</a></li>
+				<li><a href="http://yue.sina.com.cn/">音乐</a></li>
+			</ul>
+			<ul>
+				<li><a href="http://auto.sina.com.cn/"><b>汽车</b></a></li>
+				<li><a href="http://photo.auto.sina.com.cn/">图库</a></li>
+				<li><a href="http://data.auto.sina.com.cn/">车型</a></li>
+			</ul>
+		</div>
+		<div class="nav_2">
+			<ul>
+				<li><a href="http://blog.sina.com.cn/"><b>博客</b></a></li>
+				<li><a href="http://t.sina.com.cn/" class="linkRed01">微博</a></li>
+				<li><a href="http://blog.sina.com.cn/lm/ruiblog/
+">草根</a></li>
+			</ul>
+			<ul>
+				<li><a href="http://video.sina.com.cn/"><b>视频</b></a></li>
+				<li><a href="http://v.sina.com.cn/">播客</a></li>
+		          	<li><a href="http://video.sina.com.cn/movie/">大片</a></li>
+			</ul>
+			<ul>
+				<li><a href="http://house.sina.com.cn/"><b>房产</b></a></li>
+
+                            <li><a href="http://dichan.sina.com.cn/">地产</a></li>
+				<li><a href="http://jiaju.sina.com.cn/">家居</a></li>
+
+			</ul>
+		</div>
+		<div class="nav_2">
+			<ul>
+				<li><a href="http://book.sina.com.cn/"><b>读书</b></a></li>
+				<li><a href="http://edu.sina.com.cn/">教育</a></li>
+<li><a href="http://health.news.sina.com.cn/">健康</a></li>
+			</ul>
+			<ul>
+				<li><a href="http://eladies.sina.com.cn/"><b>女性</b></a></li>
+				<li><a href="http://astro.sina.com.cn/">星座</a></li>
+				<li><a href="http://baby.sina.com.cn/">育儿</a></li>
+			</ul>
+			<ul>
+				<li><a href="http://music.sina.com.cn/"><b>乐库</b></a></li>
+				<li><a href="http://style.sina.com.cn/">尚品</a></li>
+				<!-- <li><a href="http://sina.kangq.com/">健康</a></li> -->
+				<li><a href="http://collection.sina.com.cn/">收藏</a></li>
+			</ul>
+		</div>
+
+		<div class="nav_2">
+			<ul>
+				<li><a href="http://space.sina.com.cn/"><b>空间</b></a></li>
+
+				<li><a href="http://mail.sina.com.cn/">邮箱</a></li>
+				<li><a href="http://edu.sina.com.cn/a/">出国</a></li>
+			</ul>
+			<ul>
+				<li><a href="http://bbs.sina.com.cn/"><b>论坛</b></a></li>
+				<li><a href="http://show.sina.com.cn/">SHOW</a></li>
+				<li style="width:24px; overflow:hidden;"><a href="http://uc.sina.com.cn/">UC</a></li>
+
+			</ul>
+			<ul>
+				<li><a href="http://games.sina.com.cn/"><b>游戏</b></a></li>
+				<li><a href="http://wanwan.sina.com.cn/">玩玩</a></li>
+				<li style="width:24px; overflow:hidden;"><a href="http://zhongyi.sina.com.cn/">中医</a></li>
+			</ul>
+		</div>
+
+		<div class="nav_2">
+			<ul>
+				<li><div id="imp_city"><a href="http://city.sina.com.cn/"><b>城市</b></a></div></li>
+				<li id="imp_city_gd"><a href="http://gd.sina.com.cn/">广东</a></li>
+				<li><a href="http://sh.sina.com.cn/">上海</a></li>
+			</ul>
+			<ul>
+
+				<li><a href="http://life.sina.com.cn/"><b>生活</b></a></li>
+				<li><a href="http://travel.sina.com.cn/">旅游</a></li>
+				<li><a href="http://ec.sina.com.cn/">电商</a></li>
+			</ul>
+			<ul>
+				<li><a href="http://sms.sina.com.cn/"><b>短信</b></a></li>
+				<li style="position:relative;width:24px;height:14px;"><a href="http://cl.sina.com.cn/"><img src="http://i1.sinaimg.cn/home/deco/2008/0329/sinahome_ws_037.gif" width="27" height="15" alt="" style="position:absolute;top:-2px;left:6px;" /></a></li>
+
+				<li><a href="http://mms.sina.com.cn/">彩信</a></li>
+			</ul>
+		</div>
+
+		<div class="nav_3 nav_w">
+			<ul>
+				<li><a href="http://golf.sina.com.cn/">高尔夫</a></li>
+				<li><a href="http://tech.sina.com.cn/down/">下载</a></li>
+
+				<li><a href="http://news.sina.com.cn/guide/">导航</a></li>
+			</ul>
+			<ul>
+				<li style="width:36px; overflow:hidden;"><a href="http://mall.sina.com.cn/">商城</a></li>
+				<li><a href="http://weather.news.sina.com.cn/">天气</a></li>
+				<li><a href="http://iask.com/">爱问</a></li>
+			</ul>
+
+			<ul>
+				<li style="width:36px; overflow:hidden;"><a href="http://lottery.sina.com.cn/">彩票</a></li>
+				<li><a href="http://gongyi.sina.com.cn/">公益</a></li>
+				<li><a href="http://expo2011.sina.com.cn/">世园</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<!--NAV_END-->
+
+</div>
+<!-- logo&nav end -->
+
+<script type="text/javascript">
+//导航头
+try {
+	if (remote_ip_info.ret==1) {
+		switch (remote_ip_info.province) {
+			var yNav01w3 = document.getElementById('imp_city_gd');
+			case '四川' : yNav01w3.innerHTML = '<a href="http://sc.sina.com.cn/">四川</a>';
+				break;
+			case '河南' : yNav01w3.innerHTML = '<a href="http://henan.sina.com.cn/">河南</a>';
+				break;
+			case '云南' :	yNav01w3.innerHTML = '<a href="http://qcyn.sina.com.cn/">云南</a>';
+				break;
+			case '福建' : yNav01w3.innerHTML = '<a href="http://fj.sina.com.cn/">福建</a>';
+				break;
+			default : break;
+		}
+	}
+} catch (e) {};
+</script>
+
+<!--XstartX-->
+<!-- TopAds begin -->
+<div class="topads">
+
+	<!-- 轮播通栏 begin -->
+	<div class="topadsbanner">
+	<!--_SINA_ADS_BEGIN_-->
+	<div id=butt1>
+<!-- 640x90轮播通栏广告 开始 -->
+<div id="6511"></div>
+
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+var rad = new Array();
+var nad = new Array();
+rad.width = 640; //广告宽度
+rad.height = 90; //广告高度
+rad.num = 4; //轮播数量
+
+<!--AEC4282A5FB8-->
+var arrWeb1 = new Array(),fps = new Array();arrWeb1.push({"pos":"1" ,"url":"http://www.ha.10086.cn","pic":"http://d4.sina.com.cn/201011/06/263749_yidong-64090.jpg","area":"0000000000010000000000000000000000"});var fps = webShow({'resid':'PDPS000000000001','webs':arrWeb1,'area':local_index,'city':location2,'rearrange':false,'fixedinc':true,'type':'pic','action':'data'});try {var content = fps.fixed['1'];if(content.pic != '') {rad.push([content.pic, content.url, "<startdate>2010-11-06</startdate>", "<enddate>2010-11-13</enddate>", ""]);}}catch(e){}
+<!--$$ liuqing/2010-11-06 ~ 2010-11-13/B $-->
+
+<!--529C5F780910-->
+var arrWeb1 = new Array(),fps = new Array();arrWeb1.push({"pos":"1" ,"pic":"http://d5.sina.com.cn/201011/08/264109_jh640-90-hlj.swf","area":"0000000000100000000000000000000000"});var fps = webShow({'resid':'PDPS000000000001','webs':arrWeb1,'area':local_index,'city':location2,'rearrange':false,'fixedinc':true,'type':'pic','action':'data'});try {var content = fps.fixed['1'];if(content.pic != '') {rad.push([content.pic, content.url, "<startdate>2010-11-09</startdate>", "<enddate>2010-11-12</enddate>", ""]);}}catch(e){}
+<!--$$ 赵轶鸥/2010-11-09 ~  2010-11-12/B $-->
+
+<!--81A1C67C69FC-->
+var arrWeb1 = new Array(),fps = new Array();arrWeb1.push({"pos":"1" ,"pic":"http://d3.sina.com.cn/201011/04/263432_jh_hn_cpd_dt.swf","area":"0000000000000000000001000000000000"});var fps = webShow({'resid':'PDPS000000000001','webs':arrWeb1,'area':local_index,'city':location2,'rearrange':false,'fixedinc':true,'type':'pic','action':'data'});try {var content = fps.fixed['1'];if(content.pic != '') {rad.push([content.pic, content.url, "<startdate>2010-11-09</startdate>", "<enddate>2010-11-12</enddate>", ""]);}}catch(e){}
+<!--$$ 赵轶鸥/2010-11-09 ~  2010-11-12/B $-->
+
+var arrWeb1 = new Array(),fps = new Array();arrWeb1.push({"pos":"1" ,"pic":"http://d3.sina.com.cn/201011/08/263859_hubei-64090.swf","area":"0000000000001000000000000000000000"});var fps = webShow({'resid':'PDPS000000000001','webs':arrWeb1,'area':local_index,'city':location2,'rearrange':false,'fixedinc':true,'type':'pic','action':'data'});try {var content = fps.fixed['1'];if(content.pic != '') {rad.push([content.pic, content.url, "<startdate>2010-11-08</startdate>", "<enddate>2010-11-08</enddate>", ""]);}}catch(e){}
+<!--$$ liuqing/2010-11-08 ~ 2010-11-08/B $-->
+
+var arrWeb1 = new Array(),fps = new Array();arrWeb1.push({"pos":"1" ,"pic":"http://d3.sina.com.cn/201011/08/263858_shanxi-64090.swf","area":"0000000000000000000000100000000000"});var fps = webShow({'resid':'PDPS000000000001','webs':arrWeb1,'area':local_index,'city':location2,'rearrange':false,'fixedinc':true,'type':'pic','action':'data'});try {var content = fps.fixed['1'];if(content.pic != '') {rad.push([content.pic, content.url, "<startdate>2010-11-08</startdate>", "<enddate>2010-11-08</enddate>", ""]);}}catch(e){}
+<!--$$ liuqing/2010-11-08 ~ 2010-11-08/B $-->
+
+<!--B15388180769-->
+var arrWeb1 = new Array(),fps = new Array();arrWeb1.push({"pos":"1" ,"url":"http://sina.allyes.com/main/adfclick?db=sina&bid=227785,279255,284451&cid=0,0,0&sid=276950&advid=6950&camid=42512&show=ignore&url=http://zone.mail.10086.cn/he/xunbao/Index.aspx","pic":"http://d5.sina.com.cn/201011/02/262722_640-90.jpg","area":"0000000001000000000000000000000000"});var fps = webShow({'resid':'PDPS000000000001','webs':arrWeb1,'area':local_index,'city':location2,'rearrange':false,'fixedinc':true,'type':'pic','action':'data'});try {var content = fps.fixed['1'];if(content.pic != '') {rad.push([content.pic, content.url, "<startdate>2010-11-08</startdate>", "<enddate>2010-11-09</enddate>", ""]);}}catch(e){}
+<!--$$ chenguang/2010-11-08 ~  2010-11-09/B $-->
+
+<!--26E729795E73-->
+var arrWeb1 = new Array(),fps = new Array();arrWeb1.push({"pos":"1" ,"pic":"http://d2.sina.com.cn/201011/05/263596_sy-cp-dt-1106.swf","area":"0000000000000010000000000000000000"});var fps = webShow({'resid':'PDPS000000000001','webs':arrWeb1,'area':local_index,'city':location2,'rearrange':false,'fixedinc':true,'type':'pic','action':'data'});try {var content = fps.fixed['1'];if(content.pic != '') {rad.push([content.pic, content.url, "<startdate>2010-11-06</startdate>", "<enddate>2010-11-07</enddate>", ""]);}}catch(e){}
+<!--$$ chenguang/2010-11-6 ~ 2010-11-7/B $-->
+
+<!--C22C0C2D663E-->
+var arrWeb1 = new Array(),fps = new Array();arrWeb1.push({"pos":"1" ,"url":"http://sina.allyes.com/main/adfclick?db=sina&bid=227785,279255,284451&cid=0,0,0&sid=276950&advid=6950&camid=42512&show=ignore&url=http://zone.mail.10086.cn/he/xunbao/Index.aspx","pic":"http://d5.sina.com.cn/201011/02/262722_640-90.jpg","area":"0000000001000000000000000000000000"});var fps = webShow({'resid':'PDPS000000000001','webs':arrWeb1,'area':local_index,'city':location2,'rearrange':false,'fixedinc':true,'type':'pic','action':'data'});try {var content = fps.fixed['1'];if(content.pic != '') {rad.push([content.pic, content.url, "<startdate>2010-11-06</startdate>", "<enddate>2010-11-07</enddate>", ""]);}}catch(e){}
+<!--$$ chenguang/2010-11-06 ~  2010-11-07/B $-->
+
+<!--BAA0B855EDD2-->
+var arrWeb1 = new Array(),fps = new Array();arrWeb1.push({"pos":"1" ,"pic":"http://d3.sina.com.cn/201011/04/263432_jh_hn_cpd_dt.swf","area":"0000000000000000000001000000000000"});var fps = webShow({'resid':'PDPS000000000001','webs':arrWeb1,'area':local_index,'city':location2,'rearrange':false,'fixedinc':true,'type':'pic','action':'data'});try {var content = fps.fixed['1'];if(content.pic != '') {rad.push([content.pic, content.url, "<startdate>2010-11-08</startdate>", "<enddate>2010-11-08</enddate>", ""]);}}catch(e){}
+<!--$$ 赵轶鸥/2010-11-08 ~  2010-11-08/B $-->
+
+<!--D50623DE05B7-->
+var arrWeb1 = new Array(),fps = new Array();arrWeb1.push({"pos":"1" ,"pic":"http://d3.sina.com.cn/201011/04/263432_jh_hn_cpd_dt.swf","area":"0000000000000000000000001000000000"});var fps = webShow({'resid':'PDPS000000000001','webs':arrWeb1,'area':local_index,'city':location2,'rearrange':false,'fixedinc':true,'type':'pic','action':'data'});try {var content = fps.fixed['1'];if(content.pic != '') {rad.push([content.pic, content.url, "<startdate>2010-11-06</startdate>", "<enddate>2010-11-07</enddate>", ""]);}}catch(e){}
+<!--$$ 赵轶鸥/2010-11-06 ~  2010-11-07/B $-->
+
+<!--5F69509C4B2D-->
+var arrWeb1 = new Array(),fps = new Array();arrWeb1.push({"pos":"1" ,"pic":"http://d1.sina.com.cn/201010/22/260300_640_90.swf","area":"0100000000000000000000000000000000"});var fps = webShow({'resid':'PDPS000000000001','webs':arrWeb1,'area':local_index,'city':location2,'rearrange':false,'fixedinc':true,'type':'pic','action':'data'});try {var content = fps.fixed['1'];if(content.pic != '') {rad.push([content.pic, content.url, "<startdate>2010-11-07</startdate>", "<enddate>2010-11-07</enddate>", ""]);}}catch(e){}
+<!--$$ chenguang/2010-11-07 ~  2010-11-07/B $-->
+
+<!--46C8A9A36A87-->
+var arrWeb1 = new Array(),fps = new Array();arrWeb1.push({"pos":"1" ,"pic":"http://d1.sina.com.cn/201010/22/260300_640_90.swf","area":"0100000000000000000000000000000000"});var fps = webShow({'resid':'PDPS000000000001','webs':arrWeb1,'area':local_index,'city':location2,'rearrange':false,'fixedinc':true,'type':'pic','action':'data'});try {var content = fps.fixed['1'];if(content.pic != '') {rad.push([content.pic, content.url, "<startdate>2010-11-06</startdate>", "<enddate>2010-11-06</enddate>", ""]);}}catch(e){}
+<!--$$ chenguang/2010-11-06 ~  2010-11-06/B $-->
+
+<!--DEFC33BB3B78-->
+var arrWeb1 = new Array(),fps = new Array();arrWeb1.push({"pos":"1" ,"url":"http://sina.allyes.com/main/adfclick?db=sina&bid=227785,279255,284451&cid=0,0,0&sid=276950&advid=6950&camid=42512&show=ignore&url=http://zone.mail.10086.cn/he/xunbao/Index.aspx","pic":"http://d5.sina.com.cn/201011/02/262722_640-90.jpg","area":"0000000001000000000000000000000000"});var fps = webShow({'resid':'PDPS000000000001','webs':arrWeb1,'area':local_index,'city':location2,'rearrange':false,'fixedinc':true,'type':'pic','action':'data'});try {var content = fps.fixed['1'];if(content.pic != '') {rad.push([content.pic, content.url, "<startdate>2010-11-05</startdate>", "<enddate>2010-11-05</enddate>", ""]);}}catch(e){}
+<!--$$ chenguang/2010-11-05 ~  2010-11-05/B $-->
+
+<!--4B6D0D20EAEA-->
+var arrWeb1 = new Array(),fps = new Array();arrWeb1.push({"pos":"1" ,"pic":"http://d3.sina.com.cn/201011/04/263432_jh_hn_cpd_dt.swf","area":"0000000000000000000000001000000000"});var fps = webShow({'resid':'PDPS000000000001','webs':arrWeb1,'area':local_index,'city':location2,'rearrange':false,'fixedinc':true,'type':'pic','action':'data'});try {var content = fps.fixed['1'];if(content.pic != '') {rad.push([content.pic, content.url, "<startdate>2010-11-05</startdate>", "<enddate>2010-11-05</enddate>", ""]);}}catch(e){}
+<!--$$ 赵轶鸥/2010-11-5 ~ 2010-11-5/B $-->
+
+<!--AD261A9EAAD9-->
+var arrWeb1 = new Array(),fps = new Array();arrWeb1.push({"pos":"1" ,"pic":"http://d3.sina.com.cn/201009/30/255694_sz6409002.swf","city":"深圳"});var fps = webShow({'resid':'PDPS000000000001','webs':arrWeb1,'area':local_index,'city':location2,'rearrange':false,'fixedinc':true,'type':'pic','action':'data'});try {var content = fps.fixed['1'];if(content.pic != '') {rad.push([content.pic, content.url, "<startdate>2010-11-05</startdate>", "<enddate>2010-11-05</enddate>", ""]);}}catch(e){}
+<!--$$ 赵轶鸥/2010-11-05 ~  2010-11-05/B $-->
+
+<!--106575A89EE5-->
+var arrWeb1 = new Array(),fps = new Array();arrWeb1.push({"pos":"1" ,"url":"http://sina.allyes.com/main/adfclick?db=sina&bid=227785,279255,284451&cid=0,0,0&sid=276950&advid=6950&camid=42512&show=ignore&url=http://zone.mail.10086.cn/he/xunbao/Index.aspx","pic":"http://d5.sina.com.cn/201011/02/262722_640-90.jpg","area":"0000000001000000000000000000000000"});var fps = webShow({'resid':'PDPS000000000001','webs':arrWeb1,'area':local_index,'city':location2,'rearrange':false,'fixedinc':true,'type':'pic','action':'data'});try {var content = fps.fixed['1'];if(content.pic != '') {rad.push([content.pic, content.url, "<startdate>2010-11-03</startdate>", "<enddate>2010-11-04</enddate>", ""]);}}catch(e){}
+<!--$$ chenguang/2010-11-3 ~ 2010-11-4/B $-->
+
+<!--0A9C6D01E3D8-->
+var arrWeb1 = new Array(),fps = new Array();arrWeb1.push({"pos":"1" ,"pic":"http://d2.sina.com.cn/201011/04/263176_gz_cpd_640X9006.swf","area":"0000010000000000000000000000000000"});var fps = webShow({'resid':'PDPS000000000001','webs':arrWeb1,'area':local_index,'city':location2,'rearrange':false,'fixedinc':true,'type':'pic','action':'data'});try {var content = fps.fixed['1'];if(content.pic != '') {rad.push([content.pic, content.url, "<startdate>2010-11-04</startdate>", "<enddate>2010-11-04</enddate>", ""]);}}catch(e){}
+<!--$$ 赵轶鸥/2010-11-4 ~ 2010-11-4/B $-->
+
+<!--2CFBD78C8030-->
+var arrWeb1 = new Array(),fps = new Array();arrWeb1.push({"pos":"1" ,"pic":"http://d4.sina.com.cn/201010/15/258614_home-cpd64090.swf","area":"0000010000000000000000000000000000"});var fps = webShow({'resid':'PDPS000000000001','webs':arrWeb1,'area':local_index,'city':location2,'rearrange':false,'fixedinc':true,'type':'pic','action':'data'});try {var content = fps.fixed['1'];if(content.pic != '') {rad.push([content.pic, content.url, "<startdate>2010-11-03</startdate>", "<enddate>2010-11-03</enddate>", ""]);}}catch(e){}
+<!--$$ yuxia/2010-11-03 ~  2010-11-03/B $-->
+
+<!--8084EB80AF6A-->
+var arrWeb1 = new Array(),fps = new Array();arrWeb1.push({"pos":"1" ,"pic":"http://d1.sina.com.cn/201010/22/260300_640_90.swf","area":"0100000000000000000000000000000000"});var fps = webShow({'resid':'PDPS000000000001','webs':arrWeb1,'area':local_index,'city':location2,'rearrange':false,'fixedinc':true,'type':'pic','action':'data'});try {var content = fps.fixed['1'];if(content.pic != '') {rad.push([content.pic, content.url, "<startdate>2010-10-30</startdate>", "<enddate>2010-10-31</enddate>", ""]);}}catch(e){}
+<!--$$ chenguang/2010-10-30 ~  2010-10-31/B $-->
+
+<!--FA606BFCB6DE-->
+var arrWeb1 = new Array(),fps = new Array();arrWeb1.push({"pos":"1" ,"pic":"http://d4.sina.com.cn/201010/15/258614_home-cpd64090.swf","area":"0000010000000000000000000000000000"});var fps = webShow({'resid':'PDPS000000000001','webs':arrWeb1,'area':local_index,'city':location2,'rearrange':false,'fixedinc':true,'type':'pic','action':'data'});try {var content = fps.fixed['1'];if(content.pic != '') {rad.push([content.pic, content.url, "<startdate>2010-10-26</startdate>", "<enddate>2010-10-26</enddate>", ""]);}}catch(e){}
+<!--$$ yuxia/2010-10-26 ~  2010-10-26/B $-->
+
+<!--EE1B5B50979E-->
+var arrWeb1 = new Array(),fps = new Array();arrWeb1.push({"pos":"1" ,"pic":"http://d1.sina.com.cn/201010/20/259692_wd_cpd640-90.swf","area":"0000000000000001000000000000000000"});var fps = webShow({'resid':'PDPS000000000001','webs':arrWeb1,'area':local_index,'city':location2,'rearrange':false,'fixedinc':true,'type':'pic','action':'data'});try {var content = fps.fixed['1'];if(content.pic != '') {rad.push([content.pic, content.url, "<startdate>2010-10-29</startdate>", "<enddate>2010-10-29</enddate>", ""]);}}catch(e){}
+<!--$$ 赵轶鸥/2010-10-29 ~  2010-10-29/B $-->
+
+<!--BC70E42CC8CC-->
+var arrWeb1 = new Array(),fps = new Array();arrWeb1.push({"pos":"1" ,"pic":"http://d1.sina.com.cn/201010/20/259692_wd_cpd640-90.swf","area":"0000000000000001000000000000000000"});var fps = webShow({'resid':'PDPS000000000001','webs':arrWeb1,'area':local_index,'city':location2,'rearrange':false,'fixedinc':true,'type':'pic','action':'data'});try {var content = fps.fixed['1'];if(content.pic != '') {rad.push([content.pic, content.url, "<startdate>2010-10-28</startdate>", "<enddate>2010-10-28</enddate>", ""]);}}catch(e){}
+<!--$$ 赵轶鸥/2010-10-28 ~  2010-10-28/B $-->
+
+<!--E59C365E3CA3-->
+var arrWeb1 = new Array(),fps = new Array();arrWeb1.push({"pos":"1" ,"pic":"http://d1.sina.com.cn/201010/22/260300_640_90.swf","area":"0100000000000000000000000000000000"});var fps = webShow({'resid':'PDPS000000000001','webs':arrWeb1,'area':local_index,'city':location2,'rearrange':false,'fixedinc':true,'type':'pic','action':'data'});try {var content = fps.fixed['1'];if(content.pic != '') {rad.push([content.pic, content.url, "<startdate>2010-10-23</startdate>", "<enddate>2010-10-24</enddate>", ""]);}}catc
